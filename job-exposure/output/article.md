@@ -24,7 +24,9 @@ Scores are only opinions, so I tested 22 of the tasks for real. Three Claude mod
 
 ## What AI did well
 
-The jobs most exposed to AI are built on text, numbers and admin: virtual assistance, web development, writing, bookkeeping and transcription.
+The jobs most exposed to AI are built on text, numbers and admin: virtual assistance, web development, writing, bookkeeping and transcription. On most jobs I scored higher than my AI second rater did, and the chart shows the gap.
+
+![Chart: my exposure scores next to my AI second rater's, for each of the 12 jobs](chart_1_author_vs_claude.png)
 
 Some of the tests surprised me:
 
@@ -50,6 +52,8 @@ A client in London or New York wouldn't catch any of these. A Nigerian freelance
 I compared my scores with three published sources: the International Labour Organization's 2025 AI exposure study, the "GPTs are GPTs" paper, and Anthropic's Economic Index, which tracks what people actually use Claude for.
 
 Three things stood out.
+
+![Chart: my scores, the ILO study and actual Claude use for each of the 12 jobs](chart_2_author_vs_published.png)
 
 **Data annotation is almost invisible to them.** Six of the seven annotation tasks I listed have no match in the US job database these studies rely on. Labelling data for AI companies is one of the fastest-growing remote jobs for Nigerians, and the main studies barely see it.
 
