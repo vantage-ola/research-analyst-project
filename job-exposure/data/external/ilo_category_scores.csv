@@ -1,0 +1,13 @@
+category_id,isco08,ilo_occupation,ilo_mean,ilo_sd,ilo_gradient
+CS,4222,Contact Centre Information Clerks,0.58,0.06,Gradient 3
+DA,4132,Data Entry Clerks,0.7,0.03,Gradient 4
+CW,2641,Authors and Related Writers,0.55,0.09,Gradient 3
+VA,4120,Secretaries (general),0.58,0.1,Gradient 3
+BK,4311,Accounting and Bookkeeping Clerks,0.64,0.07,Gradient 4
+TR,4131,Typists and Word Processing Operators,0.65,0.05,Gradient 4
+TL,2643,"Translators, Interpreters and Other Linguists",0.59,0.11,Gradient 3
+GD,2166,Graphic and Multimedia Designers,0.49,0.09,Gradient 2
+TU,2359,Teaching Professionals Not Elsewhere Classified,0.33,0.1,Minimal Exposure
+WD,2513,Web and Multimedia Developers,0.6,0.08,Gradient 4
+SM,2431,Advertising and Marketing Professionals,0.55,0.09,Gradient 3
+SL,5244,Contact Centre Salespersons,0.61,0.1,Gradient 4
