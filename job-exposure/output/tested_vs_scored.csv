@@ -1,0 +1,23 @@
+task_id,category_id,task,author_score,claude_score,author_mean_rating,claude_mean_rating
+BK02,BK,Reconcile bank statements with the ledger,2,1,4,3.67
+BK07,BK,Handle payroll with PAYE and pension deductions,2,1,4,3.67
+CS02,CS,Handle complaints and de-escalate angry customers,1,1,4,3.33
+CS03,CS,Log and categorise tickets in a helpdesk tool,2,2,4,4
+CW03,CW,Write product descriptions and ad copy,2,2,3.67,3.33
+CW07,CW,Write about Nigerian topics needing local facts and sources,2,1,4,2.67
+DA03,DA,Rank or compare two model responses against guidelines,0,2,4,4
+DA07,DA,Label or check text in Nigerian languages or Pidgin,1,1,4,4
+SL02,SL,Write cold emails and follow-ups,2,2,4,3.67
+SL07,SL,Personalise outreach using prospect research,1,2,3.33,3
+SM01,SM,Plan a content calendar,2,2,4,3.67
+SM02,SM,Write captions and posts,2,2,3.67,3.33
+TL01,TL,Translate English documents into Yoruba; Igbo or Hausa,1,1,3.33,2.33
+TL07,TL,Translate Pidgin to standard English and back,2,1,4,3.67
+TR06,TR,Proofread and correct machine-generated transcripts,2,1,3,3.33
+TR07,TR,Format transcripts to a client style guide,2,2,4,3.67
+TU04,TU,Prepare students for WAEC; JAMB or NECO exams,2,1,4,3.33
+TU07,TU,Create worked solutions for maths or science problems,2,2,4,3.33
+VA02,VA,Schedule meetings across time zones,2,1,4,3.67
+VA06,VA,Draft routine emails and reports,2,2,4,4
+WD02,WD,Fix bugs in an existing website,2,1,4,4
+WD07,WD,Integrate Paystack or Flutterwave payments,2,1,4,4

@@ -1,0 +1,44 @@
+task_id,category_id,task,author,claude,gap
+DA03,DA,Rank or compare two model responses against guidelines,0,2,-2
+BK02,BK,Reconcile bank statements with the ledger,2,1,1
+BK04,BK,Produce monthly financial statements,2,1,1
+BK05,BK,Prepare VAT and withholding tax returns,2,1,1
+BK07,BK,Handle payroll with PAYE and pension deductions,2,1,1
+CS04,CS,Process refunds and order changes in a client's system,2,1,1
+CW05,CW,Optimise content for search (keywords; meta tags),1,2,-1
+CW06,CW,Ghostwrite LinkedIn posts or newsletters in a client's voice,2,1,1
+CW07,CW,Write about Nigerian topics needing local facts and sources,2,1,1
+DA01,DA,Label text for sentiment or intent,1,2,-1
+DA02,DA,Draw bounding boxes or segment objects in images,2,1,1
+DA04,DA,Write prompts and ideal responses for model training,1,2,-1
+GD01,GD,Design logos and brand identities,2,1,1
+GD03,GD,Lay out flyers and print materials,2,1,1
+GD05,GD,Meet a client's feedback through several revisions,2,1,1
+GD07,GD,Design promotional material for Nigerian events or businesses,2,1,1
+SL01,SL,Build lead lists from LinkedIn and databases,2,1,1
+SL03,SL,Qualify leads over chat or calls,0,1,-1
+SL04,SL,Book appointments for sales reps,2,1,1
+SL07,SL,Personalise outreach using prospect research,1,2,-1
+SM03,SM,Create images or short videos for posts,2,1,1
+SM04,SM,Reply to comments and DMs,2,1,1
+SM06,SM,Run paid ad campaigns on Meta or TikTok,0,1,-1
+SM07,SM,Manage a Nigerian brand's presence on Instagram and WhatsApp Status,0,1,-1
+TL05,TL,Proofread another translator's work,2,1,1
+TL06,TL,Interpret live conversation,1,0,1
+TL07,TL,Translate Pidgin to standard English and back,2,1,1
+TR02,TR,Transcribe audio with Nigerian accents,2,1,1
+TR03,TR,Transcribe multi-speaker meetings and label speakers,2,1,1
+TR05,TR,Add timestamps and create subtitles,2,1,1
+TR06,TR,Proofread and correct machine-generated transcripts,2,1,1
+TU01,TU,Explain concepts one-to-one in a live session,0,1,-1
+TU03,TU,Mark student work and give feedback,1,2,-1
+TU04,TU,Prepare students for WAEC; JAMB or NECO exams,2,1,1
+TU05,TU,Track a student's progress and adapt lessons,2,1,1
+TU06,TU,Keep young students engaged over video,1,0,1
+VA01,VA,Manage a client's inbox and calendar,2,1,1
+VA02,VA,Schedule meetings across time zones,2,1,1
+VA04,VA,Book travel and make reservations,2,1,1
+VA07,VA,Prepare invoices and chase payments,2,1,1
+WD02,WD,Fix bugs in an existing website,2,1,1
+WD06,WD,Deploy a site and configure hosting and domains,2,1,1
+WD07,WD,Integrate Paystack or Flutterwave payments,2,1,1

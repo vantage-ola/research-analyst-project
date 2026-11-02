@@ -64,7 +64,7 @@ Both methods agree.
 1. When a problem has two different stages, solve each one separately, then combine.
 2. The speed at the end of one stage is the starting (or constant) speed for the next.
 3. ""Starts from rest"" means u = 0.
-4. The area under a velocity–time graph equals distance travelled.",Answer: 64 m + 160 m = 224 m (v = 16 m/s). Rate on correctness and whether the steps are clear for an SS1 student.,,
+4. The area under a velocity–time graph equals distance travelled.",Answer: 64 m + 160 m = 224 m (v = 16 m/s). Rate on correctness and whether the steps are clear for an SS1 student.,4,
 B002,BK02,Reconcile bank statements with the ledger,"Reconcile this bank statement with the cash book for October. List every difference, say what likely caused each, and give a reconciled closing balance.
 
 BANK STATEMENT (NGN)
@@ -133,8 +133,8 @@ Both sides agree at NGN 1,297,000 once the four differences are accounted for.
 
 1. **Post the bank charges** (150 and 1,000) to the cash book as bank charges.
 2. **Verify the 12-Oct POS settlement.** Obtain the POS provider's settlement report. If the 270 is a fee, record it as a bank or POS charge. If not, correct the 96,520 entry to 96,250.
-3. **Follow up on cheque 4411** (45,000 to Okafor). If it has not cleared within a reasonable period, confirm with Okafor that it was received.","Answer: 4 differences. Bank charges 150 and 1,000 missing from the cash book; 96,250 vs 96,520 transposition (cash book overstated by 270); cheque 4411 for 45,000 not yet cleared. Bank closing 1,342,000. Cash book closing 1,298,420. Reconciled balance 1,297,000 both ways (1,342,000 - 45,000 and 1,298,420 - 1,420). Rate by how many of these it gets right.",,
-B003,CW07,Write about Nigerian topics needing local facts and sources,"Write a 150-word paragraph for a blog post on how POS agents changed access to cash in Nigeria. Include two specific statistics, each with its source name and year.","Point-of-sale (POS) agents have quietly reshaped how Nigerians get hold of cash. Where a bank branch visit once meant hours in line and a long journey, a neighborhood agent now handles withdrawals, deposits, and transfers from a shop counter or market stall. According to the EFInA *Access to Financial Services in Nigeria* survey (2020), overall financial inclusion rose to 64 percent, up from 42 percent in 2016, with agent networks cited as a key driver of that gain. The growth of these agents has been equally striking: the Central Bank of Nigeria reported roughly one million POS terminals in operation by 2023. That expansion proved especially valuable during the 2023 naira redesign, when cash shortages left many people scrambling and agents became the most accessible source of physical money in many communities. Yet the model carries strain. Agents often charge withdrawal fees, face their own liquidity limits, and can run short of cash during peak demand, reminding users that convenience still depends on a reliable float.","Verify EVERY statistic and source yourself on the source's own site. A statistic you cannot find, or a source that does not say it, caps the rating at 2. An invented source caps it at 1.",,
+3. **Follow up on cheque 4411** (45,000 to Okafor). If it has not cleared within a reasonable period, confirm with Okafor that it was received.","Answer: 4 differences. Bank charges 150 and 1,000 missing from the cash book; 96,250 vs 96,520 transposition (cash book overstated by 270); cheque 4411 for 45,000 not yet cleared. Bank closing 1,342,000. Cash book closing 1,298,420. Reconciled balance 1,297,000 both ways (1,342,000 - 45,000 and 1,298,420 - 1,420). Rate by how many of these it gets right.",4,
+B003,CW07,Write about Nigerian topics needing local facts and sources,"Write a 150-word paragraph for a blog post on how POS agents changed access to cash in Nigeria. Include two specific statistics, each with its source name and year.","Point-of-sale (POS) agents have quietly reshaped how Nigerians get hold of cash. Where a bank branch visit once meant hours in line and a long journey, a neighborhood agent now handles withdrawals, deposits, and transfers from a shop counter or market stall. According to the EFInA *Access to Financial Services in Nigeria* survey (2020), overall financial inclusion rose to 64 percent, up from 42 percent in 2016, with agent networks cited as a key driver of that gain. The growth of these agents has been equally striking: the Central Bank of Nigeria reported roughly one million POS terminals in operation by 2023. That expansion proved especially valuable during the 2023 naira redesign, when cash shortages left many people scrambling and agents became the most accessible source of physical money in many communities. Yet the model carries strain. Agents often charge withdrawal fees, face their own liquidity limits, and can run short of cash during peak demand, reminding users that convenience still depends on a reliable float.","Verify EVERY statistic and source yourself on the source's own site. A statistic you cannot find, or a source that does not say it, caps the rating at 2. An invented source caps it at 1.",4,
 B004,TU04,Prepare students for WAEC; JAMB or NECO exams,Write 5 multiple-choice questions on rates of chemical reaction in the style of WAEC SSCE Chemistry. Four options each. Give the answer key and a one-sentence explanation for each.,"# Rates of Chemical Reaction: WAEC SSCE Chemistry Practice Questions
 
 **1.** Which of the following factors increases the rate of a reaction by lowering its activation energy?
@@ -179,7 +179,7 @@ D. the temperature of the system has fallen to zero
 | 4 | **A** | Oxygen is the only gaseous product, so its volume can easily be collected and measured at regular time intervals with a gas syringe. |
 | 5 | **C** | The graph levels off when the limiting reactant is exhausted, so no more gas is produced and the reaction has stopped. |
 
-*Note on Q5:* The question describes a reaction between a gas and a solid. In typical WAEC wording, this is usually a solid reacting with a solution to produce a gas, for example CaCO₃ with HCl. The question can be read either way, and the answer is the same.","Check each answer key by hand against the WAEC Chemistry syllabus. A wrong answer key = rating 2 at best. Style: should read like a past paper, not a textbook.",,
+*Note on Q5:* The question describes a reaction between a gas and a solid. In typical WAEC wording, this is usually a solid reacting with a solution to produce a gas, for example CaCO₃ with HCl. The question can be read either way, and the answer is the same.","Check each answer key by hand against the WAEC Chemistry syllabus. A wrong answer key = rating 2 at best. Style: should read like a past paper, not a textbook.",4,
 B005,TU04,Prepare students for WAEC; JAMB or NECO exams,Write 5 multiple-choice questions on rates of chemical reaction in the style of WAEC SSCE Chemistry. Four options each. Give the answer key and a one-sentence explanation for each.,"# Rates of Chemical Reaction: WAEC SSCE-Style Multiple-Choice Questions
 
 **1.** Which of the following changes will NOT increase the rate of reaction between zinc granules and dilute hydrochloric acid?
@@ -229,7 +229,7 @@ D. the reactants become more soluble in the product
 
 **4. C**: As the reaction proceeds, the acid is used up and the marble chips shrink, so collisions become less frequent and the rate falls (the gas-volume curve flattens).
 
-**5. B**: Higher temperature gives particles more kinetic energy, so a greater fraction have energy at or above the activation energy, giving more effective collisions.","Check each answer key by hand against the WAEC Chemistry syllabus. A wrong answer key = rating 2 at best. Style: should read like a past paper, not a textbook.",,
+**5. B**: Higher temperature gives particles more kinetic energy, so a greater fraction have energy at or above the activation energy, giving more effective collisions.","Check each answer key by hand against the WAEC Chemistry syllabus. A wrong answer key = rating 2 at best. Style: should read like a past paper, not a textbook.",4,
 B006,SM01,Plan a content calendar,"Create a 2-week Instagram content calendar for a small bakery in Lagos that sells cakes and small chops. Table with day, post type, and idea. They post 4 times a week.","# 2-Week Instagram Content Calendar: Lagos Bakery (Cakes & Small Chops)
 
 **Posting schedule:** 4 posts/week (Tue, Thu, Fri, Sun), chosen to catch pre-weekend ordering (Thu/Fri) and Sunday family and celebration planning.
@@ -259,13 +259,13 @@ B006,SM01,Plan a content calendar,"Create a 2-week Instagram content calendar fo
 - **Post timing:** 12–1pm or 7–9pm WAT, when engagement is typically strongest.
 - **Stories (daily, optional):** Share order availability, polls, and quick bakes to stay visible between feed posts.
 - **Reply to comments and DMs within a few hours.** In Lagos, most orders are closed via DM or WhatsApp.
-- **Track results:** After two weeks, note which post types drove the most saves, shares, and orders, then repeat those.","Check: 8 posts across 2 weeks, ideas fit a Lagos bakery (events, orders by WhatsApp, delivery zones) and are not generic.",,
+- **Track results:** After two weeks, note which post types drove the most saves, shares, and orders, then repeat those.","Check: 8 posts across 2 weeks, ideas fit a Lagos bakery (events, orders by WhatsApp, delivery zones) and are not generic.",4,
 B007,SL07,Personalise outreach using prospect research,"Write the first two lines of a personalised cold email to this prospect, using only the facts below.
 
-Prospect: Daniel Reyes, owner of Reyes Family Dentistry in Tucson, Arizona. Opened a second clinic in March. Posted on LinkedIn that he is hiring a front-desk coordinator because of missed calls. We sell a text reminder and missed-call text-back tool.","Hi Daniel, congratulations on opening Reyes Family Dentistry's second Tucson clinic in March. I saw your LinkedIn post about hiring a front-desk coordinator to deal with missed calls, so I wanted to share how our missed-call text-back tool can reply to callers automatically while you get the new hire in place.","Check: uses only the given facts, no invented compliments or statistics, connects the missed-call point to the product without overclaiming.",,
+Prospect: Daniel Reyes, owner of Reyes Family Dentistry in Tucson, Arizona. Opened a second clinic in March. Posted on LinkedIn that he is hiring a front-desk coordinator because of missed calls. We sell a text reminder and missed-call text-back tool.","Hi Daniel, congratulations on opening Reyes Family Dentistry's second Tucson clinic in March. I saw your LinkedIn post about hiring a front-desk coordinator to deal with missed calls, so I wanted to share how our missed-call text-back tool can reply to callers automatically while you get the new hire in place.","Check: uses only the given facts, no invented compliments or statistics, connects the missed-call point to the product without overclaiming.",4,
 B008,TR06,Proofread and correct machine-generated transcripts,"Below is a machine-generated transcript of a business meeting with Nigerian speakers. Correct transcription errors. Mark any word you are unsure about with [?]. Do not add content that is not there.
 
-""So the quarterly Ravenue was up by tree percent, mostly from the Lagos office. Tunde said the pay stack integration is done but flutter wave still need K Y C documents from the Nyra accounts. Ngozi, can you follow up with them before Friday? Yes I will send it tomorrow. Ok, any other business?""","""So the quarterly revenue was up by three percent, mostly from the Lagos office. Tunde said the Paystack integration is done, but Flutterwave still needs KYC documents from the Nyra [?] accounts. Ngozi, can you follow up with them before Friday? Yes, I will send it tomorrow. OK, any other business?""","Planted errors: Ravenue (Revenue), tree (three), pay stack (Paystack), flutter wave (Flutterwave), K Y C (KYC), Nyra (naira). Rate by how many fixed with no new errors and no invented content. 'need' vs 'needs' is speaker grammar; it should stay as spoken or be marked.",,
+""So the quarterly Ravenue was up by tree percent, mostly from the Lagos office. Tunde said the pay stack integration is done but flutter wave still need K Y C documents from the Nyra accounts. Ngozi, can you follow up with them before Friday? Yes I will send it tomorrow. Ok, any other business?""","""So the quarterly revenue was up by three percent, mostly from the Lagos office. Tunde said the Paystack integration is done, but Flutterwave still needs KYC documents from the Nyra [?] accounts. Ngozi, can you follow up with them before Friday? Yes, I will send it tomorrow. OK, any other business?""","Planted errors: Ravenue (Revenue), tree (three), pay stack (Paystack), flutter wave (Flutterwave), K Y C (KYC), Nyra (naira). Rate by how many fixed with no new errors and no invented content. 'need' vs 'needs' is speaker grammar; it should stay as spoken or be marked.",3,
 B009,TU07,Create worked solutions for maths or science problems,"A student in SS1 is stuck on this problem: A car starts from rest and accelerates at 2 m/s² for 8 seconds, then moves at constant speed for 10 seconds. Find the total distance travelled. Write a step-by-step worked solution the student can follow.","# Worked Solution: Total Distance Travelled by the Car
 
 ## Understanding the Problem
@@ -390,7 +390,7 @@ Both methods give the same answer.
 
 A cyclist starts from rest and accelerates at 1.5 m/s² for 6 seconds, then moves at constant speed for 12 seconds. Find the total distance travelled.
 
-*(Answer: 27 m + 108 m = **135 m**)*",Answer: 64 m + 160 m = 224 m (v = 16 m/s). Rate on correctness and whether the steps are clear for an SS1 student.,,
+*(Answer: 27 m + 108 m = **135 m**)*",Answer: 64 m + 160 m = 224 m (v = 16 m/s). Rate on correctness and whether the steps are clear for an SS1 student.,4,
 B010,BK07,Handle payroll with PAYE and pension deductions,"Calculate monthly payroll deductions for a Nigerian employee. Gross monthly pay: 450,000 naira, made up of basic 225,000, housing 112,500, transport 67,500, and other allowances 45,000. State which tax year and which rules you use, show each step, and give net pay.","# Monthly Payroll Deduction Calculation: Nigerian Employee
 
 **Tax year:** 2026 (1 January to 31 December 2026)
@@ -489,7 +489,7 @@ Monthly PAYE: 679,866 ÷ 12 = **₦56,655.50**
 - **Employer contributions** are not deducted from the employee's pay. For reference, the employer pension contribution is 10% of ₦405,000 = ₦40,500 per month.
 - **NHIS:** If the employee is enrolled, the employee contribution (typically 5% of basic = ₦11,250 per month) is an additional deduction and is also tax-deductible, which would reduce both PAYE and net pay.
 - **Rent relief:** If the employee pays rent, 20% of annual rent (capped at ₦500,000) reduces taxable income.
-- **Verify rates:** I have not confirmed the current NTA 2025 band table or any FIRS or state IRS guidance issued after my knowledge cutoff. Check the band thresholds and rates against the official Act and your state's Internal Revenue Service before running live payroll.","NOT VERIFIED: I have not checked the current rules. Before rating, look up the PAYE bands and relief rules in force for the tax year the model states (the Nigeria Tax Act 2025 took effect in 2026, and older Personal Income Tax Act bands may be what a model uses) and the pension rule from PenCom. Recalculate by hand or have an accountant check. Wrong rules stated confidently = rating 1 or 2.",,
+- **Verify rates:** I have not confirmed the current NTA 2025 band table or any FIRS or state IRS guidance issued after my knowledge cutoff. Check the band thresholds and rates against the official Act and your state's Internal Revenue Service before running live payroll.","NOT VERIFIED: I have not checked the current rules. Before rating, look up the PAYE bands and relief rules in force for the tax year the model states (the Nigeria Tax Act 2025 took effect in 2026, and older Personal Income Tax Act bands may be what a model uses) and the pension rule from PenCom. Recalculate by hand or have an accountant check. Wrong rules stated confidently = rating 1 or 2.",4,
 B011,WD02,Fix bugs in an existing website,"This React component should show a counter that goes up by 1 every second, but it stays stuck at 1. Fix it and explain why in two sentences.
 
 ```jsx
@@ -514,7 +514,7 @@ function Counter() {
 }
 ```
 
-The effect runs once with an empty dependency array, so the interval callback captures `count` as `0` and calls `setCount(0 + 1)` on every tick, which sets the value to 1 again after the first update. Passing an updater function (`c => c + 1`) makes React supply the latest state, so the callback no longer depends on a stale `count`.","Root cause: the effect runs once, so the closure always sees count = 0. Fix: setCount(c => c + 1). Run the fix to confirm.",,
+The effect runs once with an empty dependency array, so the interval callback captures `count` as `0` and calls `setCount(0 + 1)` on every tick, which sets the value to 1 again after the first update. Passing an updater function (`c => c + 1`) makes React supply the latest state, so the callback no longer depends on a stale `count`.","Root cause: the effect runs once, so the closure always sees count = 0. Fix: setCount(c => c + 1). Run the fix to confirm.",4,
 B012,DA07,Label or check text in Nigerian languages or Pidgin,"Label the sentiment of each Nigerian Pidgin sentence as Positive, Negative, Neutral, or Mixed. Return a numbered list with only the label.
 
 1. ""This NEPA don take light again. Na so we dey live for this country.""
@@ -535,7 +535,7 @@ B012,DA07,Label or check text in Nigerian languages or Pidgin,"Label the sentime
 7. Positive
 8. Positive
 9. Negative
-10. Mixed","Draft gold, confirm yourself: 1 Negative, 2 Positive, 3 Positive, 4 Mixed, 5 Neutral, 6 Negative, 7 Neutral, 8 Positive (praise: 'too sweet pass'), 9 Negative, 10 Mixed. Rating = how many a native speaker would accept: 9-10 right = 4, 7-8 = 3, 5-6 = 2, below = 1.",,
+10. Mixed","Draft gold, confirm yourself: 1 Negative, 2 Positive, 3 Positive, 4 Mixed, 5 Neutral, 6 Negative, 7 Neutral, 8 Positive (praise: 'too sweet pass'), 9 Negative, 10 Mixed. Rating = how many a native speaker would accept: 9-10 right = 4, 7-8 = 3, 5-6 = 2, below = 1.",4,
 B013,WD02,Fix bugs in an existing website,"This React component should show a counter that goes up by 1 every second, but it stays stuck at 1. Fix it and explain why in two sentences.
 
 ```jsx
@@ -558,17 +558,17 @@ function Counter() {
 }
 ```
 
-**Why:** The effect runs only once (empty dependency array), so the interval callback closes over the initial `count` of 0 and calls `setCount(0 + 1)` every second, leaving it stuck at 1. Using the functional updater `c => c + 1` makes React supply the latest state each tick, so the effect doesn't need to depend on `count`.","Root cause: the effect runs once, so the closure always sees count = 0. Fix: setCount(c => c + 1). Run the fix to confirm.",,
+**Why:** The effect runs only once (empty dependency array), so the interval callback closes over the initial `count` of 0 and calls `setCount(0 + 1)` every second, leaving it stuck at 1. Using the functional updater `c => c + 1` makes React supply the latest state each tick, so the effect doesn't need to depend on `count`.","Root cause: the effect runs once, so the closure always sees count = 0. Fix: setCount(c => c + 1). Run the fix to confirm.",4,
 B014,TR06,Proofread and correct machine-generated transcripts,"Below is a machine-generated transcript of a business meeting with Nigerian speakers. Correct transcription errors. Mark any word you are unsure about with [?]. Do not add content that is not there.
 
 ""So the quarterly Ravenue was up by tree percent, mostly from the Lagos office. Tunde said the pay stack integration is done but flutter wave still need K Y C documents from the Nyra accounts. Ngozi, can you follow up with them before Friday? Yes I will send it tomorrow. Ok, any other business?""","""So the quarterly revenue was up by three percent, mostly from the Lagos office. Tunde said the Paystack integration is done, but Flutterwave still needs KYC documents from the [Nyra?] accounts. Ngozi, can you follow up with them before Friday?""
 
 ""Yes, I will send it tomorrow.""
 
-""Okay, any other business?""","Planted errors: Ravenue (Revenue), tree (three), pay stack (Paystack), flutter wave (Flutterwave), K Y C (KYC), Nyra (naira). Rate by how many fixed with no new errors and no invented content. 'need' vs 'needs' is speaker grammar; it should stay as spoken or be marked.",,
+""Okay, any other business?""","Planted errors: Ravenue (Revenue), tree (three), pay stack (Paystack), flutter wave (Flutterwave), K Y C (KYC), Nyra (naira). Rate by how many fixed with no new errors and no invented content. 'need' vs 'needs' is speaker grammar; it should stay as spoken or be marked.",3,
 B015,TL07,Translate Pidgin to standard English and back,"Translate this Nigerian Pidgin into standard English. Keep the meaning and the level of formality.
 
-""Wetin dey happen na say di bank don block my card because dem say I dey try buy something from outside Naija. I don call dem tire, dem tell me make I come branch for Monday.""","""What's happening is that the bank has blocked my card because they said I was trying to buy something from outside Nigeria. I called them repeatedly until I was exhausted, and they told me to come to the branch on Monday.""",Meaning: the bank blocked my card because they said I was trying to buy something from abroad. I have called them many times; they told me to come to the branch on Monday. Rate on meaning accuracy and natural register.,,
+""Wetin dey happen na say di bank don block my card because dem say I dey try buy something from outside Naija. I don call dem tire, dem tell me make I come branch for Monday.""","""What's happening is that the bank has blocked my card because they said I was trying to buy something from outside Nigeria. I called them repeatedly until I was exhausted, and they told me to come to the branch on Monday.""",Meaning: the bank blocked my card because they said I was trying to buy something from abroad. I have called them many times; they told me to come to the branch on Monday. Rate on meaning accuracy and natural register.,4,
 B016,SM01,Plan a content calendar,"Create a 2-week Instagram content calendar for a small bakery in Lagos that sells cakes and small chops. Table with day, post type, and idea. They post 4 times a week.","# 2-Week Instagram Content Calendar: Nov 2–15, 2026
 
 | Day | Post Type | Idea |
@@ -580,7 +580,7 @@ B016,SM01,Plan a content calendar,"Create a 2-week Instagram content calendar fo
 | **Mon, Nov 9** (Week 2) | Carousel | ""Cake flavours guide"": red velvet, chocolate, vanilla, and coconut, each with a short tasting note and a ""which one are you?"" question in the caption. |
 | **Wed, Nov 11** | Reel | Quick ""Lagos bakery hack"" tip, such as how to keep puff puff crispy overnight, or how to store fondant cakes during harmattan-free humid weather. Ends with a soft plug for the shop. |
 | **Fri, Nov 13** | Photo | Close-up of a fresh-out-of-the-oven sausage roll or meat pie with steam visible. Caption: ""Need a snack for the weekend? Order before 6pm."" |
-| **Sun, Nov 15** | Carousel | Customer spotlight: a before-and-after of a cake design request turned into reality, with a short quote from the customer. Caption: ""Tell us your dream cake and we'll make it real."" |","Check: 8 posts across 2 weeks, ideas fit a Lagos bakery (events, orders by WhatsApp, delivery zones) and are not generic.",,
+| **Sun, Nov 15** | Carousel | Customer spotlight: a before-and-after of a cake design request turned into reality, with a short quote from the customer. Caption: ""Tell us your dream cake and we'll make it real."" |","Check: 8 posts across 2 weeks, ideas fit a Lagos bakery (events, orders by WhatsApp, delivery zones) and are not generic.",4,
 B017,VA06,Draft routine emails and reports,"Draft a reply to this client email. Say the invoice is attached, the delivery of the draft is on track for Friday, and ask whether she wants a short call on Thursday. Keep it under 90 words.
 
 ""Hi, can you resend invoice 0042? I can't find it. Also where are we with the draft? Thanks, Karen""","Subject: Re: Invoice 0042 and draft status
@@ -594,7 +594,7 @@ The draft is on track for delivery this Friday.
 Would you like a short call on Thursday to go over it beforehand? Happy to work around your schedule.
 
 Best regards,
-[Your name]","Check: under 90 words, all three points covered, no invented details (no amounts, no dates beyond Friday and Thursday), natural tone.",,
+[Your name]","Check: under 90 words, all three points covered, no invented details (no amounts, no dates beyond Friday and Thursday), natural tone.",4,
 B018,DA07,Label or check text in Nigerian languages or Pidgin,"Label the sentiment of each Nigerian Pidgin sentence as Positive, Negative, Neutral, or Mixed. Return a numbered list with only the label.
 
 1. ""This NEPA don take light again. Na so we dey live for this country.""
@@ -615,7 +615,7 @@ B018,DA07,Label or check text in Nigerian languages or Pidgin,"Label the sentime
 7. Positive
 8. Positive
 9. Negative
-10. Mixed","Draft gold, confirm yourself: 1 Negative, 2 Positive, 3 Positive, 4 Mixed, 5 Neutral, 6 Negative, 7 Neutral, 8 Positive (praise: 'too sweet pass'), 9 Negative, 10 Mixed. Rating = how many a native speaker would accept: 9-10 right = 4, 7-8 = 3, 5-6 = 2, below = 1.",,
+10. Mixed","Draft gold, confirm yourself: 1 Negative, 2 Positive, 3 Positive, 4 Mixed, 5 Neutral, 6 Negative, 7 Neutral, 8 Positive (praise: 'too sweet pass'), 9 Negative, 10 Mixed. Rating = how many a native speaker would accept: 9-10 right = 4, 7-8 = 3, 5-6 = 2, below = 1.",4,
 B019,VA06,Draft routine emails and reports,"Draft a reply to this client email. Say the invoice is attached, the delivery of the draft is on track for Friday, and ask whether she wants a short call on Thursday. Keep it under 90 words.
 
 ""Hi, can you resend invoice 0042? I can't find it. Also where are we with the draft? Thanks, Karen""","Hi Karen,
@@ -624,8 +624,8 @@ Thanks for your note. I've attached invoice 0042 again for your records.
 
 The draft is on track for delivery on Friday. Would you have time for a short call on Thursday to walk through it together?
 
-Best regards","Check: under 90 words, all three points covered, no invented details (no amounts, no dates beyond Friday and Thursday), natural tone.",,
-B020,CW07,Write about Nigerian topics needing local facts and sources,"Write a 150-word paragraph for a blog post on how POS agents changed access to cash in Nigeria. Include two specific statistics, each with its source name and year.","Before POS agents spread across Nigeria, getting cash often meant a long trip to a bank branch or a queue at one of too few ATMs. Today, a POS agent is usually within walking distance, whether in a Lagos market, a Kano side street, or a rural village. These small operators, often running from a kiosk with a handheld terminal, turned everyday shops into mini bank branches. They let customers withdraw cash, deposit money, and pay bills with a few taps. Their reach has coincided with a broader rise in financial inclusion. According to EFInA's Access to Financial Services in Nigeria survey, about 64% of Nigerian adults were financially included in 2020, and the 2023 edition put the figure at 74%. The 2023 naira redesign and cash shortage made the agents even more important, as people who could not reach a bank or ATM relied on them. Convenience has a price, though, since agents typically charge fees that add up over time.","Verify EVERY statistic and source yourself on the source's own site. A statistic you cannot find, or a source that does not say it, caps the rating at 2. An invented source caps it at 1.",,
+Best regards","Check: under 90 words, all three points covered, no invented details (no amounts, no dates beyond Friday and Thursday), natural tone.",4,
+B020,CW07,Write about Nigerian topics needing local facts and sources,"Write a 150-word paragraph for a blog post on how POS agents changed access to cash in Nigeria. Include two specific statistics, each with its source name and year.","Before POS agents spread across Nigeria, getting cash often meant a long trip to a bank branch or a queue at one of too few ATMs. Today, a POS agent is usually within walking distance, whether in a Lagos market, a Kano side street, or a rural village. These small operators, often running from a kiosk with a handheld terminal, turned everyday shops into mini bank branches. They let customers withdraw cash, deposit money, and pay bills with a few taps. Their reach has coincided with a broader rise in financial inclusion. According to EFInA's Access to Financial Services in Nigeria survey, about 64% of Nigerian adults were financially included in 2020, and the 2023 edition put the figure at 74%. The 2023 naira redesign and cash shortage made the agents even more important, as people who could not reach a bank or ATM relied on them. Convenience has a price, though, since agents typically charge fees that add up over time.","Verify EVERY statistic and source yourself on the source's own site. A statistic you cannot find, or a source that does not say it, caps the rating at 2. An invented source caps it at 1.",4,
 B021,SL02,Write cold emails and follow-ups,Write a cold email of about 90 words to the practice manager of a US dental clinic. We sell an appointment reminder tool that cuts no-shows by sending text reminders. Do not invent statistics or customer names. End with a request for a 15-minute call.,"**Subject:** Fewer empty chairs at [Clinic Name]
 
 Hi [First Name],
@@ -638,7 +638,7 @@ Would you be open to a 15-minute call next week to see whether it fits how [Clin
 
 Best,
 [Your Name]
-[Company] | [Phone]","Check: no invented numbers, no fake familiarity, about 90 words, a single clear ask.",,
+[Company] | [Phone]","Check: no invented numbers, no fake familiarity, about 90 words, a single clear ask.",4,
 B022,TU04,Prepare students for WAEC; JAMB or NECO exams,Write 5 multiple-choice questions on rates of chemical reaction in the style of WAEC SSCE Chemistry. Four options each. Give the answer key and a one-sentence explanation for each.,"1. **The rate of a chemical reaction is best defined as the**
 A. change in mass of reactants per unit time
 B. change in concentration of reactants or products per unit time
@@ -682,7 +682,7 @@ C. increasing the temperature of the reaction mixture
 D. increasing the total energy change of the reaction
 
 **Answer: B**
-*Explanation: A catalyst lowers the activation energy by offering an alternative pathway, and it is chemically unchanged at the end of the reaction.*","Check each answer key by hand against the WAEC Chemistry syllabus. A wrong answer key = rating 2 at best. Style: should read like a past paper, not a textbook.",,
+*Explanation: A catalyst lowers the activation energy by offering an alternative pathway, and it is chemically unchanged at the end of the reaction.*","Check each answer key by hand against the WAEC Chemistry syllabus. A wrong answer key = rating 2 at best. Style: should read like a past paper, not a textbook.",4,
 B023,VA02,Schedule meetings across time zones,"I need a 1-hour meeting next week (Monday 9 to Friday 13 November 2026) with three people. One is in Lagos, one in New York, one in Manila. Everyone can only meet between 8:00 and 18:00 in their own local time. Give me 3 meeting slots, with the start time in each person's local time.","**No slot satisfies everyone's 8:00-18:00 window, so I can't give you three fully compliant slots.**
 
 In the week of 9-13 November 2026, New York is on EST (UTC-5, since US daylight saving ended on 1 Nov), Lagos is on WAT (UTC+1) and Manila is on PHT (UTC+8). Converted to UTC, the working windows are:
@@ -707,7 +707,7 @@ Lagos stays within hours in all three. The bracketed notes show who is outside t
 
 Each option can be moved to any other day from Mon 9 to Fri 13 Nov at the same local times, because the offsets don't change during the week.
 
-**Recommendation:** Option 1 is the only one where New York and Lagos are both within hours, so only Manila stretches. Option 3 is the lightest on Manila but needs New York to start at 06:00. If the Manila and New York participants can't flex, the alternative is to split this into two shorter meetings, with Manila + Lagos in the morning UTC and Lagos + New York in the afternoon UTC, and Lagos bridging the two.","Trap: there is no slot. In November 2026 Lagos is UTC+1, New York UTC-5, Manila UTC+8. Manila's window ends at 10:00 UTC, New York's starts at 13:00 UTC. Best answer says no common slot exists and offers the smallest relaxation. Rate 1 if it lists slots anyway.",,
+**Recommendation:** Option 1 is the only one where New York and Lagos are both within hours, so only Manila stretches. Option 3 is the lightest on Manila but needs New York to start at 06:00. If the Manila and New York participants can't flex, the alternative is to split this into two shorter meetings, with Manila + Lagos in the morning UTC and Lagos + New York in the afternoon UTC, and Lagos bridging the two.","Trap: there is no slot. In November 2026 Lagos is UTC+1, New York UTC-5, Manila UTC+8. Manila's window ends at 10:00 UTC, New York's starts at 13:00 UTC. Best answer says no common slot exists and offers the smallest relaxation. Rate 1 if it lists slots anyway.",4,
 B024,VA06,Draft routine emails and reports,"Draft a reply to this client email. Say the invoice is attached, the delivery of the draft is on track for Friday, and ask whether she wants a short call on Thursday. Keep it under 90 words.
 
 ""Hi, can you resend invoice 0042? I can't find it. Also where are we with the draft? Thanks, Karen""","Subject: Re: Invoice 0042 and draft update
@@ -721,7 +721,7 @@ The draft is on track, and I'll deliver it on Friday.
 Would a short call on Thursday be useful to go over anything ahead of delivery? If so, let me know what time works for you.
 
 Best regards,
-[Your name]","Check: under 90 words, all three points covered, no invented details (no amounts, no dates beyond Friday and Thursday), natural tone.",,
+[Your name]","Check: under 90 words, all three points covered, no invented details (no amounts, no dates beyond Friday and Thursday), natural tone.",4,
 B025,SM02,Write captions and posts,"Write 5 Instagram captions for the launch of a new red velvet cake at a Lagos bakery. Light Nigerian voice, a little Pidgin is fine, no more than 25 words each, 2 hashtags each.","1. Red velvet don land! Soft, creamy, and sweet well well. Come taste am before e finish. 🍰 #RedVelvetLagos #LagosBakery
 
 2. Our new red velvet cake don arrive, and e no be small thing. Sweet like gist, smooth like Lagos traffic no dey. 🎂 #NewArrival #LagosEats
@@ -730,7 +730,7 @@ B025,SM02,Write captions and posts,"Write 5 Instagram captions for the launch of
 
 4. Who say cake no fit make Monday sweet? Our new red velvet go fix am for you. Come collect yours today! 🎂 #MondayMood #LagosBakes
 
-5. Red like Lagos sun, soft like Sunday morning. Our new red velvet cake is here, so no waste time. 🍰 #SweetLife #RedVelvetLove","Check: sounds like a Nigerian brand, not a US one; Pidgin is natural, not forced or wrong; length and hashtag rules followed.",,
+5. Red like Lagos sun, soft like Sunday morning. Our new red velvet cake is here, so no waste time. 🍰 #SweetLife #RedVelvetLove","Check: sounds like a Nigerian brand, not a US one; Pidgin is natural, not forced or wrong; length and hashtag rules followed.",4,
 B026,CW03,Write product descriptions and ad copy,"Write a product description of about 120 words for an online shop selling to US buyers. Product: handmade Ankara-print tote bag, made in Aba, Nigeria, by a small team of 4 tailors. Cotton wax-print outer, cotton lining, interior zip pocket, 40 cm wide, 35 cm high, sold in 12 print designs, price $38. Tone: warm and clear, no hype.","**Handmade Ankara Print Tote Bag**
 
 Each tote is sewn by hand in Aba, Nigeria, by a small team of four tailors. The outer is bold cotton wax-print fabric, and the inside is lined with soft cotton. A zip pocket keeps your keys, phone, or wallet from sinking to the bottom.
@@ -739,7 +739,7 @@ The bag measures 40 cm wide by 35 cm high (about 15.7 × 13.8 inches), which is 
 
 Choose from 12 print designs.
 
-**Price: $38**","Check: all facts match the brief, none added (e.g. no invented materials or claims), roughly 120 words, no cliches ('elevate', 'unleash').",,
+**Price: $38**","Check: all facts match the brief, none added (e.g. no invented materials or claims), roughly 120 words, no cliches ('elevate', 'unleash').",4,
 B027,SL02,Write cold emails and follow-ups,Write a cold email of about 90 words to the practice manager of a US dental clinic. We sell an appointment reminder tool that cuts no-shows by sending text reminders. Do not invent statistics or customer names. End with a request for a 15-minute call.,"Subject: Cutting no-shows at your clinic
 
 Hi [First Name],
@@ -753,13 +753,13 @@ Would you be open to a 15-minute call next week to see if it fits your clinic?
 Best,
 [Your Name]
 [Company]
-[Phone]","Check: no invented numbers, no fake familiarity, about 90 words, a single clear ask.",,
+[Phone]","Check: no invented numbers, no fake familiarity, about 90 words, a single clear ask.",4,
 B028,CW07,Write about Nigerian topics needing local facts and sources,"Write a 150-word paragraph for a blog post on how POS agents changed access to cash in Nigeria. Include two specific statistics, each with its source name and year.","# How POS Agents Changed Access to Cash in Nigeria
 
 For millions of Nigerians, the nearest ""bank"" is now a kiosk with an umbrella, a plastic chair, and a point-of-sale terminal. POS agents have moved cash withdrawals, deposits, and transfers out of distant bank branches and into markets, motor parks, and village junctions. This lets traders, farmers, and artisans transact without losing a day's income to travel and queues. The shift reached people traditional banking had long overlooked. The World Bank's Global Findex Database (2021) found that only about 45% of Nigerian adults owned an account, which shows the scale of the gap agents stepped in to fill. Progress has followed. EFInA's Access to Financial Services in Nigeria survey (2023) reported that financial exclusion fell to 26%, down from 36% in 2020. Challenges remain, including high withdrawal fees, fraud, and cash shortages. Even so, POS agents have made cash more accessible to ordinary Nigerians.
 
 ---
-*Note: Please verify both figures against the original World Bank Global Findex 2021 and EFInA A2F 2023 reports before publishing.*","Verify EVERY statistic and source yourself on the source's own site. A statistic you cannot find, or a source that does not say it, caps the rating at 2. An invented source caps it at 1.",,
+*Note: Please verify both figures against the original World Bank Global Findex 2021 and EFInA A2F 2023 reports before publishing.*","Verify EVERY statistic and source yourself on the source's own site. A statistic you cannot find, or a source that does not say it, caps the rating at 2. An invented source caps it at 1.",4,
 B029,VA02,Schedule meetings across time zones,"I need a 1-hour meeting next week (Monday 9 to Friday 13 November 2026) with three people. One is in Lagos, one in New York, one in Manila. Everyone can only meet between 8:00 and 18:00 in their own local time. Give me 3 meeting slots, with the start time in each person's local time.","**No 1-hour slot works for all three people between Monday 9 and Friday 13 November 2026.** Their 8:00–18:00 windows don't overlap. In UTC, Manila's window ends at 10:00 and New York's starts at 13:00, so there's a three-hour gap.
 
 Here are three options that work for two of the three people. The times are the same on each day from Monday 9 to Friday 13 November. New York is on EST (UTC−5) because US daylight saving time ended on 1 November.
@@ -779,7 +779,7 @@ Here are three options that work for two of the three people. The times are the 
 - Manila: 16:00–17:00 (PHT)
 - New York: 03:00–04:00 (EST), **outside hours by 5 hours**
 
-Option 1 is the least disruptive for the group, since only Manila is asked to join late. To make one of these work, you would need to ask one person to extend their hours or move to a split format, such as two shorter sessions or a recorded update for the person who can't attend live.","Trap: there is no slot. In November 2026 Lagos is UTC+1, New York UTC-5, Manila UTC+8. Manila's window ends at 10:00 UTC, New York's starts at 13:00 UTC. Best answer says no common slot exists and offers the smallest relaxation. Rate 1 if it lists slots anyway.",,
+Option 1 is the least disruptive for the group, since only Manila is asked to join late. To make one of these work, you would need to ask one person to extend their hours or move to a split format, such as two shorter sessions or a recorded update for the person who can't attend live.","Trap: there is no slot. In November 2026 Lagos is UTC+1, New York UTC-5, Manila UTC+8. Manila's window ends at 10:00 UTC, New York's starts at 13:00 UTC. Best answer says no common slot exists and offers the smallest relaxation. Rate 1 if it lists slots anyway.",4,
 B030,SM02,Write captions and posts,"Write 5 Instagram captions for the launch of a new red velvet cake at a Lagos bakery. Light Nigerian voice, a little Pidgin is fine, no more than 25 words each, 2 hashtags each.","# Red Velvet Launch: Instagram Captions
 
 **1.**
@@ -800,7 +800,7 @@ Owambe energy, but make it cake 💃🏾 Our brand-new Red Velvet is here for yo
 
 **5.**
 Soft life starts with one slice ✨ Our Red Velvet is finally here: rich, velvety and made fresh daily in Lagos.
-#SoftLife #RedVelvetLagos","Check: sounds like a Nigerian brand, not a US one; Pidgin is natural, not forced or wrong; length and hashtag rules followed.",,
+#SoftLife #RedVelvetLagos","Check: sounds like a Nigerian brand, not a US one; Pidgin is natural, not forced or wrong; length and hashtag rules followed.",3,
 B031,CW03,Write product descriptions and ad copy,"Write a product description of about 120 words for an online shop selling to US buyers. Product: handmade Ankara-print tote bag, made in Aba, Nigeria, by a small team of 4 tailors. Cotton wax-print outer, cotton lining, interior zip pocket, 40 cm wide, 35 cm high, sold in 12 print designs, price $38. Tone: warm and clear, no hype.","**Handmade Ankara Tote Bag**
 
 This tote is sewn in Aba, Nigeria, by a small team of four tailors. Each bag is made from cotton wax-print fabric, often called Ankara, known for its bold patterns and rich color. A full cotton lining keeps the inside neat, and an interior zip pocket gives your keys, phone, or wallet a secure place.
@@ -809,7 +809,7 @@ At about 15¾ inches wide and 13¾ inches high (40 × 35 cm), it has room for a 
 
 The tote comes in 12 print designs. Because each bag is cut and stitched by hand, the pattern falls a little differently on every piece, so yours will be one of a kind.
 
-**$38**","Check: all facts match the brief, none added (e.g. no invented materials or claims), roughly 120 words, no cliches ('elevate', 'unleash').",,
+**$38**","Check: all facts match the brief, none added (e.g. no invented materials or claims), roughly 120 words, no cliches ('elevate', 'unleash').",4,
 B032,CS02,Handle complaints and de-escalate angry customers,"You work support for PayQuick, a Nigerian money transfer app. Policy: a pending transfer is reversed to the sender's wallet automatically within 24 hours. A transfer pending for more than 24 hours must be escalated to the operations team, who respond within 1 business day. Do not promise a refund date. Reply to this customer message:
 
 ""Abeg I don send 85,000 naira to my landlord for 3 days now, e still dey pending. Una dey play with my money? If una no fix am today I go report una to CBN. My email na tunde.a@mail.com""","Hello Tunde,
@@ -831,7 +831,7 @@ You are free to contact CBN if you feel that is necessary. We still want to reso
 Thank you for your patience, Tunde.
 
 Kind regards,
-PayQuick Support","Check: tone calms the customer; replies in a register a Nigerian customer would accept; escalates to ops, does not promise a refund date, does not invent a ticket number or policy beyond what was given.",,
+PayQuick Support","Check: tone calms the customer; replies in a register a Nigerian customer would accept; escalates to ops, does not promise a refund date, does not invent a ticket number or policy beyond what was given.",4,
 B033,CS02,Handle complaints and de-escalate angry customers,"You work support for PayQuick, a Nigerian money transfer app. Policy: a pending transfer is reversed to the sender's wallet automatically within 24 hours. A transfer pending for more than 24 hours must be escalated to the operations team, who respond within 1 business day. Do not promise a refund date. Reply to this customer message:
 
 ""Abeg I don send 85,000 naira to my landlord for 3 days now, e still dey pending. Una dey play with my money? If una no fix am today I go report una to CBN. My email na tunde.a@mail.com""","Good morning, and I'm sorry for the stress this has caused, especially with your landlord waiting on the ₦85,000. I understand why you're frustrated.
@@ -842,7 +842,7 @@ To help them move faster, please reply with the transaction reference or the dat
 
 Thank you for your patience.
 
-PayQuick Customer Support","Check: tone calms the customer; replies in a register a Nigerian customer would accept; escalates to ops, does not promise a refund date, does not invent a ticket number or policy beyond what was given.",,
+PayQuick Customer Support","Check: tone calms the customer; replies in a register a Nigerian customer would accept; escalates to ops, does not promise a refund date, does not invent a ticket number or policy beyond what was given.",4,
 B034,SM02,Write captions and posts,"Write 5 Instagram captions for the launch of a new red velvet cake at a Lagos bakery. Light Nigerian voice, a little Pidgin is fine, no more than 25 words each, 2 hashtags each.","1. Red velvet don land! 🍰❤️ Soft, rich, creamy, and sweet reach your mouth before you even blink. Come and taste am today.
 #RedVelvetLagos #FreshFromTheOven
 
@@ -856,7 +856,7 @@ B034,SM02,Write captions and posts,"Write 5 Instagram captions for the launch of
 #CakeInLagos #RedVelvet
 
 5. One slice no go be enough, we dey warn you o! 😋 Our new red velvet cake is finally here.
-#RedVelvetDreams #LagosEats","Check: sounds like a Nigerian brand, not a US one; Pidgin is natural, not forced or wrong; length and hashtag rules followed.",,
+#RedVelvetDreams #LagosEats","Check: sounds like a Nigerian brand, not a US one; Pidgin is natural, not forced or wrong; length and hashtag rules followed.",4,
 B035,CS03,Log and categorise tickets in a helpdesk tool,"Categorise each support ticket into exactly one of: Billing, Login, Failed transfer, KYC, Other. Return a table with ticket number and category.
 
 1. ""I can't open my account, it says wrong password but I just reset it""
@@ -879,7 +879,7 @@ B035,CS03,Log and categorise tickets in a helpdesk tool,"Categorise each support
 
 Notes on judgement calls:
 - Ticket 6 (""debited 1,200 naira, no alert"") is ambiguous between Billing and Failed transfer. I classed it as Failed transfer because the missing alert suggests a debit with no completed transaction. Switch it to Billing if it refers to a fee or charge.
-- Ticket 8 (repeated logouts) is a session problem, so I put it under Login.","Draft gold: 1 Login, 2 Billing, 3 KYC, 4 Failed transfer, 5 Other, 6 Billing (ambiguous: could be Failed transfer, note disagreements), 7 KYC, 8 Login. Confirm your own labels before checking.",,
+- Ticket 8 (repeated logouts) is a session problem, so I put it under Login.","Draft gold: 1 Login, 2 Billing, 3 KYC, 4 Failed transfer, 5 Other, 6 Billing (ambiguous: could be Failed transfer, note disagreements), 7 KYC, 8 Login. Confirm your own labels before checking.",4,
 B036,DA03,Rank or compare two model responses against guidelines,"Guidelines: prefer the response that is accurate, safe, and helpful. A response that gives medical advice with unsafe confidence is worse than one that is careful and still useful.
 
 User prompt: ""My 2 year old has fever and shivering. I think it's malaria. What drug should I give?""
@@ -890,7 +890,7 @@ Response B: ""Fever and shivering in a toddler can come from malaria or other in
 
 Which response is better under the guidelines? Answer with A or B, then give a reason in 3 sentences.","B
 
-Response B is better because it does not confirm an unverified diagnosis or prescribe a drug regimen that could be wrong or unsafe for a 2-year-old, such as chloroquine dosing without a test or knowledge of local resistance. It directs the parent to a clinic for a malaria test, gives a safe general instruction to use paracetamol at the label dose for weight, and lists clear emergency warning signs. Response A asserts a diagnosis with false certainty and gives a specific medication schedule that could cause harm or delay proper treatment.","Expected: B, because A diagnoses without a test and gives an unsafe drug and dose. Rate 4 if B with a sound reason; 1 if A.",,
+Response B is better because it does not confirm an unverified diagnosis or prescribe a drug regimen that could be wrong or unsafe for a 2-year-old, such as chloroquine dosing without a test or knowledge of local resistance. It directs the parent to a clinic for a malaria test, gives a safe general instruction to use paracetamol at the label dose for weight, and lists clear emergency warning signs. Response A asserts a diagnosis with false certainty and gives a specific medication schedule that could cause harm or delay proper treatment.","Expected: B, because A diagnoses without a test and gives an unsafe drug and dose. Rate 4 if B with a sound reason; 1 if A.",4,
 B037,CS03,Log and categorise tickets in a helpdesk tool,"Categorise each support ticket into exactly one of: Billing, Login, Failed transfer, KYC, Other. Return a table with ticket number and category.
 
 1. ""I can't open my account, it says wrong password but I just reset it""
@@ -911,7 +911,7 @@ B037,CS03,Log and categorise tickets in a helpdesk tool,"Categorise each support
 | 7 | KYC |
 | 8 | Login |
 
-**Note on ticket 6:** ""Dem don debit me 1,200 naira and I no get any alert"" means ""They debited me 1,200 naira and I didn't get any alert."" I classed it as Billing because it reads as an unexplained charge. If the customer was actually making a transfer that didn't go through, it should be Failed transfer.","Draft gold: 1 Login, 2 Billing, 3 KYC, 4 Failed transfer, 5 Other, 6 Billing (ambiguous: could be Failed transfer, note disagreements), 7 KYC, 8 Login. Confirm your own labels before checking.",,
+**Note on ticket 6:** ""Dem don debit me 1,200 naira and I no get any alert"" means ""They debited me 1,200 naira and I didn't get any alert."" I classed it as Billing because it reads as an unexplained charge. If the customer was actually making a transfer that didn't go through, it should be Failed transfer.","Draft gold: 1 Login, 2 Billing, 3 KYC, 4 Failed transfer, 5 Other, 6 Billing (ambiguous: could be Failed transfer, note disagreements), 7 KYC, 8 Login. Confirm your own labels before checking.",4,
 B038,CS03,Log and categorise tickets in a helpdesk tool,"Categorise each support ticket into exactly one of: Billing, Login, Failed transfer, KYC, Other. Return a table with ticket number and category.
 
 1. ""I can't open my account, it says wrong password but I just reset it""
@@ -930,10 +930,10 @@ B038,CS03,Log and categorise tickets in a helpdesk tool,"Categorise each support
 | 5 | Other |
 | 6 | Billing |
 | 7 | KYC |
-| 8 | Login |","Draft gold: 1 Login, 2 Billing, 3 KYC, 4 Failed transfer, 5 Other, 6 Billing (ambiguous: could be Failed transfer, note disagreements), 7 KYC, 8 Login. Confirm your own labels before checking.",,
+| 8 | Login |","Draft gold: 1 Login, 2 Billing, 3 KYC, 4 Failed transfer, 5 Other, 6 Billing (ambiguous: could be Failed transfer, note disagreements), 7 KYC, 8 Login. Confirm your own labels before checking.",4,
 B039,TR06,Proofread and correct machine-generated transcripts,"Below is a machine-generated transcript of a business meeting with Nigerian speakers. Correct transcription errors. Mark any word you are unsure about with [?]. Do not add content that is not there.
 
-""So the quarterly Ravenue was up by tree percent, mostly from the Lagos office. Tunde said the pay stack integration is done but flutter wave still need K Y C documents from the Nyra accounts. Ngozi, can you follow up with them before Friday? Yes I will send it tomorrow. Ok, any other business?""","""So the quarterly revenue was up by three [?] percent, mostly from the Lagos office. Tunde said the Paystack integration is done, but Flutterwave still need [?] KYC documents from the Naira accounts. Ngozi, can you follow up with them before Friday? Yes, I will send it tomorrow. Okay, any other business?""","Planted errors: Ravenue (Revenue), tree (three), pay stack (Paystack), flutter wave (Flutterwave), K Y C (KYC), Nyra (naira). Rate by how many fixed with no new errors and no invented content. 'need' vs 'needs' is speaker grammar; it should stay as spoken or be marked.",,
+""So the quarterly Ravenue was up by tree percent, mostly from the Lagos office. Tunde said the pay stack integration is done but flutter wave still need K Y C documents from the Nyra accounts. Ngozi, can you follow up with them before Friday? Yes I will send it tomorrow. Ok, any other business?""","""So the quarterly revenue was up by three [?] percent, mostly from the Lagos office. Tunde said the Paystack integration is done, but Flutterwave still need [?] KYC documents from the Naira accounts. Ngozi, can you follow up with them before Friday? Yes, I will send it tomorrow. Okay, any other business?""","Planted errors: Ravenue (Revenue), tree (three), pay stack (Paystack), flutter wave (Flutterwave), K Y C (KYC), Nyra (naira). Rate by how many fixed with no new errors and no invented content. 'need' vs 'needs' is speaker grammar; it should stay as spoken or be marked.",3,
 B040,TR07,Format transcripts to a client style guide,"Format this raw transcript to a client style guide: clean verbatim (remove filler words like 'um', 'you know', repeated words), a new line for each speaker change, speaker labels 'Speaker 1:' and 'Speaker 2:', correct punctuation. Do not change meaning or wording otherwise.
 
 ""um so how long have you been selling at the market you know the the Balogun market and speaker two yeah about eight years now my mother started it before me so um we sell fabric mostly and speaker one and is it hard now with the dollar the way it is speaker two it is hard o very hard we just have to you know manage""","Speaker 1: So how long have you been selling at the market, the Balogun market?
@@ -942,7 +942,7 @@ Speaker 2: Yeah, about eight years now. My mother started it before me. So we se
 
 Speaker 1: And is it hard now, with the dollar the way it is?
 
-Speaker 2: It is hard o, very hard. We just have to manage.","Check: two speakers, fillers gone, 'o' kept (it is meaning-bearing in Nigerian English), no added words.",,
+Speaker 2: It is hard o, very hard. We just have to manage.","Check: two speakers, fillers gone, 'o' kept (it is meaning-bearing in Nigerian English), no added words.",4,
 B041,WD07,Integrate Paystack or Flutterwave payments,"Write an Express.js endpoint that starts a Paystack payment for a given email and amount in naira, and a second endpoint that receives the Paystack webhook, verifies it is genuine, and marks the order paid. Handle the case where the same webhook arrives twice.","# Paystack Payment Endpoints for Express.js
 
 This delivers two endpoints:
@@ -1264,14 +1264,14 @@ Redirect the customer to the returned `authorizationUrl`.
 - Because marking the order paid is idempotent, retries are always safe.
 
 **Optional hardening**
-- You can also restrict the webhook route to Paystack's published webhook IP addresses (currently `52.31.139.75`, `52.49.173.169` and `52.214.14.220`). If you do, check the list in Paystack's docs, and configure `app.set('trust proxy', ...)` correctly if you run behind a proxy.",Verify in the Paystack docs and sandbox: initialise endpoint and amount in kobo; webhook verified with HMAC SHA512 of the raw body against the x-paystack-signature header; idempotency on the reference. Run it in test mode. Code that does not run = rating 2 at best.,,
+- You can also restrict the webhook route to Paystack's published webhook IP addresses (currently `52.31.139.75`, `52.49.173.169` and `52.214.14.220`). If you do, check the list in Paystack's docs, and configure `app.set('trust proxy', ...)` correctly if you run behind a proxy.",Verify in the Paystack docs and sandbox: initialise endpoint and amount in kobo; webhook verified with HMAC SHA512 of the raw body against the x-paystack-signature header; idempotency on the reference. Run it in test mode. Code that does not run = rating 2 at best.,4,
 B042,SL07,Personalise outreach using prospect research,"Write the first two lines of a personalised cold email to this prospect, using only the facts below.
 
 Prospect: Daniel Reyes, owner of Reyes Family Dentistry in Tucson, Arizona. Opened a second clinic in March. Posted on LinkedIn that he is hiring a front-desk coordinator because of missed calls. We sell a text reminder and missed-call text-back tool.","Daniel, congrats on opening your second Reyes Family Dentistry clinic in Tucson this March.
-Your LinkedIn post about hiring a front-desk coordinator to handle missed calls made me think our missed-call text-back tool could help you cover those calls without adding payroll.","Check: uses only the given facts, no invented compliments or statistics, connects the missed-call point to the product without overclaiming.",,
+Your LinkedIn post about hiring a front-desk coordinator to handle missed calls made me think our missed-call text-back tool could help you cover those calls without adding payroll.","Check: uses only the given facts, no invented compliments or statistics, connects the missed-call point to the product without overclaiming.",3,
 B043,TL01,Translate English documents into Yoruba; Igbo or Hausa,"Translate into Yoruba:
 
-""Your order has been shipped and will arrive in 3 to 5 working days. Please keep your phone on so our rider can reach you.""","Wọ́n ti fi ọjà tí ẹ paṣẹ rẹ̀ ránṣẹ́, yóò sì dé ọ̀dọ̀ yín láàrin ọjọ́ iṣẹ́ mẹ́ta sí márùn-ún. Jọ̀wọ́, ẹ jẹ́ kí fóònù yín wà ní títàn kí ẹni tó ń gbé e wá lè pè yín.","You need a Yoruba speaker to rate this. If you are not fluent, ask one person and record their name as the rater. Rate on correct meaning, natural wording, and correct tone marks.",,
+""Your order has been shipped and will arrive in 3 to 5 working days. Please keep your phone on so our rider can reach you.""","Wọ́n ti fi ọjà tí ẹ paṣẹ rẹ̀ ránṣẹ́, yóò sì dé ọ̀dọ̀ yín láàrin ọjọ́ iṣẹ́ mẹ́ta sí márùn-ún. Jọ̀wọ́, ẹ jẹ́ kí fóònù yín wà ní títàn kí ẹni tó ń gbé e wá lè pè yín.","You need a Yoruba speaker to rate this. If you are not fluent, ask one person and record their name as the rater. Rate on correct meaning, natural wording, and correct tone marks.",3,
 B044,BK07,Handle payroll with PAYE and pension deductions,"Calculate monthly payroll deductions for a Nigerian employee. Gross monthly pay: 450,000 naira, made up of basic 225,000, housing 112,500, transport 67,500, and other allowances 45,000. State which tax year and which rules you use, show each step, and give net pay.","# Nigeria Monthly Payroll Deductions: Tax Year 2026
 
 ## Rules used
@@ -1330,10 +1330,10 @@ Employer cost on top of gross is the 10% pension contribution of ₦40,500 per m
 - **No NHF deducted:** taxable income is ₦5,011,200, PAYE is ₦692,016 per year (₦57,668 per month), and net pay is **₦359,932**.
 - **Rent relief:** every ₦1 of relief reduces taxable income by ₦1 and saves tax at 18%. An employee paying ₦2.5M or more in annual rent gets the ₦500,000 maximum. That saves ₦90,000 a year, or ₦7,500 a month, and raises net pay to about ₦362,819.50 (with NHF).
 
-Confirm the bands and any NRS (Nigeria Revenue Service) implementation guidance with your tax adviser before running payroll.","NOT VERIFIED: I have not checked the current rules. Before rating, look up the PAYE bands and relief rules in force for the tax year the model states (the Nigeria Tax Act 2025 took effect in 2026, and older Personal Income Tax Act bands may be what a model uses) and the pension rule from PenCom. Recalculate by hand or have an accountant check. Wrong rules stated confidently = rating 1 or 2.",,
+Confirm the bands and any NRS (Nigeria Revenue Service) implementation guidance with your tax adviser before running payroll.","NOT VERIFIED: I have not checked the current rules. Before rating, look up the PAYE bands and relief rules in force for the tax year the model states (the Nigeria Tax Act 2025 took effect in 2026, and older Personal Income Tax Act bands may be what a model uses) and the pension rule from PenCom. Recalculate by hand or have an accountant check. Wrong rules stated confidently = rating 1 or 2.",4,
 B045,TL01,Translate English documents into Yoruba; Igbo or Hausa,"Translate into Yoruba:
 
-""Your order has been shipped and will arrive in 3 to 5 working days. Please keep your phone on so our rider can reach you.""","Ìwé àṣẹ rẹ ti ránṣẹ́ sí ọ, yóò sì dé láàárín ọjọ́ iṣẹ́ mẹ́ta sí márùn-ún. Jọ̀wọ́, máa pa foonu rẹ mọ́ kí ẹni tó ń gbé ọjà wa lè kàn ọ́.","You need a Yoruba speaker to rate this. If you are not fluent, ask one person and record their name as the rater. Rate on correct meaning, natural wording, and correct tone marks.",,
+""Your order has been shipped and will arrive in 3 to 5 working days. Please keep your phone on so our rider can reach you.""","Ìwé àṣẹ rẹ ti ránṣẹ́ sí ọ, yóò sì dé láàárín ọjọ́ iṣẹ́ mẹ́ta sí márùn-ún. Jọ̀wọ́, máa pa foonu rẹ mọ́ kí ẹni tó ń gbé ọjà wa lè kàn ọ́.","You need a Yoruba speaker to rate this. If you are not fluent, ask one person and record their name as the rater. Rate on correct meaning, natural wording, and correct tone marks.",3,
 B046,SL02,Write cold emails and follow-ups,Write a cold email of about 90 words to the practice manager of a US dental clinic. We sell an appointment reminder tool that cuts no-shows by sending text reminders. Do not invent statistics or customer names. End with a request for a 15-minute call.,"**Subject:** Fewer empty chairs at [Clinic Name]
 
 Hi [First Name],
@@ -1346,7 +1346,7 @@ Would you be open to a 15-minute call this week or next to see if it fits your p
 
 Best,
 [Your Name]
-[Company] | [Phone]","Check: no invented numbers, no fake familiarity, about 90 words, a single clear ask.",,
+[Company] | [Phone]","Check: no invented numbers, no fake familiarity, about 90 words, a single clear ask.",4,
 B047,TR07,Format transcripts to a client style guide,"Format this raw transcript to a client style guide: clean verbatim (remove filler words like 'um', 'you know', repeated words), a new line for each speaker change, speaker labels 'Speaker 1:' and 'Speaker 2:', correct punctuation. Do not change meaning or wording otherwise.
 
 ""um so how long have you been selling at the market you know the the Balogun market and speaker two yeah about eight years now my mother started it before me so um we sell fabric mostly and speaker one and is it hard now with the dollar the way it is speaker two it is hard o very hard we just have to you know manage""","Speaker 1: So, how long have you been selling at the market, the Balogun market?
@@ -1355,7 +1355,7 @@ Speaker 2: Yeah, about eight years now. My mother started it before me. So, we s
 
 Speaker 1: And is it hard now with the dollar the way it is?
 
-Speaker 2: It is hard o, very hard. We just have to manage.","Check: two speakers, fillers gone, 'o' kept (it is meaning-bearing in Nigerian English), no added words.",,
+Speaker 2: It is hard o, very hard. We just have to manage.","Check: two speakers, fillers gone, 'o' kept (it is meaning-bearing in Nigerian English), no added words.",4,
 B048,TU07,Create worked solutions for maths or science problems,"A student in SS1 is stuck on this problem: A car starts from rest and accelerates at 2 m/s² for 8 seconds, then moves at constant speed for 10 seconds. Find the total distance travelled. Write a step-by-step worked solution the student can follow.","# Total Distance Travelled
 
 **Given:**
@@ -1445,7 +1445,7 @@ $$s_{\text{total}} = 224 \text{ m}$$
 1. **Break multi-stage problems into parts.** Each stage can have different equations.
 2. **Use the final velocity of one stage as the starting velocity of the next.** Here, the 16 m/s at the end of acceleration becomes the constant speed.
 3. **Constant speed means zero acceleration**, so distance = speed × time.
-4. **Distance is not the same as displacement** when direction changes, but here the car moves in one direction, so both are equal.",Answer: 64 m + 160 m = 224 m (v = 16 m/s). Rate on correctness and whether the steps are clear for an SS1 student.,,
+4. **Distance is not the same as displacement** when direction changes, but here the car moves in one direction, so both are equal.",Answer: 64 m + 160 m = 224 m (v = 16 m/s). Rate on correctness and whether the steps are clear for an SS1 student.,4,
 B049,DA07,Label or check text in Nigerian languages or Pidgin,"Label the sentiment of each Nigerian Pidgin sentence as Positive, Negative, Neutral, or Mixed. Return a numbered list with only the label.
 
 1. ""This NEPA don take light again. Na so we dey live for this country.""
@@ -1466,10 +1466,10 @@ B049,DA07,Label or check text in Nigerian languages or Pidgin,"Label the sentime
 7. Positive
 8. Positive
 9. Negative
-10. Mixed","Draft gold, confirm yourself: 1 Negative, 2 Positive, 3 Positive, 4 Mixed, 5 Neutral, 6 Negative, 7 Neutral, 8 Positive (praise: 'too sweet pass'), 9 Negative, 10 Mixed. Rating = how many a native speaker would accept: 9-10 right = 4, 7-8 = 3, 5-6 = 2, below = 1.",,
+10. Mixed","Draft gold, confirm yourself: 1 Negative, 2 Positive, 3 Positive, 4 Mixed, 5 Neutral, 6 Negative, 7 Neutral, 8 Positive (praise: 'too sweet pass'), 9 Negative, 10 Mixed. Rating = how many a native speaker would accept: 9-10 right = 4, 7-8 = 3, 5-6 = 2, below = 1.",4,
 B050,TL01,Translate English documents into Yoruba; Igbo or Hausa,"Translate into Yoruba:
 
-""Your order has been shipped and will arrive in 3 to 5 working days. Please keep your phone on so our rider can reach you.""","**A ti fi ọjà tí o rà ránṣẹ́, yóò sì dé ọ̀dọ̀ rẹ láàárín ọjọ́ iṣẹ́ mẹ́ta sí márùn-ún. Jọ̀wọ́, jẹ́ kí fóònù rẹ wà ní títàn kí aṣojú wa tó ń kó ẹrù wá lè kàn sí ọ.**","You need a Yoruba speaker to rate this. If you are not fluent, ask one person and record their name as the rater. Rate on correct meaning, natural wording, and correct tone marks.",,
+""Your order has been shipped and will arrive in 3 to 5 working days. Please keep your phone on so our rider can reach you.""","**A ti fi ọjà tí o rà ránṣẹ́, yóò sì dé ọ̀dọ̀ rẹ láàárín ọjọ́ iṣẹ́ mẹ́ta sí márùn-ún. Jọ̀wọ́, jẹ́ kí fóònù rẹ wà ní títàn kí aṣojú wa tó ń kó ẹrù wá lè kàn sí ọ.**","You need a Yoruba speaker to rate this. If you are not fluent, ask one person and record their name as the rater. Rate on correct meaning, natural wording, and correct tone marks.",4,
 B051,SM01,Plan a content calendar,"Create a 2-week Instagram content calendar for a small bakery in Lagos that sells cakes and small chops. Table with day, post type, and idea. They post 4 times a week.","# Instagram Content Calendar: Lagos Bakery (Cakes & Small Chops)
 **Period:** Monday, 2 Nov – Sunday, 15 Nov 2026
 **Frequency:** 4 posts per week (Mon, Wed, Fri, Sat)
@@ -1498,7 +1498,7 @@ B051,SM01,Plan a content calendar,"Create a 2-week Instagram content calendar fo
 - **Hashtags:** Mix local and niche tags, e.g. #LagosBakery #SmallChopsLagos #LagosCakes #LekkiCakes #OwambeVibes #LagosSmallChops #CakesInLagos #NaijaFood.
 - **Stories (daily, in addition to the 4 posts):** Share behind-the-scenes clips, ""orders packed today,"" customer reviews, and polls. Stories keep you visible without extra feed posts.
 - **Always include a clear CTA:** ""DM to order,"" ""Link in bio,"" or a WhatsApp number. Lagos customers often prefer ordering via WhatsApp.
-- **Reuse content:** Every Reel can be repurposed to TikTok and WhatsApp Status for extra reach at no extra cost.","Check: 8 posts across 2 weeks, ideas fit a Lagos bakery (events, orders by WhatsApp, delivery zones) and are not generic.",,
+- **Reuse content:** Every Reel can be repurposed to TikTok and WhatsApp Status for extra reach at no extra cost.","Check: 8 posts across 2 weeks, ideas fit a Lagos bakery (events, orders by WhatsApp, delivery zones) and are not generic.",4,
 B052,BK07,Handle payroll with PAYE and pension deductions,"Calculate monthly payroll deductions for a Nigerian employee. Gross monthly pay: 450,000 naira, made up of basic 225,000, housing 112,500, transport 67,500, and other allowances 45,000. State which tax year and which rules you use, show each step, and give net pay.","# Nigerian Payroll Deduction Computation
 
 **Pay period:** Monthly, tax year 2026 (1 January – 31 December 2026)
@@ -1594,10 +1594,10 @@ B052,BK07,Handle payroll with PAYE and pension deductions,"Calculate monthly pay
    - Net pay = **₦359,932.00**
 3. **No other relief claimed:** No NHIS, life assurance, or mortgage-interest deductions were claimed. Each would reduce taxable income if documented.
 4. **Even pay:** Pay is assumed to be the same every month, with no bonuses or arrears in the year. Irregular payments would require cumulative PAYE recalculation.
-5. **Who collects the tax:** PAYE is remitted to the State Internal Revenue Service of the employee's state of residence.","NOT VERIFIED: I have not checked the current rules. Before rating, look up the PAYE bands and relief rules in force for the tax year the model states (the Nigeria Tax Act 2025 took effect in 2026, and older Personal Income Tax Act bands may be what a model uses) and the pension rule from PenCom. Recalculate by hand or have an accountant check. Wrong rules stated confidently = rating 1 or 2.",,
+5. **Who collects the tax:** PAYE is remitted to the State Internal Revenue Service of the employee's state of residence.","NOT VERIFIED: I have not checked the current rules. Before rating, look up the PAYE bands and relief rules in force for the tax year the model states (the Nigeria Tax Act 2025 took effect in 2026, and older Personal Income Tax Act bands may be what a model uses) and the pension rule from PenCom. Recalculate by hand or have an accountant check. Wrong rules stated confidently = rating 1 or 2.",4,
 B053,TL07,Translate Pidgin to standard English and back,"Translate this Nigerian Pidgin into standard English. Keep the meaning and the level of formality.
 
-""Wetin dey happen na say di bank don block my card because dem say I dey try buy something from outside Naija. I don call dem tire, dem tell me make I come branch for Monday.""","""What's happening is that the bank has blocked my card because they say I was trying to buy something from outside Nigeria. I called them several times, but they told me to come to the branch on Monday.""",Meaning: the bank blocked my card because they said I was trying to buy something from abroad. I have called them many times; they told me to come to the branch on Monday. Rate on meaning accuracy and natural register.,,
+""Wetin dey happen na say di bank don block my card because dem say I dey try buy something from outside Naija. I don call dem tire, dem tell me make I come branch for Monday.""","""What's happening is that the bank has blocked my card because they say I was trying to buy something from outside Nigeria. I called them several times, but they told me to come to the branch on Monday.""",Meaning: the bank blocked my card because they said I was trying to buy something from abroad. I have called them many times; they told me to come to the branch on Monday. Rate on meaning accuracy and natural register.,4,
 B054,TR07,Format transcripts to a client style guide,"Format this raw transcript to a client style guide: clean verbatim (remove filler words like 'um', 'you know', repeated words), a new line for each speaker change, speaker labels 'Speaker 1:' and 'Speaker 2:', correct punctuation. Do not change meaning or wording otherwise.
 
 ""um so how long have you been selling at the market you know the the Balogun market and speaker two yeah about eight years now my mother started it before me so um we sell fabric mostly and speaker one and is it hard now with the dollar the way it is speaker two it is hard o very hard we just have to you know manage""","**Speaker 1:** So how long have you been selling at the market, the Balogun market?
@@ -1606,7 +1606,7 @@ B054,TR07,Format transcripts to a client style guide,"Format this raw transcript
 
 **Speaker 1:** And is it hard now, with the dollar the way it is?
 
-**Speaker 2:** It is hard. Very hard. We just have to manage.","Check: two speakers, fillers gone, 'o' kept (it is meaning-bearing in Nigerian English), no added words.",,
+**Speaker 2:** It is hard. Very hard. We just have to manage.","Check: two speakers, fillers gone, 'o' kept (it is meaning-bearing in Nigerian English), no added words.",4,
 B055,BK02,Reconcile bank statements with the ledger,"Reconcile this bank statement with the cash book for October. List every difference, say what likely caused each, and give a reconciled closing balance.
 
 BANK STATEMENT (NGN)
@@ -1672,7 +1672,7 @@ The two sides agree. Check: 270 + 150 + 1,000 + 45,000 = 46,420, and 1,342,000 �
 - Dr Bank charges 1,150 / Cr Bank 1,150 (SMS 150 + maintenance 1,000)
 - Dr Sales (or POS receivable) 270 / Cr Bank 270 (correct the 12-Oct POS entry)
 
-Cheque 4411 should be carried forward as an outstanding item on the November reconciliation.","Answer: 4 differences. Bank charges 150 and 1,000 missing from the cash book; 96,250 vs 96,520 transposition (cash book overstated by 270); cheque 4411 for 45,000 not yet cleared. Bank closing 1,342,000. Cash book closing 1,298,420. Reconciled balance 1,297,000 both ways (1,342,000 - 45,000 and 1,298,420 - 1,420). Rate by how many of these it gets right.",,
+Cheque 4411 should be carried forward as an outstanding item on the November reconciliation.","Answer: 4 differences. Bank charges 150 and 1,000 missing from the cash book; 96,250 vs 96,520 transposition (cash book overstated by 270); cheque 4411 for 45,000 not yet cleared. Bank closing 1,342,000. Cash book closing 1,298,420. Reconciled balance 1,297,000 both ways (1,342,000 - 45,000 and 1,298,420 - 1,420). Rate by how many of these it gets right.",4,
 B056,WD07,Integrate Paystack or Flutterwave payments,"Write an Express.js endpoint that starts a Paystack payment for a given email and amount in naira, and a second endpoint that receives the Paystack webhook, verifies it is genuine, and marks the order paid. Handle the case where the same webhook arrives twice.","## Setup
 
 ```bash
@@ -1878,11 +1878,11 @@ Redirect the customer to the returned `authorization_url`. In the Paystack dashb
 
 - With Postgres or MySQL, keep the same pattern: a unique constraint on the event key and a conditional `UPDATE ... WHERE status = 'pending'`, both in one transaction.
 - Do fulfilment (emails, shipping) after the order moves to `paid`, ideally via a queue, so webhook responses stay fast.
-- Optionally restrict the webhook route to Paystack's published IPs as an extra layer. The signature check remains the primary defence.",Verify in the Paystack docs and sandbox: initialise endpoint and amount in kobo; webhook verified with HMAC SHA512 of the raw body against the x-paystack-signature header; idempotency on the reference. Run it in test mode. Code that does not run = rating 2 at best.,,
-B057,CW03,Write product descriptions and ad copy,"Write a product description of about 120 words for an online shop selling to US buyers. Product: handmade Ankara-print tote bag, made in Aba, Nigeria, by a small team of 4 tailors. Cotton wax-print outer, cotton lining, interior zip pocket, 40 cm wide, 35 cm high, sold in 12 print designs, price $38. Tone: warm and clear, no hype.","Handmade in Aba, Nigeria, by a team of four tailors, this tote is cut and sewn from cotton wax-print fabric, a bold Ankara design that is ready to carry through daily errands, market trips, or weekend plans. The outer is lined in soft cotton, and an interior zip pocket keeps keys, cards, and small essentials secure. Measuring 40 cm wide and 35 cm high, it has room for a laptop-sized notebook, a water bottle, and a few groceries. Each bag is stitched by hand, so small variations in placement and finish are part of what makes it unique. Choose from 12 print designs, each sold at the same price of $38.","Check: all facts match the brief, none added (e.g. no invented materials or claims), roughly 120 words, no cliches ('elevate', 'unleash').",,
+- Optionally restrict the webhook route to Paystack's published IPs as an extra layer. The signature check remains the primary defence.",Verify in the Paystack docs and sandbox: initialise endpoint and amount in kobo; webhook verified with HMAC SHA512 of the raw body against the x-paystack-signature header; idempotency on the reference. Run it in test mode. Code that does not run = rating 2 at best.,4,
+B057,CW03,Write product descriptions and ad copy,"Write a product description of about 120 words for an online shop selling to US buyers. Product: handmade Ankara-print tote bag, made in Aba, Nigeria, by a small team of 4 tailors. Cotton wax-print outer, cotton lining, interior zip pocket, 40 cm wide, 35 cm high, sold in 12 print designs, price $38. Tone: warm and clear, no hype.","Handmade in Aba, Nigeria, by a team of four tailors, this tote is cut and sewn from cotton wax-print fabric, a bold Ankara design that is ready to carry through daily errands, market trips, or weekend plans. The outer is lined in soft cotton, and an interior zip pocket keeps keys, cards, and small essentials secure. Measuring 40 cm wide and 35 cm high, it has room for a laptop-sized notebook, a water bottle, and a few groceries. Each bag is stitched by hand, so small variations in placement and finish are part of what makes it unique. Choose from 12 print designs, each sold at the same price of $38.","Check: all facts match the brief, none added (e.g. no invented materials or claims), roughly 120 words, no cliches ('elevate', 'unleash').",3,
 B058,TL07,Translate Pidgin to standard English and back,"Translate this Nigerian Pidgin into standard English. Keep the meaning and the level of formality.
 
-""Wetin dey happen na say di bank don block my card because dem say I dey try buy something from outside Naija. I don call dem tire, dem tell me make I come branch for Monday.""","""What's happening is that the bank has blocked my card because they say I was trying to buy something from outside Nigeria. I've called them over and over, and they told me to come to the branch on Monday.""",Meaning: the bank blocked my card because they said I was trying to buy something from abroad. I have called them many times; they told me to come to the branch on Monday. Rate on meaning accuracy and natural register.,,
+""Wetin dey happen na say di bank don block my card because dem say I dey try buy something from outside Naija. I don call dem tire, dem tell me make I come branch for Monday.""","""What's happening is that the bank has blocked my card because they say I was trying to buy something from outside Nigeria. I've called them over and over, and they told me to come to the branch on Monday.""",Meaning: the bank blocked my card because they said I was trying to buy something from abroad. I have called them many times; they told me to come to the branch on Monday. Rate on meaning accuracy and natural register.,4,
 B059,WD02,Fix bugs in an existing website,"This React component should show a counter that goes up by 1 every second, but it stays stuck at 1. Fix it and explain why in two sentences.
 
 ```jsx
@@ -1905,10 +1905,10 @@ function Counter() {
 }
 ```
 
-The effect runs only once because of the empty dependency array, so the interval callback keeps the `count` from the first render (`0`) and calls `setCount(0 + 1)` every second. The functional updater `setCount(c => c + 1)` always gets the latest state from React, so the counter goes up correctly without re-creating the interval.","Root cause: the effect runs once, so the closure always sees count = 0. Fix: setCount(c => c + 1). Run the fix to confirm.",,
+The effect runs only once because of the empty dependency array, so the interval callback keeps the `count` from the first render (`0`) and calls `setCount(0 + 1)` every second. The functional updater `setCount(c => c + 1)` always gets the latest state from React, so the counter goes up correctly without re-creating the interval.","Root cause: the effect runs once, so the closure always sees count = 0. Fix: setCount(c => c + 1). Run the fix to confirm.",4,
 B060,SL07,Personalise outreach using prospect research,"Write the first two lines of a personalised cold email to this prospect, using only the facts below.
 
-Prospect: Daniel Reyes, owner of Reyes Family Dentistry in Tucson, Arizona. Opened a second clinic in March. Posted on LinkedIn that he is hiring a front-desk coordinator because of missed calls. We sell a text reminder and missed-call text-back tool.","Hi Daniel, congratulations on opening the second Reyes Family Dentistry clinic in March. I saw your LinkedIn post about hiring a front-desk coordinator because of missed calls, and it's a problem we help practices solve.","Check: uses only the given facts, no invented compliments or statistics, connects the missed-call point to the product without overclaiming.",,
+Prospect: Daniel Reyes, owner of Reyes Family Dentistry in Tucson, Arizona. Opened a second clinic in March. Posted on LinkedIn that he is hiring a front-desk coordinator because of missed calls. We sell a text reminder and missed-call text-back tool.","Hi Daniel, congratulations on opening the second Reyes Family Dentistry clinic in March. I saw your LinkedIn post about hiring a front-desk coordinator because of missed calls, and it's a problem we help practices solve.","Check: uses only the given facts, no invented compliments or statistics, connects the missed-call point to the product without overclaiming.",3,
 B061,CS02,Handle complaints and de-escalate angry customers,"You work support for PayQuick, a Nigerian money transfer app. Policy: a pending transfer is reversed to the sender's wallet automatically within 24 hours. A transfer pending for more than 24 hours must be escalated to the operations team, who respond within 1 business day. Do not promise a refund date. Reply to this customer message:
 
 ""Abeg I don send 85,000 naira to my landlord for 3 days now, e still dey pending. Una dey play with my money? If una no fix am today I go report una to CBN. My email na tunde.a@mail.com""","Hello Tunde,
@@ -1934,7 +1934,7 @@ You also have the right to raise a complaint with the CBN at any time. We hope t
 Thank you for your patience, and sorry again for the trouble.
 
 Warm regards,
-PayQuick Support","Check: tone calms the customer; replies in a register a Nigerian customer would accept; escalates to ops, does not promise a refund date, does not invent a ticket number or policy beyond what was given.",,
+PayQuick Support","Check: tone calms the customer; replies in a register a Nigerian customer would accept; escalates to ops, does not promise a refund date, does not invent a ticket number or policy beyond what was given.",4,
 B062,BK02,Reconcile bank statements with the ledger,"Reconcile this bank statement with the cash book for October. List every difference, say what likely caused each, and give a reconciled closing balance.
 
 BANK STATEMENT (NGN)
@@ -2004,7 +2004,7 @@ The adjusted cash book and adjusted bank balance agree.
    - If the bank under-credited, raise the shortfall with the bank.
 2. **Cheque 4411.** Check that it appears on the November statement. If it is still unpresented after a long time, follow up with Okafor.
 3. **Recurring bank charges.** SMS and maintenance fees recur every month. Consider posting them as standard monthly entries so the cash book doesn't fall behind.
-4. **Statement cut-off.** The last bank entry is dated 22-Oct. Confirm that the statement covers the period to 31-Oct, so no late-October bank entries are missing.","Answer: 4 differences. Bank charges 150 and 1,000 missing from the cash book; 96,250 vs 96,520 transposition (cash book overstated by 270); cheque 4411 for 45,000 not yet cleared. Bank closing 1,342,000. Cash book closing 1,298,420. Reconciled balance 1,297,000 both ways (1,342,000 - 45,000 and 1,298,420 - 1,420). Rate by how many of these it gets right.",,
+4. **Statement cut-off.** The last bank entry is dated 22-Oct. Confirm that the statement covers the period to 31-Oct, so no late-October bank entries are missing.","Answer: 4 differences. Bank charges 150 and 1,000 missing from the cash book; 96,250 vs 96,520 transposition (cash book overstated by 270); cheque 4411 for 45,000 not yet cleared. Bank closing 1,342,000. Cash book closing 1,298,420. Reconciled balance 1,297,000 both ways (1,342,000 - 45,000 and 1,298,420 - 1,420). Rate by how many of these it gets right.",4,
 B063,DA03,Rank or compare two model responses against guidelines,"Guidelines: prefer the response that is accurate, safe, and helpful. A response that gives medical advice with unsafe confidence is worse than one that is careful and still useful.
 
 User prompt: ""My 2 year old has fever and shivering. I think it's malaria. What drug should I give?""
@@ -2015,7 +2015,7 @@ Response B: ""Fever and shivering in a toddler can come from malaria or other in
 
 Which response is better under the guidelines? Answer with A or B, then give a reason in 3 sentences.","**B**
 
-Response B is better because it acknowledges that the fever could have several causes, advises a malaria test today, and does not claim a diagnosis it cannot make. It offers only safe interim care, paracetamol dosed by the label for the child's weight, along with fluids and light clothing, and lists clear danger signs that call for emergency care. Response A is unsafe: it states with false certainty that this is malaria, gives fixed doses of paracetamol and chloroquine without regard to weight or local drug resistance, and promises recovery, which could delay treatment for a seriously ill toddler.","Expected: B, because A diagnoses without a test and gives an unsafe drug and dose. Rate 4 if B with a sound reason; 1 if A.",,
+Response B is better because it acknowledges that the fever could have several causes, advises a malaria test today, and does not claim a diagnosis it cannot make. It offers only safe interim care, paracetamol dosed by the label for the child's weight, along with fluids and light clothing, and lists clear danger signs that call for emergency care. Response A is unsafe: it states with false certainty that this is malaria, gives fixed doses of paracetamol and chloroquine without regard to weight or local drug resistance, and promises recovery, which could delay treatment for a seriously ill toddler.","Expected: B, because A diagnoses without a test and gives an unsafe drug and dose. Rate 4 if B with a sound reason; 1 if A.",4,
 B064,VA02,Schedule meetings across time zones,"I need a 1-hour meeting next week (Monday 9 to Friday 13 November 2026) with three people. One is in Lagos, one in New York, one in Manila. Everyone can only meet between 8:00 and 18:00 in their own local time. Give me 3 meeting slots, with the start time in each person's local time.","# Meeting Slots: Lagos / New York / Manila (9–13 Nov 2026)
 
 ## No slot fits everyone's 8:00–18:00 window
@@ -2045,7 +2045,7 @@ All three slots fall on the same calendar date in every city.
 - **Pick Option 2** if you want the inconvenience shared equally.
 - **Pick Option 1 or 3** depending on whether the New York or Manila attendee is more flexible. Asking them is the quickest way to decide.
 - **For a recurring meeting,** rotate between Options 1 and 3 so the same person isn't always the one stretching.
-- **If no one can stretch,** consider two short overlapping calls (Lagos + New York at 13:00–17:00 UTC, and Lagos + Manila at 07:00–10:00 UTC), with Lagos relaying between them. You could also handle part of the agenda in writing.","Trap: there is no slot. In November 2026 Lagos is UTC+1, New York UTC-5, Manila UTC+8. Manila's window ends at 10:00 UTC, New York's starts at 13:00 UTC. Best answer says no common slot exists and offers the smallest relaxation. Rate 1 if it lists slots anyway.",,
+- **If no one can stretch,** consider two short overlapping calls (Lagos + New York at 13:00–17:00 UTC, and Lagos + Manila at 07:00–10:00 UTC), with Lagos relaying between them. You could also handle part of the agenda in writing.","Trap: there is no slot. In November 2026 Lagos is UTC+1, New York UTC-5, Manila UTC+8. Manila's window ends at 10:00 UTC, New York's starts at 13:00 UTC. Best answer says no common slot exists and offers the smallest relaxation. Rate 1 if it lists slots anyway.",4,
 B065,WD07,Integrate Paystack or Flutterwave payments,"Write an Express.js endpoint that starts a Paystack payment for a given email and amount in naira, and a second endpoint that receives the Paystack webhook, verifies it is genuine, and marks the order paid. Handle the case where the same webhook arrives twice.","```js
 // app.js
 // Requires Node 18+ (global fetch), and these packages: npm i express pg
@@ -2284,7 +2284,7 @@ app.listen(port, () => console.log(`Listening on :${port}`));
 - **Duplicates:** The event key `charge.success:<transaction id>` is inserted into `webhook_events` with a primary key constraint. A repeat delivery hits the conflict, inserts nothing, and returns 200 without touching the order. Because the claim and the order update share one transaction, a crash mid-processing rolls both back, so Paystack's retry can still succeed.
 - **Correctness checks:** Before marking an order paid, the handler confirms the amount in kobo, the currency, and the status against the stored order. A mismatch is logged and the order is left unpaid.
 - **Retries:** Unknown references return 200 so Paystack stops retrying. Server errors return 500 so Paystack retries.
-- **Optional hardening:** You can also restrict the webhook route to Paystack's published IP addresses, and call `GET /transaction/verify/:reference` before marking an order paid.",Verify in the Paystack docs and sandbox: initialise endpoint and amount in kobo; webhook verified with HMAC SHA512 of the raw body against the x-paystack-signature header; idempotency on the reference. Run it in test mode. Code that does not run = rating 2 at best.,,
+- **Optional hardening:** You can also restrict the webhook route to Paystack's published IP addresses, and call `GET /transaction/verify/:reference` before marking an order paid.",Verify in the Paystack docs and sandbox: initialise endpoint and amount in kobo; webhook verified with HMAC SHA512 of the raw body against the x-paystack-signature header; idempotency on the reference. Run it in test mode. Code that does not run = rating 2 at best.,4,
 B066,DA03,Rank or compare two model responses against guidelines,"Guidelines: prefer the response that is accurate, safe, and helpful. A response that gives medical advice with unsafe confidence is worse than one that is careful and still useful.
 
 User prompt: ""My 2 year old has fever and shivering. I think it's malaria. What drug should I give?""
@@ -2295,4 +2295,4 @@ Response B: ""Fever and shivering in a toddler can come from malaria or other in
 
 Which response is better under the guidelines? Answer with A or B, then give a reason in 3 sentences.","**B**
 
-Response A asserts a diagnosis it cannot make and gives dangerous dosing instructions: ""2 tablets"" of adult-strength paracetamol could badly overdose a 2-year-old, and the chloroquine dosing is wrong and ignores widespread chloroquine resistance. Response B correctly says that fever and shivering in a toddler need a malaria test and can worsen quickly, so it directs the parent to a clinic the same day. It also stays useful by giving safe interim care (paracetamol dosed by weight per the label, fluids, light clothing) and clear danger signs that call for emergency care.","Expected: B, because A diagnoses without a test and gives an unsafe drug and dose. Rate 4 if B with a sound reason; 1 if A.",,
+Response A asserts a diagnosis it cannot make and gives dangerous dosing instructions: ""2 tablets"" of adult-strength paracetamol could badly overdose a 2-year-old, and the chloroquine dosing is wrong and ignores widespread chloroquine resistance. Response B correctly says that fever and shivering in a toddler need a malaria test and can worsen quickly, so it directs the parent to a clinic the same day. It also stays useful by giving safe interim care (paracetamol dosed by weight per the label, fluids, light clothing) and clear danger signs that call for emergency care.","Expected: B, because A diagnoses without a test and gives an unsafe drug and dose. Rate 4 if B with a sound reason; 1 if A.",4,

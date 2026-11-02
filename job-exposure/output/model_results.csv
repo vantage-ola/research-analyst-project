@@ -1,0 +1,4 @@
+model,n,author_mean,claude_mean,author_pct_client_ready,claude_pct_client_ready
+claude-haiku-5-5,22,3.82,3.18,82%,32%
+claude-opus-5-5,22,3.91,3.73,91%,73%
+claude-sonnet-5-5,22,3.86,3.68,86%,68%
