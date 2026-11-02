@@ -1,0 +1,85 @@
+task_id,category_id,task,score,reason,confidence,barrier_tags,scoring_date,model_in_mind,rater
+CS01,CS,Answer customer questions by email or chat using a knowledge base,2,Answering from a knowledge base is standard text work; a person spot-checks,high,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+CS02,CS,Handle complaints and de-escalate angry customers,1,Model drafts a good reply but refund/escalation judgement and authority stay with a person,med,language,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+CS03,CS,Log and categorise tickets in a helpdesk tool,2,Text classification and tagging; spot-check only,high,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+CS04,CS,Process refunds and order changes in a client's system,1,"Model can judge eligibility from policy, but acting in the client's system needs a person",low,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+CS05,CS,Take live voice calls with customers,0,Live voice with an unpredictable caller; rule 2,med,connectivity,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+CS06,CS,Write or update help-centre articles and canned responses,2,Drafting articles and macros from product info is routine text work,high,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+CS07,CS,Handle WhatsApp customer chats with images and voice notes,1,Text and images are handled; voice notes in Pidgin and the live back-and-forth need a person,med,language;connectivity,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+DA01,DA,Label text for sentiment or intent,2,Simple label sets on text are what models do well,high,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+DA02,DA,Draw bounding boxes or segment objects in images,1,Chat models can locate objects but box/mask precision is below platform QA bars,med,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+DA03,DA,Rank or compare two model responses against guidelines,2,Comparing responses against written guidelines is the LLM-judge use case,med,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+DA04,DA,Write prompts and ideal responses for model training,2,"Models can write prompts and model answers; platforms pay humans for human-origin data, not because models can't",med,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+DA05,DA,Review and correct other annotators' work (QA),1,Model catches many errors but reviewers carry the final call on guideline edge cases,med,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+DA06,DA,Flag unsafe or policy-violating content,2,Policy-based flagging of text and images is a mature model capability,high,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+DA07,DA,Label or check text in Nigerian languages or Pidgin,1,Pidgin and Nigerian-language labels are weaker; a native speaker must check,med,language,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+CW01,CW,Research a topic and outline an article,2,Search plus outlining is fully in reach with web search,high,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+CW02,CW,Write blog posts and web articles to a brief,2,Brief-to-draft blog writing is accepted after light edits,high,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+CW03,CW,Write product descriptions and ad copy,2,Short marketing copy from a product brief,high,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+CW04,CW,Edit and proofread client drafts,2,Proofreading and line edits,high,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+CW05,CW,Optimise content for search (keywords; meta tags),2,Keyword placement and meta tags; keyword data still needs a tool,med,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+CW06,CW,Ghostwrite LinkedIn posts or newsletters in a client's voice,1,Matching a client's voice and ideas needs heavy input from the client,med,informal,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+CW07,CW,Write about Nigerian topics needing local facts and sources,1,Local facts and statistics are thin online and models invent them; a person must check every number,high,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+VA01,VA,Manage a client's inbox and calendar,1,Triage and drafts are exposed; acting in the inbox and calendar needs access a chat tool lacks,med,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+VA02,VA,Schedule meetings across time zones,1,Time-zone arithmetic is error-prone enough that a person checks it,med,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+VA03,VA,Enter and organise data in spreadsheets or a CRM,2,Extracting and structuring data into a sheet from files,med,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+VA04,VA,Book travel and make reservations,1,Research and comparison are exposed; booking and paying needs a person,med,payment,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+VA05,VA,Research vendors; leads or prices online,2,Web search and summarising options,med,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+VA06,VA,Draft routine emails and reports,2,Routine emails and short reports,high,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+VA07,VA,Prepare invoices and chase payments,1,Drafting invoices and reminders is exposed; tracking payments across Payoneer/Wise/crypto is manual,med,payment,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+BK01,BK,Record transactions and categorise expenses,2,Categorising transactions from a statement export,med,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+BK02,BK,Reconcile bank statements with the ledger,1,"Small reconciliations work, but PDF statements and long ledgers need a person to check totals",med,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+BK03,BK,Prepare invoices and receipts,2,Template invoices and receipts,high,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+BK04,BK,Produce monthly financial statements,1,Model can draft statements but a person must check every figure,med,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+BK05,BK,Prepare VAT and withholding tax returns,1,Calculation drafts are possible; Nigerian rules changed in 2026 and filing is manual,med,regulatory,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+BK06,BK,Answer client questions on accounts and tax treatment,1,General answers are fine; client-specific tax treatment needs a qualified check,med,regulatory,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+BK07,BK,Handle payroll with PAYE and pension deductions,1,PAYE under new 2026 rules is likely to be wrong without a person checking,med,regulatory,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+TR01,TR,Transcribe clear English audio,2,Clear English speech-to-text is near client-ready,high,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+TR02,TR,Transcribe audio with Nigerian accents,1,Accent errors on names and local terms need a correcting pass,med,language,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+TR03,TR,Transcribe multi-speaker meetings and label speakers,1,Speaker labels are often wrong on overlapping speech,med,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+TR04,TR,Transcribe audio with Pidgin or code-switching,1,Pidgin and code-switching produce frequent errors,low,language,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+TR05,TR,Add timestamps and create subtitles,1,Chat tools give rough timestamps; subtitle timing needs a tool or a person,med,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+TR06,TR,Proofread and correct machine-generated transcripts,1,"Without the audio, text-only correction catches obvious errors but not mishearings",med,language,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+TR07,TR,Format transcripts to a client style guide,2,Reformatting text to a style guide,high,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+TL01,TL,Translate English documents into Yoruba; Igbo or Hausa,1,"Output into Yoruba/Igbo/Hausa is weaker, tone marks especially; a speaker must edit",med,language,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+TL02,TL,Translate Yoruba; Igbo or Hausa text into English,1,"Into English is better than out of it, but idioms and tone are often missed",med,language,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+TL03,TL,Translate between English and French,2,English-French is a high-resource pair,high,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+TL04,TL,Localise marketing copy for a Nigerian audience,1,Local tone and references need a Nigerian to adjust,med,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+TL05,TL,Proofread another translator's work,1,Model flags errors but the final judgement on meaning is the translator's,med,language,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+TL06,TL,Interpret live conversation,0,Live interpreting; rule 2,med,connectivity,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+TL07,TL,Translate Pidgin to standard English and back,1,Pidgin to English is decent; English to natural Pidgin is weaker,med,language,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+GD01,GD,Design logos and brand identities,1,"Image tools give concepts; vector files, consistency and client fit need a designer",med,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+GD02,GD,Create social media graphics from a brief,2,Image models handle text and layout for simple social graphics,low,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+GD03,GD,Lay out flyers and print materials,1,"Print specs, bleed and local printer requirements need a person",med,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+GD04,GD,Retouch and edit photos,2,Image editing in chat tools handles common retouching,med,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+GD05,GD,Meet a client's feedback through several revisions,1,Applying client feedback precisely across revisions is unreliable,med,informal,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+GD06,GD,Create presentations and pitch decks,2,Decks can be produced as files with code execution,med,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+GD07,GD,Design promotional material for Nigerian events or businesses,1,Nigerian visual styles and local event details are hit-and-miss,low,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+TU01,TU,Explain concepts one-to-one in a live session,1,The explanation itself is exposed (students can ask a model directly); the live human session is not,med,connectivity,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+TU02,TU,Prepare lesson plans and practice questions,2,Lesson plans and practice sets,high,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+TU03,TU,Mark student work and give feedback,2,Marking typed work with feedback; handwritten work via photos is weaker,med,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+TU04,TU,Prepare students for WAEC; JAMB or NECO exams,1,WAEC/JAMB style and syllabus specifics need a teacher to check,med,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+TU05,TU,Track a student's progress and adapt lessons,1,Needs records across sessions and a relationship with the student,low,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+TU06,TU,Keep young students engaged over video,0,Keeping young children engaged over video is a human task,high,connectivity,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+TU07,TU,Create worked solutions for maths or science problems,2,Worked solutions for school maths and science,high,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+WD01,WD,Build a responsive landing page from a design,2,Design-to-HTML/CSS for a landing page,high,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+WD02,WD,Fix bugs in an existing website,1,Small bugs are fixed easily; bugs in a live site need reproduction a chat tool can't do,med,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+WD03,WD,Write front-end components in React,2,React components from a spec,high,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+WD04,WD,Build a basic backend or API,2,Basic CRUD APIs,med,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+WD05,WD,Write tests and review code,2,Unit tests and review comments,med,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+WD06,WD,Deploy a site and configure hosting and domains,1,Model gives exact steps but a person must act in hosting and DNS accounts,med,payment,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+WD07,WD,Integrate Paystack or Flutterwave payments,1,Code is mostly right but must be tested against the live sandbox with real keys,med,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+SM01,SM,Plan a content calendar,2,Calendars from a brief,high,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+SM02,SM,Write captions and posts,2,Short captions,high,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+SM03,SM,Create images or short videos for posts,1,Images are exposed; short-form video that performs still needs a person,med,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+SM04,SM,Reply to comments and DMs,1,"Replies need account access, brand judgement and real-time attention",med,informal,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+SM05,SM,Report on engagement and analytics,2,Summarising exported analytics,med,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+SM06,SM,Run paid ad campaigns on Meta or TikTok,1,Copy and targeting ideas are exposed; running and paying for ads is manual,med,payment,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+SM07,SM,Manage a Nigerian brand's presence on Instagram and WhatsApp Status,1,WhatsApp Status and Nigerian audience norms need a local person,med,informal,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+SL01,SL,Build lead lists from LinkedIn and databases,1,Web search finds some leads; LinkedIn and paid databases block chat tools,med,payment,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+SL02,SL,Write cold emails and follow-ups,2,Cold email drafts,high,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+SL03,SL,Qualify leads over chat or calls,1,Chat qualification is exposed; calls are not,med,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+SL04,SL,Book appointments for sales reps,1,Scheduling logic is exposed; the back-and-forth with prospects is not,med,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+SL05,SL,Update a CRM with call notes,2,Summarising notes into CRM fields,med,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+SL06,SL,Handle objections on live calls,0,Live objection handling on calls; rule 2,high,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5
+SL07,SL,Personalise outreach using prospect research,2,Personalising from given research,med,none,2026-11-02,Frontier chat models as of Nov 2026,claude-opus-5-5

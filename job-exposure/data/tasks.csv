@@ -1,0 +1,85 @@
+task_id,category_id,task,source,onet_task_id,onet_match,nigeria_adjustment
+CS01,CS,Answer customer questions by email or chat using a knowledge base,onet,18565,close,
+CS02,CS,Handle complaints and de-escalate angry customers,onet,2579,close,Complaints often arrive in Pidgin or mixed English
+CS03,CS,Log and categorise tickets in a helpdesk tool,onet,2578,close,
+CS04,CS,Process refunds and order changes in a client's system,onet,2579,close,
+CS05,CS,Take live voice calls with customers,onet,18565,loose,Call quality and accent matter more over unstable networks
+CS06,CS,Write or update help-centre articles and canned responses,adapted,,none,
+CS07,CS,Handle WhatsApp customer chats with images and voice notes,nigeria,,none,Main support channel for Nigerian SMEs
+DA01,DA,Label text for sentiment or intent,adapted,,none,
+DA02,DA,Draw bounding boxes or segment objects in images,adapted,,none,
+DA03,DA,Rank or compare two model responses against guidelines,adapted,,none,
+DA04,DA,Write prompts and ideal responses for model training,adapted,,none,
+DA05,DA,Review and correct other annotators' work (QA),adapted,11403,loose,
+DA06,DA,Flag unsafe or policy-violating content,adapted,,none,
+DA07,DA,Label or check text in Nigerian languages or Pidgin,nigeria,,none,Scarce skill; platforms pay for it
+CW01,CW,Research a topic and outline an article,onet,22662,close,
+CW02,CW,Write blog posts and web articles to a brief,onet,22657,close,
+CW03,CW,Write product descriptions and ad copy,onet,22670,close,
+CW04,CW,Edit and proofread client drafts,onet,22664,close,
+CW05,CW,Optimise content for search (keywords; meta tags),adapted,,none,
+CW06,CW,Ghostwrite LinkedIn posts or newsletters in a client's voice,adapted,22655,loose,
+CW07,CW,Write about Nigerian topics needing local facts and sources,nigeria,22662,loose,Local statistics and context are often thin online
+VA01,VA,Manage a client's inbox and calendar,onet,2813,close,
+VA02,VA,Schedule meetings across time zones,onet,2801,close,
+VA03,VA,Enter and organise data in spreadsheets or a CRM,onet,20281,close,
+VA04,VA,Book travel and make reservations,onet,2812,close,Foreign-card payments are often a barrier
+VA05,VA,Research vendors; leads or prices online,onet,2805,close,
+VA06,VA,Draft routine emails and reports,onet,20284,close,
+VA07,VA,Prepare invoices and chase payments,adapted,,none,Clients often pay via Payoneer; Wise or crypto
+BK01,BK,Record transactions and categorise expenses,onet,2490,close,
+BK02,BK,Reconcile bank statements with the ledger,onet,2503,close,Nigerian bank statements often come as PDFs or images
+BK03,BK,Prepare invoices and receipts,onet,2491,close,
+BK04,BK,Produce monthly financial statements,onet,2492,close,
+BK05,BK,Prepare VAT and withholding tax returns,adapted,2510,close,FIRS rules and Nigerian tax law apply
+BK06,BK,Answer client questions on accounts and tax treatment,adapted,2494,close,
+BK07,BK,Handle payroll with PAYE and pension deductions,nigeria,18561,close,
+TR01,TR,Transcribe clear English audio,adapted,793,close,
+TR02,TR,Transcribe audio with Nigerian accents,nigeria,793,loose,Accent robustness is a known weak point
+TR03,TR,Transcribe multi-speaker meetings and label speakers,adapted,793,loose,
+TR04,TR,Transcribe audio with Pidgin or code-switching,nigeria,793,loose,
+TR05,TR,Add timestamps and create subtitles,adapted,,none,
+TR06,TR,Proofread and correct machine-generated transcripts,adapted,790,close,
+TR07,TR,Format transcripts to a client style guide,adapted,802,close,
+TL01,TL,Translate English documents into Yoruba; Igbo or Hausa,onet,9331,close,Models are weaker in these languages
+TL02,TL,Translate Yoruba; Igbo or Hausa text into English,onet,9331,close,
+TL03,TL,Translate between English and French,onet,9331,close,Relevant for work with francophone West Africa
+TL04,TL,Localise marketing copy for a Nigerian audience,adapted,9337,loose,
+TL05,TL,Proofread another translator's work,onet,9329,close,
+TL06,TL,Interpret live conversation,onet,9328,close,
+TL07,TL,Translate Pidgin to standard English and back,nigeria,9331,loose,
+GD01,GD,Design logos and brand identities,onet,306,close,
+GD02,GD,Create social media graphics from a brief,onet,299,loose,
+GD03,GD,Lay out flyers and print materials,onet,23970,close,Print in Nigeria needs local printer specs
+GD04,GD,Retouch and edit photos,onet,301,loose,
+GD05,GD,Meet a client's feedback through several revisions,onet,304,loose,
+GD06,GD,Create presentations and pitch decks,adapted,,none,
+GD07,GD,Design promotional material for Nigerian events or businesses,nigeria,23971,loose,
+TU01,TU,Explain concepts one-to-one in a live session,onet,17037,close,
+TU02,TU,Prepare lesson plans and practice questions,onet,17028,close,
+TU03,TU,Mark student work and give feedback,onet,17035,close,
+TU04,TU,Prepare students for WAEC; JAMB or NECO exams,nigeria,17036,loose,
+TU05,TU,Track a student's progress and adapt lessons,onet,17034,close,
+TU06,TU,Keep young students engaged over video,onet,17027,loose,Power and data cuts interrupt sessions
+TU07,TU,Create worked solutions for maths or science problems,adapted,17026,close,
+WD01,WD,Build a responsive landing page from a design,onet,14694,close,
+WD02,WD,Fix bugs in an existing website,onet,14707,loose,
+WD03,WD,Write front-end components in React,adapted,14707,close,
+WD04,WD,Build a basic backend or API,adapted,14704,loose,
+WD05,WD,Write tests and review code,onet,14700,close,
+WD06,WD,Deploy a site and configure hosting and domains,onet,14729,loose,
+WD07,WD,Integrate Paystack or Flutterwave payments,nigeria,14706,loose,
+SM01,SM,Plan a content calendar,onet,,none,
+SM02,SM,Write captions and posts,onet,,none,
+SM03,SM,Create images or short videos for posts,onet,,none,
+SM04,SM,Reply to comments and DMs,onet,,none,
+SM05,SM,Report on engagement and analytics,onet,5438,loose,
+SM06,SM,Run paid ad campaigns on Meta or TikTok,adapted,5438,loose,Payment cards and ad account approval are barriers
+SM07,SM,Manage a Nigerian brand's presence on Instagram and WhatsApp Status,nigeria,,none,
+SL01,SL,Build lead lists from LinkedIn and databases,onet,4624,close,
+SL02,SL,Write cold emails and follow-ups,onet,4626,close,
+SL03,SL,Qualify leads over chat or calls,onet,4629,loose,
+SL04,SL,Book appointments for sales reps,onet,4628,close,
+SL05,SL,Update a CRM with call notes,onet,4627,close,
+SL06,SL,Handle objections on live calls,onet,4620,loose,
+SL07,SL,Personalise outreach using prospect research,adapted,4623,close,

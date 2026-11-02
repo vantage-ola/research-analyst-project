@@ -1,0 +1,57 @@
+O*NET-SOC Code,Title,Task ID,Task,Task Type,Domain Source
+43-4051.00,Customer Service Representatives,18565,"Confer with customers by telephone or in person to provide information about products or services, take or enter orders, cancel accounts, or obtain details of complaints.",Core,Incumbent
+43-4051.00,Customer Service Representatives,2579,"Resolve customers' service or billing complaints by performing activities such as exchanging merchandise, refunding money, or adjusting bills.",Supplemental,Incumbent
+43-4051.00,Customer Service Representatives,2578,"Keep records of customer interactions or transactions, recording details of inquiries, complaints, or comments, as well as actions taken.",Core,Incumbent
+43-9021.00,Data Entry Keyers,11403,"Compare data with source documents, or re-enter data in verification format to detect errors.",Core,Incumbent
+27-3043.00,Writers and Authors,22662,"Conduct research to obtain factual information and authentic detail, using sources such as newspaper accounts, diaries, and interviews.",Core,Occupational Expert
+27-3043.00,Writers and Authors,22657,"Write articles, bulletins, sales letters, speeches, and other related informative, marketing and promotional material.",Core,Occupational Expert
+27-3043.00,Writers and Authors,22670,"Write advertising material for use by publication, broadcast, or internet media to promote the sale of goods and services.",Core,Occupational Expert
+27-3043.00,Writers and Authors,22664,"Edit or rewrite existing written material as necessary, and submit written material for approval by supervisor, editor, or publisher.",Core,Occupational Expert
+27-3043.00,Writers and Authors,22655,Vary language and tone of messages based on product and medium.,Core,Occupational Expert
+43-6014.00,"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive",2813,"Operate electronic mail systems and coordinate the flow of information, internally or with other organizations.",Core,Incumbent
+43-6014.00,"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive",2801,"Schedule and confirm appointments for clients, customers, or supervisors.",Core,Incumbent
+43-6014.00,"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive",20281,"Create, maintain, and enter information into databases.",Core,Incumbent
+43-6014.00,"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive",2812,"Arrange conference, meeting, or travel reservations for office personnel.",Supplemental,Incumbent
+43-6014.00,"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive",2805,"Conduct searches to find needed information, using such sources as the Internet.",Core,Incumbent
+43-6014.00,"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive",20284,"Compose, type, and distribute meeting notes, routine correspondence, or reports, such as presentations or expense, statistical, or monthly reports.",Core,Incumbent
+43-3031.00,"Bookkeeping, Accounting, and Auditing Clerks",2490,"Classify, record, and summarize numerical and financial data to compile and keep financial records, using journals and ledgers or computers.",Core,Incumbent
+43-3031.00,"Bookkeeping, Accounting, and Auditing Clerks",2503,Reconcile records of bank transactions.,Supplemental,Incumbent
+43-3031.00,"Bookkeeping, Accounting, and Auditing Clerks",2491,"Calculate, prepare, and issue bills, invoices, account statements, and other financial statements according to established procedures.",Supplemental,Incumbent
+43-3031.00,"Bookkeeping, Accounting, and Auditing Clerks",2492,"Compile statistical, financial, accounting, or auditing reports and tables pertaining to such matters as cash receipts, expenditures, accounts payable and receivable, and profits and losses.",Supplemental,Incumbent
+43-3031.00,"Bookkeeping, Accounting, and Auditing Clerks",2510,"Complete and submit tax forms and returns, workers' compensation forms, pension contribution forms, and other government documents.",Supplemental,Incumbent
+43-3031.00,"Bookkeeping, Accounting, and Auditing Clerks",2494,Access computerized financial information to answer general questions as well as those related to specific accounts.,Core,Incumbent
+43-3031.00,"Bookkeeping, Accounting, and Auditing Clerks",18561,Prepare and process payroll information.,Supplemental,Incumbent
+43-9022.00,Word Processors and Typists,793,"Type correspondence, reports, text and other written material from rough drafts, corrected copies, voice recordings, dictation, or previous versions, using a computer, word processor, or typewriter.",Core,Incumbent
+43-9022.00,Word Processors and Typists,790,"Check completed work for spelling, grammar, punctuation, and format.",Core,Incumbent
+43-9022.00,Word Processors and Typists,802,"Adjust settings for format, page layout, line spacing, and other style requirements.",Core,Incumbent
+27-3091.00,Interpreters and Translators,9331,"Read written materials, such as legal documents, scientific works, or news reports, and rewrite material into specified languages.",Supplemental,Incumbent
+27-3091.00,Interpreters and Translators,9337,Compile information on content and context of information to be translated and on intended audience.,Core,Incumbent
+27-3091.00,Interpreters and Translators,9329,"Proofread, edit, and revise translated materials.",Supplemental,Incumbent
+27-3091.00,Interpreters and Translators,9328,"Translate messages simultaneously or consecutively into specified languages, orally or by using hand signs, maintaining message content, context, and style as much as possible.",Core,Incumbent
+27-1024.00,Graphic Designers,306,"Develop graphics and layouts for product illustrations, company logos, and Web sites.",Core,Occupational Expert
+27-1024.00,Graphic Designers,299,"Create designs, concepts, and sample layouts, based on knowledge of layout principles and esthetic design concepts.",Core,Occupational Expert
+27-1024.00,Graphic Designers,23970,Prepare digital files for printing.,Core,Occupational Expert
+27-1024.00,Graphic Designers,301,Use computer software to generate new images.,Core,Occupational Expert
+27-1024.00,Graphic Designers,304,"Review final layouts and suggest improvements, as needed.",Core,Occupational Expert
+27-1024.00,Graphic Designers,23971,Research the target audience of projects.,Core,Occupational Expert
+25-3041.00,Tutors,17037,"Provide private instruction to individual or small groups of students to improve academic performance, improve occupational skills, or prepare for academic or occupational tests.",Core,Occupational Expert
+25-3041.00,Tutors,17028,Prepare lesson plans or learning modules for tutoring sessions according to students' needs and goals.,Core,Occupational Expert
+25-3041.00,Tutors,17035,"Administer, proctor, or score academic or diagnostic assessments.",Supplemental,Occupational Expert
+25-3041.00,Tutors,17036,"Teach students study skills, note-taking skills, and test-taking strategies.",Core,Occupational Expert
+25-3041.00,Tutors,17034,Assess students' progress throughout tutoring sessions.,Core,Occupational Expert
+25-3041.00,Tutors,17027,"Provide feedback to students, using positive reinforcement techniques to encourage, motivate, or build confidence in students.",Core,Occupational Expert
+25-3041.00,Tutors,17026,"Review class material with students by discussing text, working solutions to problems, or reviewing worksheets or other assignments.",Core,Occupational Expert
+15-1254.00,Web Developers,14694,"Design, build, or maintain Web sites, using authoring or scripting languages, content creation tools, management tools, and digital media.",Core,Occupational Expert
+15-1254.00,Web Developers,14707,Write supporting code for Web applications or Web sites.,Core,Occupational Expert
+15-1254.00,Web Developers,14704,Develop databases that support Web applications and Web sites.,Core,Occupational Expert
+15-1254.00,Web Developers,14700,"Evaluate code to ensure that it is valid, is properly structured, meets industry standards, and is compatible with browsers, devices, or operating systems.",Core,Occupational Expert
+15-1254.00,Web Developers,14729,Install and configure hypertext transfer protocol (HTTP) servers and associated operating systems.,Supplemental,Occupational Expert
+15-1254.00,Web Developers,14706,Collaborate with management or users to develop e-commerce strategies and to integrate these strategies with Web sites.,Core,Occupational Expert
+13-1161.00,Market Research Analysts and Marketing Specialists,5438,"Measure the effectiveness of marketing, advertising, and communications programs and strategies.",Core,Occupational Expert
+41-9041.00,Telemarketers,4624,"Obtain names and telephone numbers of potential customers from sources such as telephone directories, magazine reply cards, and lists purchased from other organizations.",Supplemental,Incumbent
+41-9041.00,Telemarketers,4626,Telephone or write letters to respond to correspondence from customers or to follow up initial sales contacts.,Core,Incumbent
+41-9041.00,Telemarketers,4629,Conduct client or market surveys to obtain information about potential customers.,Supplemental,Incumbent
+41-9041.00,Telemarketers,4628,Schedule appointments for sales representatives to meet with prospective customers or for customers to attend sales presentations.,Supplemental,Incumbent
+41-9041.00,Telemarketers,4627,"Maintain records of contacts, accounts, and orders.",Core,Incumbent
+41-9041.00,Telemarketers,4620,"Explain products or services and prices, and answer questions from customers.",Core,Incumbent
+41-9041.00,Telemarketers,4623,Adjust sales scripts to better target the needs and interests of specific individuals.,Supplemental,Incumbent

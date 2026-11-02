@@ -1,0 +1,2298 @@
+blind_id,task_id,task,input,response,rater_notes,rating,comment
+B001,TU07,Create worked solutions for maths or science problems,"A student in SS1 is stuck on this problem: A car starts from rest and accelerates at 2 m/s² for 8 seconds, then moves at constant speed for 10 seconds. Find the total distance travelled. Write a step-by-step worked solution the student can follow.","# Worked Solution: Total Distance Travelled
+
+## The problem
+A car starts from rest and accelerates at 2 m/s² for 8 s, then moves at constant speed for 10 s. Find the total distance travelled.
+
+## Step 1: Split the journey into two stages
+- **Stage 1:** The car speeds up (constant acceleration) for 8 s.
+- **Stage 2:** The car moves at constant speed for 10 s.
+
+Total distance = distance in Stage 1 + distance in Stage 2.
+
+## Step 2: Stage 1 (accelerating)
+List what you know:
+- Initial velocity, u = 0 m/s (starts from rest)
+- Acceleration, a = 2 m/s²
+- Time, t = 8 s
+
+**Distance in Stage 1** uses the equation:
+
+s = ut + ½at²
+
+s₁ = (0)(8) + ½(2)(8²)
+s₁ = 0 + ½(2)(64)
+s₁ = 64 m
+
+## Step 3: Find the speed at the end of Stage 1
+This is the speed the car keeps during Stage 2. Use:
+
+v = u + at
+
+v = 0 + (2)(8)
+v = 16 m/s
+
+## Step 4: Stage 2 (constant speed)
+When speed is constant, there is no acceleration, so:
+
+distance = speed × time
+
+s₂ = 16 × 10
+s₂ = 160 m
+
+## Step 5: Add the two distances
+
+Total distance = s₁ + s₂
+Total distance = 64 + 160
+**Total distance = 224 m**
+
+## Check using a velocity–time graph
+Draw velocity (m/s) against time (s):
+- From 0 to 8 s, the line rises in a straight line from 0 to 16 m/s (a triangle).
+- From 8 to 18 s, the line is flat at 16 m/s (a rectangle).
+
+Area of triangle = ½ × base × height = ½ × 8 × 16 = 64 m
+Area of rectangle = length × width = 10 × 16 = 160 m
+Total area = 64 + 160 = 224 m ✓
+
+Both methods agree.
+
+## Answer
+**The car travels a total distance of 224 metres.**
+
+## Key tips to remember
+1. When a problem has two different stages, solve each one separately, then combine.
+2. The speed at the end of one stage is the starting (or constant) speed for the next.
+3. ""Starts from rest"" means u = 0.
+4. The area under a velocity–time graph equals distance travelled.",Answer: 64 m + 160 m = 224 m (v = 16 m/s). Rate on correctness and whether the steps are clear for an SS1 student.,,
+B002,BK02,Reconcile bank statements with the ledger,"Reconcile this bank statement with the cash book for October. List every difference, say what likely caused each, and give a reconciled closing balance.
+
+BANK STATEMENT (NGN)
+01-Oct Opening balance 1,250,000
+03-Oct POS settlement +185,400
+05-Oct Transfer to Adewale Ltd -320,000
+08-Oct SMS alert charge -150
+12-Oct POS settlement +96,250
+15-Oct Account maintenance -1,000
+18-Oct Transfer to Eko Supplies -78,500
+22-Oct POS settlement +210,000
+
+CASH BOOK (NGN)
+01-Oct Opening balance 1,250,000
+03-Oct Sales POS +185,400
+05-Oct Adewale Ltd payment -320,000
+12-Oct Sales POS +96,520
+18-Oct Eko Supplies -78,500
+22-Oct Sales POS +210,000
+25-Oct Cheque 4411 to Okafor -45,000","# Bank Reconciliation: October 2026 (NGN)
+
+## Closing Balances
+
+| | NGN |
+|---|---|
+| Balance per bank statement, 31-Oct | 1,342,000 |
+| Balance per cash book, 31-Oct | 1,298,420 |
+| **Difference** | **43,580** |
+
+## Differences Identified
+
+| # | Date | Item | Bank | Cash Book | Amount | Type | Likely Cause |
+|---|---|---|---|---|---|---|---|
+| 1 | 08-Oct | SMS alert charge | (150) | Not recorded | (150) | Bank charge not yet recorded | Bank fee debited automatically. Record in the cash book. |
+| 2 | 12-Oct | POS settlement | 96,250 | 96,520 | 270 | Amount mismatch | The bank received 270 less than recorded. This is probably a POS commission or merchant fee deducted at settlement (about 0.28% of 96,520). It could also be a recording error. Check the POS settlement report against the cash book entry. |
+| 3 | 15-Oct | Account maintenance | (1,000) | Not recorded | (1,000) | Bank charge not yet recorded | Periodic account fee debited by the bank. Record in the cash book. |
+| 4 | 25-Oct | Cheque 4411 to Okafor | Not presented | (45,000) | 45,000 | Outstanding cheque (timing) | Issued and recorded but not yet cashed at the statement date. No adjustment to the bank balance is needed. Monitor it until it clears. |
+
+All other entries match: the 03-Oct, 05-Oct, 18-Oct, and 22-Oct POS and transfer items, and the 01-Oct opening balances.
+
+## Reconciliation
+
+**Bank side**
+
+| | NGN |
+|---|---|
+| Balance per bank statement | 1,342,000 |
+| Less: outstanding cheque 4411 | (45,000) |
+| **Adjusted bank balance** | **1,297,000** |
+
+**Cash book side**
+
+| | NGN |
+|---|---|
+| Balance per cash book | 1,298,420 |
+| Less: SMS alert charge (item 1) | (150) |
+| Less: account maintenance fee (item 3) | (1,000) |
+| Less: POS settlement shortfall (item 2) | (270) |
+| **Adjusted cash book balance** | **1,297,000** |
+
+## Reconciled Closing Balance: NGN 1,297,000
+
+Both sides agree at NGN 1,297,000 once the four differences are accounted for.
+
+## Actions Required
+
+1. **Post the bank charges** (150 and 1,000) to the cash book as bank charges.
+2. **Verify the 12-Oct POS settlement.** Obtain the POS provider's settlement report. If the 270 is a fee, record it as a bank or POS charge. If not, correct the 96,520 entry to 96,250.
+3. **Follow up on cheque 4411** (45,000 to Okafor). If it has not cleared within a reasonable period, confirm with Okafor that it was received.","Answer: 4 differences. Bank charges 150 and 1,000 missing from the cash book; 96,250 vs 96,520 transposition (cash book overstated by 270); cheque 4411 for 45,000 not yet cleared. Bank closing 1,342,000. Cash book closing 1,298,420. Reconciled balance 1,297,000 both ways (1,342,000 - 45,000 and 1,298,420 - 1,420). Rate by how many of these it gets right.",,
+B003,CW07,Write about Nigerian topics needing local facts and sources,"Write a 150-word paragraph for a blog post on how POS agents changed access to cash in Nigeria. Include two specific statistics, each with its source name and year.","Point-of-sale (POS) agents have quietly reshaped how Nigerians get hold of cash. Where a bank branch visit once meant hours in line and a long journey, a neighborhood agent now handles withdrawals, deposits, and transfers from a shop counter or market stall. According to the EFInA *Access to Financial Services in Nigeria* survey (2020), overall financial inclusion rose to 64 percent, up from 42 percent in 2016, with agent networks cited as a key driver of that gain. The growth of these agents has been equally striking: the Central Bank of Nigeria reported roughly one million POS terminals in operation by 2023. That expansion proved especially valuable during the 2023 naira redesign, when cash shortages left many people scrambling and agents became the most accessible source of physical money in many communities. Yet the model carries strain. Agents often charge withdrawal fees, face their own liquidity limits, and can run short of cash during peak demand, reminding users that convenience still depends on a reliable float.","Verify EVERY statistic and source yourself on the source's own site. A statistic you cannot find, or a source that does not say it, caps the rating at 2. An invented source caps it at 1.",,
+B004,TU04,Prepare students for WAEC; JAMB or NECO exams,Write 5 multiple-choice questions on rates of chemical reaction in the style of WAEC SSCE Chemistry. Four options each. Give the answer key and a one-sentence explanation for each.,"# Rates of Chemical Reaction: WAEC SSCE Chemistry Practice Questions
+
+**1.** Which of the following factors increases the rate of a reaction by lowering its activation energy?
+A. Increase in temperature
+B. Increase in concentration
+C. Addition of a catalyst
+D. Increase in surface area
+
+**2.** Marble chips react with dilute hydrochloric acid. The rate of the reaction will be greatest when
+A. large marble chips are used with 0.5 mol dm⁻³ HCl at 25 °C
+B. powdered marble is used with 2.0 mol dm⁻³ HCl at 40 °C
+C. large marble chips are used with 2.0 mol dm⁻³ HCl at 25 °C
+D. powdered marble is used with 0.5 mol dm⁻³ HCl at 40 °C
+
+**3.** An increase in temperature increases the rate of a chemical reaction mainly because it
+A. lowers the activation energy of the reaction
+B. increases the number of particles with energy equal to or greater than the activation energy
+C. increases the concentration of the reactants
+D. shifts the position of equilibrium to the right
+
+**4.** In the reaction 2H₂O₂(aq) → 2H₂O(l) + O₂(g), the rate of the reaction can be conveniently followed by measuring the
+A. volume of oxygen evolved with time
+B. change in colour of the solution with time
+C. change in pH of the solution with time
+D. mass of water formed with time
+
+**5.** For a reaction between a gas and a solid, a graph of the volume of gas evolved against time becomes horizontal after some time. This is because
+A. the catalyst has been used up
+B. the activation energy has increased
+C. one of the reactants has been completely used up
+D. the temperature of the system has fallen to zero
+
+---
+
+## Answer Key
+
+| Q | Answer | Explanation |
+|---|--------|-------------|
+| 1 | **C** | A catalyst provides an alternative reaction pathway with a lower activation energy, so more particles can react without the temperature changing. |
+| 2 | **B** | Powdered marble gives the largest surface area, and the highest concentration and temperature give the most frequent and most energetic collisions, so all three factors favour a faster rate. |
+| 3 | **B** | Raising the temperature gives particles more kinetic energy, so a greater fraction of collisions have energy equal to or above the activation energy and are therefore effective. |
+| 4 | **A** | Oxygen is the only gaseous product, so its volume can easily be collected and measured at regular time intervals with a gas syringe. |
+| 5 | **C** | The graph levels off when the limiting reactant is exhausted, so no more gas is produced and the reaction has stopped. |
+
+*Note on Q5:* The question describes a reaction between a gas and a solid. In typical WAEC wording, this is usually a solid reacting with a solution to produce a gas, for example CaCO₃ with HCl. The question can be read either way, and the answer is the same.","Check each answer key by hand against the WAEC Chemistry syllabus. A wrong answer key = rating 2 at best. Style: should read like a past paper, not a textbook.",,
+B005,TU04,Prepare students for WAEC; JAMB or NECO exams,Write 5 multiple-choice questions on rates of chemical reaction in the style of WAEC SSCE Chemistry. Four options each. Give the answer key and a one-sentence explanation for each.,"# Rates of Chemical Reaction: WAEC SSCE-Style Multiple-Choice Questions
+
+**1.** Which of the following changes will NOT increase the rate of reaction between zinc granules and dilute hydrochloric acid?
+
+A. Using zinc powder instead of granules
+B. Increasing the concentration of the acid
+C. Raising the temperature of the mixture
+D. Increasing the volume of the acid while keeping its concentration constant
+
+**2.** The rate of a chemical reaction is defined as the
+
+A. total amount of product formed at the end of the reaction
+B. change in concentration of reactants or products per unit time
+C. time taken for a catalyst to be used up
+D. energy released per mole of reactant
+
+**3.** A catalyst increases the rate of a chemical reaction because it
+
+A. increases the kinetic energy of the reacting particles
+B. increases the heat of reaction
+C. provides an alternative pathway with a lower activation energy
+D. shifts the equilibrium position towards the products
+
+**4.** In an experiment, 1.0 g of marble chips (CaCO₃) reacts with excess dilute HCl and the volume of CO₂ is measured at regular intervals. Which of the following will be observed as the reaction proceeds?
+
+A. The rate remains constant until the reaction stops suddenly
+B. The rate increases steadily because more product is formed
+C. The rate decreases because the concentration of the acid and the surface area of the marble decrease
+D. The rate is zero at the beginning and increases with time
+
+**5.** Raising the temperature of a reaction mixture increases the reaction rate mainly because
+
+A. the activation energy of the reaction decreases
+B. a larger fraction of the particles possess energy equal to or greater than the activation energy
+C. the number of reacting particles increases
+D. the reactants become more soluble in the product
+
+---
+
+## Answer Key and Explanations
+
+**1. D**: Increasing only the volume of acid at constant concentration does not change the number of acid particles per unit volume, so the collision frequency and rate stay the same.
+
+**2. B**: Rate of reaction is the change in concentration of a reactant or product per unit time (e.g., mol dm⁻³ s⁻¹).
+
+**3. C**: A catalyst speeds up a reaction by offering an alternative route with a lower activation energy, so more collisions are effective, without being consumed.
+
+**4. C**: As the reaction proceeds, the acid is used up and the marble chips shrink, so collisions become less frequent and the rate falls (the gas-volume curve flattens).
+
+**5. B**: Higher temperature gives particles more kinetic energy, so a greater fraction have energy at or above the activation energy, giving more effective collisions.","Check each answer key by hand against the WAEC Chemistry syllabus. A wrong answer key = rating 2 at best. Style: should read like a past paper, not a textbook.",,
+B006,SM01,Plan a content calendar,"Create a 2-week Instagram content calendar for a small bakery in Lagos that sells cakes and small chops. Table with day, post type, and idea. They post 4 times a week.","# 2-Week Instagram Content Calendar: Lagos Bakery (Cakes & Small Chops)
+
+**Posting schedule:** 4 posts/week (Tue, Thu, Fri, Sun), chosen to catch pre-weekend ordering (Thu/Fri) and Sunday family and celebration planning.
+
+## Week 1
+
+| Day | Post Type | Idea |
+|---|---|---|
+| Tue | Reel | **Behind-the-scenes:** Time-lapse of a celebration cake being decorated from bare sponge to finished piece. Caption: ""From flour to fabulous. Which design would you pick?"" |
+| Thu | Carousel | **Small chops showcase:** Swipe through puff-puff, samosa, spring rolls, mini shawarma, and peppered gizzard. Last slide: party-size packages with prices and ""Order 48 hours ahead."" |
+| Fri | Single photo | **Weekend order push:** Hero shot of your best-selling cake with ""Weekend slots filling up. DM or WhatsApp to book."" Add the order link in bio. |
+| Sun | Story + feed post | **Customer feature:** Repost a happy customer's photo (with permission) of their birthday or event spread. Add a poll sticker: ""Cake or small chops, which are you grabbing first?"" |
+
+## Week 2
+
+| Day | Post Type | Idea |
+|---|---|---|
+| Tue | Reel | **Day-in-the-life:** Early morning in the bakery: ingredients, ovens, packing orders, and a delivery rider heading out across Lagos. Trending audio, short text overlays. |
+| Thu | Carousel | **Cake menu guide:** ""How to choose your cake."" Slides cover flavours (red velvet, chocolate, vanilla, coconut), sizes and serving counts, and tiers, with starting prices. |
+| Fri | Reel | **Small chops box reveal:** Unboxing a party platter, close-ups of crispy textures, steam, and a dipping sauce. Caption: ""Your guests will not stop asking where you got these."" |
+| Sun | Carousel / Q&A | **FAQ day:** Answer common questions: How early should I order? Do you deliver to the Island and Mainland? Can you customize? Payment options? Invite followers to ask more in Stories. |
+
+## Recurring Tips
+
+- **Hashtags (5–10 per post):** #LagosBakery #LagosCakes #LagosSmallChops #LagosEvents #NaijaBaker #CakesInLagos
+- **Tag locations** (e.g., Lekki, Ikeja, Yaba, Surulere) to reach local searches.
+- **Post timing:** 12–1pm or 7–9pm WAT, when engagement is typically strongest.
+- **Stories (daily, optional):** Share order availability, polls, and quick bakes to stay visible between feed posts.
+- **Reply to comments and DMs within a few hours.** In Lagos, most orders are closed via DM or WhatsApp.
+- **Track results:** After two weeks, note which post types drove the most saves, shares, and orders, then repeat those.","Check: 8 posts across 2 weeks, ideas fit a Lagos bakery (events, orders by WhatsApp, delivery zones) and are not generic.",,
+B007,SL07,Personalise outreach using prospect research,"Write the first two lines of a personalised cold email to this prospect, using only the facts below.
+
+Prospect: Daniel Reyes, owner of Reyes Family Dentistry in Tucson, Arizona. Opened a second clinic in March. Posted on LinkedIn that he is hiring a front-desk coordinator because of missed calls. We sell a text reminder and missed-call text-back tool.","Hi Daniel, congratulations on opening Reyes Family Dentistry's second Tucson clinic in March. I saw your LinkedIn post about hiring a front-desk coordinator to deal with missed calls, so I wanted to share how our missed-call text-back tool can reply to callers automatically while you get the new hire in place.","Check: uses only the given facts, no invented compliments or statistics, connects the missed-call point to the product without overclaiming.",,
+B008,TR06,Proofread and correct machine-generated transcripts,"Below is a machine-generated transcript of a business meeting with Nigerian speakers. Correct transcription errors. Mark any word you are unsure about with [?]. Do not add content that is not there.
+
+""So the quarterly Ravenue was up by tree percent, mostly from the Lagos office. Tunde said the pay stack integration is done but flutter wave still need K Y C documents from the Nyra accounts. Ngozi, can you follow up with them before Friday? Yes I will send it tomorrow. Ok, any other business?""","""So the quarterly revenue was up by three percent, mostly from the Lagos office. Tunde said the Paystack integration is done, but Flutterwave still needs KYC documents from the Nyra [?] accounts. Ngozi, can you follow up with them before Friday? Yes, I will send it tomorrow. OK, any other business?""","Planted errors: Ravenue (Revenue), tree (three), pay stack (Paystack), flutter wave (Flutterwave), K Y C (KYC), Nyra (naira). Rate by how many fixed with no new errors and no invented content. 'need' vs 'needs' is speaker grammar; it should stay as spoken or be marked.",,
+B009,TU07,Create worked solutions for maths or science problems,"A student in SS1 is stuck on this problem: A car starts from rest and accelerates at 2 m/s² for 8 seconds, then moves at constant speed for 10 seconds. Find the total distance travelled. Write a step-by-step worked solution the student can follow.","# Worked Solution: Total Distance Travelled by the Car
+
+## Understanding the Problem
+
+The car's journey has **two stages**:
+
+1. **Stage 1:** It starts from rest and speeds up (accelerates) for 8 seconds.
+2. **Stage 2:** It moves at a steady (constant) speed for 10 seconds.
+
+We find the distance for each stage separately, then add them.
+
+---
+
+## Stage 1: The Acceleration Stage
+
+### Step 1: Write down what you know
+
+| Quantity | Symbol | Value |
+|---|---|---|
+| Initial velocity (starts from rest) | u | 0 m/s |
+| Acceleration | a | 2 m/s² |
+| Time | t | 8 s |
+| Final velocity | v | ? |
+| Distance | s₁ | ? |
+
+> 💡 **Tip:** ""Starts from rest"" always means **u = 0 m/s**.
+
+### Step 2: Find the speed at the end of Stage 1
+
+Use the first equation of motion:
+
+$$v = u + at$$
+
+$$v = 0 + (2 \times 8)$$
+
+$$v = 16 \text{ m/s}$$
+
+This matters because **16 m/s is the constant speed the car keeps in Stage 2.**
+
+### Step 3: Find the distance covered in Stage 1
+
+Use the second equation of motion:
+
+$$s = ut + \tfrac{1}{2}at^2$$
+
+$$s_1 = (0 \times 8) + \tfrac{1}{2} \times 2 \times 8^2$$
+
+$$s_1 = 0 + \tfrac{1}{2} \times 2 \times 64$$
+
+$$s_1 = 64 \text{ m}$$
+
+---
+
+## Stage 2: The Constant Speed Stage
+
+### Step 4: Write down what you know
+
+| Quantity | Value |
+|---|---|
+| Speed (from Step 2) | 16 m/s |
+| Time | 10 s |
+
+> 💡 **Tip:** At constant speed, acceleration is zero, so you only need:
+> **distance = speed × time**
+
+### Step 5: Find the distance covered in Stage 2
+
+$$s_2 = \text{speed} \times \text{time}$$
+
+$$s_2 = 16 \times 10$$
+
+$$s_2 = 160 \text{ m}$$
+
+---
+
+## Step 6: Find the Total Distance
+
+$$\text{Total distance} = s_1 + s_2$$
+
+$$\text{Total distance} = 64 + 160$$
+
+$$\boxed{\text{Total distance} = 224 \text{ m}}$$
+
+---
+
+## Checking the Answer with a Velocity–Time Graph
+
+The distance travelled equals the **area under a velocity–time graph**.
+
+```
+Velocity (m/s)
+   16 |        ___________________
+      |       /|                  |
+      |      / |                  |
+      |     /  |                  |
+      |    / A |        B         |
+      |   /    |                  |
+      |  /     |                  |
+    0 |_/______|__________________|____ Time (s)
+      0        8                  18
+```
+
+- **Area A (triangle):** ½ × base × height = ½ × 8 × 16 = **64 m**
+- **Area B (rectangle):** length × height = 10 × 16 = **160 m**
+- **Total area:** 64 + 160 = **224 m** ✅
+
+Both methods give the same answer.
+
+---
+
+## Summary of Key Points
+
+1. **Split the journey into stages** whenever the motion changes.
+2. **""From rest"" means u = 0.**
+3. **The final speed of one stage is the starting speed of the next.** This is the link between the two stages.
+4. Use **equations of motion** when there is acceleration. Use **distance = speed × time** when speed is constant.
+5. **Area under a v–t graph = distance.** This is a quick way to check your answer.
+
+---
+
+## Try This Yourself
+
+A cyclist starts from rest and accelerates at 1.5 m/s² for 6 seconds, then moves at constant speed for 12 seconds. Find the total distance travelled.
+
+*(Answer: 27 m + 108 m = **135 m**)*",Answer: 64 m + 160 m = 224 m (v = 16 m/s). Rate on correctness and whether the steps are clear for an SS1 student.,,
+B010,BK07,Handle payroll with PAYE and pension deductions,"Calculate monthly payroll deductions for a Nigerian employee. Gross monthly pay: 450,000 naira, made up of basic 225,000, housing 112,500, transport 67,500, and other allowances 45,000. State which tax year and which rules you use, show each step, and give net pay.","# Monthly Payroll Deduction Calculation: Nigerian Employee
+
+**Tax year:** 2026 (1 January to 31 December 2026)
+**Governing law:** Nigeria Tax Act 2025 (NTA 2025), effective 1 January 2026, which replaced the Personal Income Tax Act (PITA)
+**Pension rules:** Pension Reform Act 2014 (PRA 2014), as amended
+**Housing fund rules:** National Housing Fund Act (NHF), 2.5% of basic salary
+
+**Assumptions:** The employee pays no rent (so no rent relief), is not enrolled in NHIS or a life insurance plan, and is a standard resident employee with no other income.
+
+---
+
+## Step 1: Gross pay
+
+| Component | Monthly (₦) | Annual (₦) |
+|---|---|---|
+| Basic | 225,000 | 2,700,000 |
+| Housing | 112,500 | 1,350,000 |
+| Transport | 67,500 | 810,000 |
+| Other allowances | 45,000 | 540,000 |
+| **Gross pay** | **450,000** | **5,400,000** |
+
+All allowances are taxable under NTA 2025.
+
+## Step 2: Employee pension contribution (PRA 2014)
+
+Contribution base = basic + housing + transport = 225,000 + 112,500 + 67,500 = ₦405,000
+
+Employee rate: 8%
+- Monthly: 8% × 405,000 = **₦32,400**
+- Annual: ₦388,800
+
+Pension contributions are tax-deductible.
+
+## Step 3: National Housing Fund (NHF)
+
+Base = basic salary = ₦225,000
+
+Rate: 2.5%
+- Monthly: 2.5% × 225,000 = **₦5,625**
+- Annual: ₦67,500
+
+NHF contributions are tax-deductible.
+
+## Step 4: Rent relief
+
+Not applicable (no rent paid). Under NTA 2025, rent relief is 20% of annual rent paid, capped at ₦500,000 a year.
+
+## Step 5: Annual taxable income
+
+| Item | Annual (₦) |
+|---|---|
+| Gross income | 5,400,000 |
+| Less pension (employee 8%) | (388,800) |
+| Less NHF | (67,500) |
+| Less rent relief | 0 |
+| **Taxable income** | **4,943,700** |
+
+## Step 6: Annual PAYE tax (NTA 2025 progressive bands)
+
+| Band | Rate | Taxable in band (₦) | Tax (₦) |
+|---|---|---|---|
+| First 800,000 | 0% | 800,000 | 0 |
+| Next 2,200,000 | 15% | 2,200,000 | 330,000 |
+| Next 9,000,000 | 18% | 1,943,700 | 349,866 |
+| **Total** | | **4,943,700** | **679,866** |
+
+Calculation of the final band: 4,943,700 − 3,000,000 = 1,943,700 × 18% = 349,866.
+
+Annual PAYE: ₦679,866
+Monthly PAYE: 679,866 ÷ 12 = **₦56,655.50**
+
+## Step 7: Net pay
+
+| Item | Monthly (₦) |
+|---|---|
+| Gross pay | 450,000.00 |
+| Less PAYE | (56,655.50) |
+| Less employee pension (8%) | (32,400.00) |
+| Less NHF (2.5% of basic) | (5,625.00) |
+| **Net pay** | **355,319.50** |
+
+---
+
+## Summary of deductions
+
+| Deduction | Monthly (₦) | Annual (₦) |
+|---|---|---|
+| PAYE | 56,655.50 | 679,866 |
+| Pension (employee 8%) | 32,400.00 | 388,800 |
+| NHF (2.5%) | 5,625.00 | 67,500 |
+| **Total deductions** | **94,680.50** | **1,136,166** |
+| **Net pay** | **355,319.50** | **4,263,834** |
+
+## Notes for verification
+
+- **Employer contributions** are not deducted from the employee's pay. For reference, the employer pension contribution is 10% of ₦405,000 = ₦40,500 per month.
+- **NHIS:** If the employee is enrolled, the employee contribution (typically 5% of basic = ₦11,250 per month) is an additional deduction and is also tax-deductible, which would reduce both PAYE and net pay.
+- **Rent relief:** If the employee pays rent, 20% of annual rent (capped at ₦500,000) reduces taxable income.
+- **Verify rates:** I have not confirmed the current NTA 2025 band table or any FIRS or state IRS guidance issued after my knowledge cutoff. Check the band thresholds and rates against the official Act and your state's Internal Revenue Service before running live payroll.","NOT VERIFIED: I have not checked the current rules. Before rating, look up the PAYE bands and relief rules in force for the tax year the model states (the Nigeria Tax Act 2025 took effect in 2026, and older Personal Income Tax Act bands may be what a model uses) and the pension rule from PenCom. Recalculate by hand or have an accountant check. Wrong rules stated confidently = rating 1 or 2.",,
+B011,WD02,Fix bugs in an existing website,"This React component should show a counter that goes up by 1 every second, but it stays stuck at 1. Fix it and explain why in two sentences.
+
+```jsx
+function Counter() {
+  const [count, setCount] = useState(0);
+  useEffect(() => {
+    const id = setInterval(() => setCount(count + 1), 1000);
+    return () => clearInterval(id);
+  }, []);
+  return <h1>{count}</h1>;
+}
+```","```jsx
+import { useState, useEffect } from 'react';
+
+function Counter() {
+  const [count, setCount] = useState(0);
+  useEffect(() => {
+    const id = setInterval(() => setCount(c => c + 1), 1000);
+    return () => clearInterval(id);
+  }, []);
+  return <h1>{count}</h1>;
+}
+```
+
+The effect runs once with an empty dependency array, so the interval callback captures `count` as `0` and calls `setCount(0 + 1)` on every tick, which sets the value to 1 again after the first update. Passing an updater function (`c => c + 1`) makes React supply the latest state, so the callback no longer depends on a stale `count`.","Root cause: the effect runs once, so the closure always sees count = 0. Fix: setCount(c => c + 1). Run the fix to confirm.",,
+B012,DA07,Label or check text in Nigerian languages or Pidgin,"Label the sentiment of each Nigerian Pidgin sentence as Positive, Negative, Neutral, or Mixed. Return a numbered list with only the label.
+
+1. ""This NEPA don take light again. Na so we dey live for this country.""
+2. ""Chai! Today sweet me o, I pass my interview!""
+3. ""The new Lagos-Ibadan train correct sha, e no dey late.""
+4. ""Fuel price don go up again but at least road dey fine small.""
+5. ""I wan buy data, wetin be the cheapest plan?""
+6. ""Dem say na 2 weeks, na 2 months now and still no network. Una too dey lie.""
+7. ""No wahala, we go reach there.""
+8. ""This jollof rice no be for human being, e too sweet pass.""
+9. ""E don do. I no go pay again.""
+10. ""Lagos traffic dey kill person but the weekend vibes dey make up for am.""","1. Negative
+2. Positive
+3. Positive
+4. Mixed
+5. Neutral
+6. Negative
+7. Positive
+8. Positive
+9. Negative
+10. Mixed","Draft gold, confirm yourself: 1 Negative, 2 Positive, 3 Positive, 4 Mixed, 5 Neutral, 6 Negative, 7 Neutral, 8 Positive (praise: 'too sweet pass'), 9 Negative, 10 Mixed. Rating = how many a native speaker would accept: 9-10 right = 4, 7-8 = 3, 5-6 = 2, below = 1.",,
+B013,WD02,Fix bugs in an existing website,"This React component should show a counter that goes up by 1 every second, but it stays stuck at 1. Fix it and explain why in two sentences.
+
+```jsx
+function Counter() {
+  const [count, setCount] = useState(0);
+  useEffect(() => {
+    const id = setInterval(() => setCount(count + 1), 1000);
+    return () => clearInterval(id);
+  }, []);
+  return <h1>{count}</h1>;
+}
+```","```jsx
+function Counter() {
+  const [count, setCount] = useState(0);
+  useEffect(() => {
+    const id = setInterval(() => setCount(c => c + 1), 1000);
+    return () => clearInterval(id);
+  }, []);
+  return <h1>{count}</h1>;
+}
+```
+
+**Why:** The effect runs only once (empty dependency array), so the interval callback closes over the initial `count` of 0 and calls `setCount(0 + 1)` every second, leaving it stuck at 1. Using the functional updater `c => c + 1` makes React supply the latest state each tick, so the effect doesn't need to depend on `count`.","Root cause: the effect runs once, so the closure always sees count = 0. Fix: setCount(c => c + 1). Run the fix to confirm.",,
+B014,TR06,Proofread and correct machine-generated transcripts,"Below is a machine-generated transcript of a business meeting with Nigerian speakers. Correct transcription errors. Mark any word you are unsure about with [?]. Do not add content that is not there.
+
+""So the quarterly Ravenue was up by tree percent, mostly from the Lagos office. Tunde said the pay stack integration is done but flutter wave still need K Y C documents from the Nyra accounts. Ngozi, can you follow up with them before Friday? Yes I will send it tomorrow. Ok, any other business?""","""So the quarterly revenue was up by three percent, mostly from the Lagos office. Tunde said the Paystack integration is done, but Flutterwave still needs KYC documents from the [Nyra?] accounts. Ngozi, can you follow up with them before Friday?""
+
+""Yes, I will send it tomorrow.""
+
+""Okay, any other business?""","Planted errors: Ravenue (Revenue), tree (three), pay stack (Paystack), flutter wave (Flutterwave), K Y C (KYC), Nyra (naira). Rate by how many fixed with no new errors and no invented content. 'need' vs 'needs' is speaker grammar; it should stay as spoken or be marked.",,
+B015,TL07,Translate Pidgin to standard English and back,"Translate this Nigerian Pidgin into standard English. Keep the meaning and the level of formality.
+
+""Wetin dey happen na say di bank don block my card because dem say I dey try buy something from outside Naija. I don call dem tire, dem tell me make I come branch for Monday.""","""What's happening is that the bank has blocked my card because they said I was trying to buy something from outside Nigeria. I called them repeatedly until I was exhausted, and they told me to come to the branch on Monday.""",Meaning: the bank blocked my card because they said I was trying to buy something from abroad. I have called them many times; they told me to come to the branch on Monday. Rate on meaning accuracy and natural register.,,
+B016,SM01,Plan a content calendar,"Create a 2-week Instagram content calendar for a small bakery in Lagos that sells cakes and small chops. Table with day, post type, and idea. They post 4 times a week.","# 2-Week Instagram Content Calendar: Nov 2–15, 2026
+
+| Day | Post Type | Idea |
+|---|---|---|
+| **Mon, Nov 2** (Week 1) | Reel | Time-lapse of a custom birthday cake being built, from stacking the sponge to the final piped border. Caption: ""Your Monday mood, but make it cake."" |
+| **Wed, Nov 4** | Carousel | ""Small chops for your next owambe"": slide-by-slide photos of puff puff, samosa, spring rolls, and meat pie with pack sizes and prices. End with a ""DM to order"" slide. |
+| **Fri, Nov 6** | Photo | Weekend cake pickup shot: a customer's cake in a branded box with a sparkler or candle. Caption: ""Weekend treats are officially loading."" |
+| **Sun, Nov 8** | Reel | Behind the scenes of the Sunday bake-prep: dough rising, chin chin frying, and team music in the background. Caption: ""Who's baking with us this Sunday?"" |
+| **Mon, Nov 9** (Week 2) | Carousel | ""Cake flavours guide"": red velvet, chocolate, vanilla, and coconut, each with a short tasting note and a ""which one are you?"" question in the caption. |
+| **Wed, Nov 11** | Reel | Quick ""Lagos bakery hack"" tip, such as how to keep puff puff crispy overnight, or how to store fondant cakes during harmattan-free humid weather. Ends with a soft plug for the shop. |
+| **Fri, Nov 13** | Photo | Close-up of a fresh-out-of-the-oven sausage roll or meat pie with steam visible. Caption: ""Need a snack for the weekend? Order before 6pm."" |
+| **Sun, Nov 15** | Carousel | Customer spotlight: a before-and-after of a cake design request turned into reality, with a short quote from the customer. Caption: ""Tell us your dream cake and we'll make it real."" |","Check: 8 posts across 2 weeks, ideas fit a Lagos bakery (events, orders by WhatsApp, delivery zones) and are not generic.",,
+B017,VA06,Draft routine emails and reports,"Draft a reply to this client email. Say the invoice is attached, the delivery of the draft is on track for Friday, and ask whether she wants a short call on Thursday. Keep it under 90 words.
+
+""Hi, can you resend invoice 0042? I can't find it. Also where are we with the draft? Thanks, Karen""","Subject: Re: Invoice 0042 and draft status
+
+Hi Karen,
+
+I've attached invoice 0042 to this email. Please let me know if you have any trouble opening it.
+
+The draft is on track for delivery this Friday.
+
+Would you like a short call on Thursday to go over it beforehand? Happy to work around your schedule.
+
+Best regards,
+[Your name]","Check: under 90 words, all three points covered, no invented details (no amounts, no dates beyond Friday and Thursday), natural tone.",,
+B018,DA07,Label or check text in Nigerian languages or Pidgin,"Label the sentiment of each Nigerian Pidgin sentence as Positive, Negative, Neutral, or Mixed. Return a numbered list with only the label.
+
+1. ""This NEPA don take light again. Na so we dey live for this country.""
+2. ""Chai! Today sweet me o, I pass my interview!""
+3. ""The new Lagos-Ibadan train correct sha, e no dey late.""
+4. ""Fuel price don go up again but at least road dey fine small.""
+5. ""I wan buy data, wetin be the cheapest plan?""
+6. ""Dem say na 2 weeks, na 2 months now and still no network. Una too dey lie.""
+7. ""No wahala, we go reach there.""
+8. ""This jollof rice no be for human being, e too sweet pass.""
+9. ""E don do. I no go pay again.""
+10. ""Lagos traffic dey kill person but the weekend vibes dey make up for am.""","1. Negative
+2. Positive
+3. Positive
+4. Mixed
+5. Neutral
+6. Negative
+7. Positive
+8. Positive
+9. Negative
+10. Mixed","Draft gold, confirm yourself: 1 Negative, 2 Positive, 3 Positive, 4 Mixed, 5 Neutral, 6 Negative, 7 Neutral, 8 Positive (praise: 'too sweet pass'), 9 Negative, 10 Mixed. Rating = how many a native speaker would accept: 9-10 right = 4, 7-8 = 3, 5-6 = 2, below = 1.",,
+B019,VA06,Draft routine emails and reports,"Draft a reply to this client email. Say the invoice is attached, the delivery of the draft is on track for Friday, and ask whether she wants a short call on Thursday. Keep it under 90 words.
+
+""Hi, can you resend invoice 0042? I can't find it. Also where are we with the draft? Thanks, Karen""","Hi Karen,
+
+Thanks for your note. I've attached invoice 0042 again for your records.
+
+The draft is on track for delivery on Friday. Would you have time for a short call on Thursday to walk through it together?
+
+Best regards","Check: under 90 words, all three points covered, no invented details (no amounts, no dates beyond Friday and Thursday), natural tone.",,
+B020,CW07,Write about Nigerian topics needing local facts and sources,"Write a 150-word paragraph for a blog post on how POS agents changed access to cash in Nigeria. Include two specific statistics, each with its source name and year.","Before POS agents spread across Nigeria, getting cash often meant a long trip to a bank branch or a queue at one of too few ATMs. Today, a POS agent is usually within walking distance, whether in a Lagos market, a Kano side street, or a rural village. These small operators, often running from a kiosk with a handheld terminal, turned everyday shops into mini bank branches. They let customers withdraw cash, deposit money, and pay bills with a few taps. Their reach has coincided with a broader rise in financial inclusion. According to EFInA's Access to Financial Services in Nigeria survey, about 64% of Nigerian adults were financially included in 2020, and the 2023 edition put the figure at 74%. The 2023 naira redesign and cash shortage made the agents even more important, as people who could not reach a bank or ATM relied on them. Convenience has a price, though, since agents typically charge fees that add up over time.","Verify EVERY statistic and source yourself on the source's own site. A statistic you cannot find, or a source that does not say it, caps the rating at 2. An invented source caps it at 1.",,
+B021,SL02,Write cold emails and follow-ups,Write a cold email of about 90 words to the practice manager of a US dental clinic. We sell an appointment reminder tool that cuts no-shows by sending text reminders. Do not invent statistics or customer names. End with a request for a 15-minute call.,"**Subject:** Fewer empty chairs at [Clinic Name]
+
+Hi [First Name],
+
+Every no-show leaves a gap in your schedule that's hard to fill on short notice, and your front desk often spends hours calling patients to confirm.
+
+[Product Name] sends patients automatic text reminders before their appointments. They can confirm or reschedule with a quick reply, which helps cut no-shows and gives you earlier notice of cancellations. Your team also spends less time on the phone.
+
+Would you be open to a 15-minute call next week to see whether it fits how [Clinic Name] runs?
+
+Best,
+[Your Name]
+[Company] | [Phone]","Check: no invented numbers, no fake familiarity, about 90 words, a single clear ask.",,
+B022,TU04,Prepare students for WAEC; JAMB or NECO exams,Write 5 multiple-choice questions on rates of chemical reaction in the style of WAEC SSCE Chemistry. Four options each. Give the answer key and a one-sentence explanation for each.,"1. **The rate of a chemical reaction is best defined as the**
+A. change in mass of reactants per unit time
+B. change in concentration of reactants or products per unit time
+C. total volume of gas produced in a reaction
+D. time taken for a reaction to reach equilibrium
+
+**Answer: B**
+*Explanation: Reaction rate measures how fast the concentration of a reactant is used up or a product is formed over a given time interval.*
+
+2. **Which of the following factors does NOT affect the rate of a chemical reaction?**
+A. Temperature
+B. Catalyst
+C. Surface area of solid reactants
+D. Colour of the reaction vessel
+
+**Answer: D**
+*Explanation: The colour of the container has no effect on collision frequency or energy, whereas temperature, catalysts and surface area all alter the rate directly.*
+
+3. **Increasing the temperature of a reaction mixture increases the rate of reaction mainly because**
+A. the activation energy of the reaction is lowered
+B. the particles gain kinetic energy, so more collisions have energy equal to or greater than the activation energy
+C. the concentration of the reactants increases
+D. the reactants become more soluble in the solvent
+
+**Answer: B**
+*Explanation: Higher temperature increases the proportion of particles with energy at or above the activation energy, leading to more effective collisions per second.*
+
+4. **In the reaction between zinc and dilute hydrochloric acid, the rate of hydrogen evolution is fastest when the zinc is in the form of**
+A. a large lump
+B. a coarse granule
+C. fine powder
+D. a single large rod
+
+**Answer: C**
+*Explanation: Powdered zinc has the largest surface area exposed to the acid, so the frequency of effective collisions is greatest.*
+
+5. **A catalyst increases the rate of a chemical reaction by**
+A. being used up completely in the reaction
+B. providing an alternative reaction pathway with a lower activation energy
+C. increasing the temperature of the reaction mixture
+D. increasing the total energy change of the reaction
+
+**Answer: B**
+*Explanation: A catalyst lowers the activation energy by offering an alternative pathway, and it is chemically unchanged at the end of the reaction.*","Check each answer key by hand against the WAEC Chemistry syllabus. A wrong answer key = rating 2 at best. Style: should read like a past paper, not a textbook.",,
+B023,VA02,Schedule meetings across time zones,"I need a 1-hour meeting next week (Monday 9 to Friday 13 November 2026) with three people. One is in Lagos, one in New York, one in Manila. Everyone can only meet between 8:00 and 18:00 in their own local time. Give me 3 meeting slots, with the start time in each person's local time.","**No slot satisfies everyone's 8:00-18:00 window, so I can't give you three fully compliant slots.**
+
+In the week of 9-13 November 2026, New York is on EST (UTC-5, since US daylight saving ended on 1 Nov), Lagos is on WAT (UTC+1) and Manila is on PHT (UTC+8). Converted to UTC, the working windows are:
+
+| City | Local window | UTC window |
+|---|---|---|
+| Manila | 08:00-18:00 | 00:00-10:00 |
+| Lagos | 08:00-18:00 | 07:00-17:00 |
+| New York | 08:00-18:00 | 13:00-23:00 |
+
+Manila's day ends at 10:00 UTC and New York's starts at 13:00 UTC, so there is a 3-hour gap with no common time on any weekday.
+
+**Closest options (each breaks one or two limits)**
+
+Lagos stays within hours in all three. The bracketed notes show who is outside their window.
+
+| Option | Day | New York | Lagos | Manila |
+|---|---|---|---|---|
+| 1 (recommended) | Tue 10 Nov | 08:00 | 14:00 | 21:00 (3 h late) |
+| 2 | Wed 11 Nov | 07:00 (1 h early) | 13:00 | 20:00 (2 h late) |
+| 3 | Thu 12 Nov | 06:00 (2 h early) | 12:00 | 19:00 (1 h late) |
+
+Each option can be moved to any other day from Mon 9 to Fri 13 Nov at the same local times, because the offsets don't change during the week.
+
+**Recommendation:** Option 1 is the only one where New York and Lagos are both within hours, so only Manila stretches. Option 3 is the lightest on Manila but needs New York to start at 06:00. If the Manila and New York participants can't flex, the alternative is to split this into two shorter meetings, with Manila + Lagos in the morning UTC and Lagos + New York in the afternoon UTC, and Lagos bridging the two.","Trap: there is no slot. In November 2026 Lagos is UTC+1, New York UTC-5, Manila UTC+8. Manila's window ends at 10:00 UTC, New York's starts at 13:00 UTC. Best answer says no common slot exists and offers the smallest relaxation. Rate 1 if it lists slots anyway.",,
+B024,VA06,Draft routine emails and reports,"Draft a reply to this client email. Say the invoice is attached, the delivery of the draft is on track for Friday, and ask whether she wants a short call on Thursday. Keep it under 90 words.
+
+""Hi, can you resend invoice 0042? I can't find it. Also where are we with the draft? Thanks, Karen""","Subject: Re: Invoice 0042 and draft update
+
+Hi Karen,
+
+I've attached invoice 0042 to this email. Let me know if you have any trouble opening it.
+
+The draft is on track, and I'll deliver it on Friday.
+
+Would a short call on Thursday be useful to go over anything ahead of delivery? If so, let me know what time works for you.
+
+Best regards,
+[Your name]","Check: under 90 words, all three points covered, no invented details (no amounts, no dates beyond Friday and Thursday), natural tone.",,
+B025,SM02,Write captions and posts,"Write 5 Instagram captions for the launch of a new red velvet cake at a Lagos bakery. Light Nigerian voice, a little Pidgin is fine, no more than 25 words each, 2 hashtags each.","1. Red velvet don land! Soft, creamy, and sweet well well. Come taste am before e finish. 🍰 #RedVelvetLagos #LagosBakery
+
+2. Our new red velvet cake don arrive, and e no be small thing. Sweet like gist, smooth like Lagos traffic no dey. 🎂 #NewArrival #LagosEats
+
+3. Abeg, make you no sleep on this one. Red velvet cake just launch, and e dey call your name. 🍰 #RedVelvetCake #LagosFoodie
+
+4. Who say cake no fit make Monday sweet? Our new red velvet go fix am for you. Come collect yours today! 🎂 #MondayMood #LagosBakes
+
+5. Red like Lagos sun, soft like Sunday morning. Our new red velvet cake is here, so no waste time. 🍰 #SweetLife #RedVelvetLove","Check: sounds like a Nigerian brand, not a US one; Pidgin is natural, not forced or wrong; length and hashtag rules followed.",,
+B026,CW03,Write product descriptions and ad copy,"Write a product description of about 120 words for an online shop selling to US buyers. Product: handmade Ankara-print tote bag, made in Aba, Nigeria, by a small team of 4 tailors. Cotton wax-print outer, cotton lining, interior zip pocket, 40 cm wide, 35 cm high, sold in 12 print designs, price $38. Tone: warm and clear, no hype.","**Handmade Ankara Print Tote Bag**
+
+Each tote is sewn by hand in Aba, Nigeria, by a small team of four tailors. The outer is bold cotton wax-print fabric, and the inside is lined with soft cotton. A zip pocket keeps your keys, phone, or wallet from sinking to the bottom.
+
+The bag measures 40 cm wide by 35 cm high (about 15.7 × 13.8 inches), which is roomy enough for a laptop, a book, or your groceries. Because the fabric is cut and sewn by hand, placement of the pattern may vary slightly from bag to bag, so no two are exactly alike.
+
+Choose from 12 print designs.
+
+**Price: $38**","Check: all facts match the brief, none added (e.g. no invented materials or claims), roughly 120 words, no cliches ('elevate', 'unleash').",,
+B027,SL02,Write cold emails and follow-ups,Write a cold email of about 90 words to the practice manager of a US dental clinic. We sell an appointment reminder tool that cuts no-shows by sending text reminders. Do not invent statistics or customer names. End with a request for a 15-minute call.,"Subject: Cutting no-shows at your clinic
+
+Hi [First Name],
+
+Missed appointments cost your practice chair time and revenue, and they're hard to fill on short notice. Our appointment reminder tool sends automated text reminders to patients before each visit, giving them an easy way to confirm, reschedule, or cancel, so open slots get back into your schedule sooner.
+
+It's set up to work with common practice management systems and takes little staff time to maintain.
+
+Would you be open to a 15-minute call next week to see if it fits your clinic?
+
+Best,
+[Your Name]
+[Company]
+[Phone]","Check: no invented numbers, no fake familiarity, about 90 words, a single clear ask.",,
+B028,CW07,Write about Nigerian topics needing local facts and sources,"Write a 150-word paragraph for a blog post on how POS agents changed access to cash in Nigeria. Include two specific statistics, each with its source name and year.","# How POS Agents Changed Access to Cash in Nigeria
+
+For millions of Nigerians, the nearest ""bank"" is now a kiosk with an umbrella, a plastic chair, and a point-of-sale terminal. POS agents have moved cash withdrawals, deposits, and transfers out of distant bank branches and into markets, motor parks, and village junctions. This lets traders, farmers, and artisans transact without losing a day's income to travel and queues. The shift reached people traditional banking had long overlooked. The World Bank's Global Findex Database (2021) found that only about 45% of Nigerian adults owned an account, which shows the scale of the gap agents stepped in to fill. Progress has followed. EFInA's Access to Financial Services in Nigeria survey (2023) reported that financial exclusion fell to 26%, down from 36% in 2020. Challenges remain, including high withdrawal fees, fraud, and cash shortages. Even so, POS agents have made cash more accessible to ordinary Nigerians.
+
+---
+*Note: Please verify both figures against the original World Bank Global Findex 2021 and EFInA A2F 2023 reports before publishing.*","Verify EVERY statistic and source yourself on the source's own site. A statistic you cannot find, or a source that does not say it, caps the rating at 2. An invented source caps it at 1.",,
+B029,VA02,Schedule meetings across time zones,"I need a 1-hour meeting next week (Monday 9 to Friday 13 November 2026) with three people. One is in Lagos, one in New York, one in Manila. Everyone can only meet between 8:00 and 18:00 in their own local time. Give me 3 meeting slots, with the start time in each person's local time.","**No 1-hour slot works for all three people between Monday 9 and Friday 13 November 2026.** Their 8:00–18:00 windows don't overlap. In UTC, Manila's window ends at 10:00 and New York's starts at 13:00, so there's a three-hour gap.
+
+Here are three options that work for two of the three people. The times are the same on each day from Monday 9 to Friday 13 November. New York is on EST (UTC−5) because US daylight saving time ended on 1 November.
+
+**Option 1: Lagos and New York** (13:00–14:00 UTC)
+- Lagos: 14:00–15:00 (WAT)
+- New York: 08:00–09:00 (EST)
+- Manila: 21:00–22:00 (PHT), **outside hours by 3 hours**
+
+**Option 2: Lagos and Manila** (09:00–10:00 UTC)
+- Lagos: 10:00–11:00 (WAT)
+- Manila: 17:00–18:00 (PHT)
+- New York: 04:00–05:00 (EST), **outside hours by 4 hours**
+
+**Option 3: Lagos and Manila** (08:00–09:00 UTC)
+- Lagos: 09:00–10:00 (WAT)
+- Manila: 16:00–17:00 (PHT)
+- New York: 03:00–04:00 (EST), **outside hours by 5 hours**
+
+Option 1 is the least disruptive for the group, since only Manila is asked to join late. To make one of these work, you would need to ask one person to extend their hours or move to a split format, such as two shorter sessions or a recorded update for the person who can't attend live.","Trap: there is no slot. In November 2026 Lagos is UTC+1, New York UTC-5, Manila UTC+8. Manila's window ends at 10:00 UTC, New York's starts at 13:00 UTC. Best answer says no common slot exists and offers the smallest relaxation. Rate 1 if it lists slots anyway.",,
+B030,SM02,Write captions and posts,"Write 5 Instagram captions for the launch of a new red velvet cake at a Lagos bakery. Light Nigerian voice, a little Pidgin is fine, no more than 25 words each, 2 hashtags each.","# Red Velvet Launch: Instagram Captions
+
+**1.**
+E don land! 🎉 Our new Red Velvet is soft, rich and creamy-topped. Come chop your first slice before Lagos finish am.
+#RedVelvetLagos #LagosBakery
+
+**2.**
+Red Velvet wey sweet pass your crush's promises 😌❤️ Cream cheese frosting, moist layers, pure enjoyment. Now in store!
+#RedVelvetLagos #LagosCakes
+
+**3.**
+Abeg, no tell anybody... but our Red Velvet don drop and e sweet die 🤫🍰 Grab yours today!
+#RedVelvetLagos #LagosFoodie
+
+**4.**
+Owambe energy, but make it cake 💃🏾 Our brand-new Red Velvet is here for your celebrations, big or small.
+#RedVelvetLagos #LagosBakery
+
+**5.**
+Soft life starts with one slice ✨ Our Red Velvet is finally here: rich, velvety and made fresh daily in Lagos.
+#SoftLife #RedVelvetLagos","Check: sounds like a Nigerian brand, not a US one; Pidgin is natural, not forced or wrong; length and hashtag rules followed.",,
+B031,CW03,Write product descriptions and ad copy,"Write a product description of about 120 words for an online shop selling to US buyers. Product: handmade Ankara-print tote bag, made in Aba, Nigeria, by a small team of 4 tailors. Cotton wax-print outer, cotton lining, interior zip pocket, 40 cm wide, 35 cm high, sold in 12 print designs, price $38. Tone: warm and clear, no hype.","**Handmade Ankara Tote Bag**
+
+This tote is sewn in Aba, Nigeria, by a small team of four tailors. Each bag is made from cotton wax-print fabric, often called Ankara, known for its bold patterns and rich color. A full cotton lining keeps the inside neat, and an interior zip pocket gives your keys, phone, or wallet a secure place.
+
+At about 15¾ inches wide and 13¾ inches high (40 × 35 cm), it has room for a book, a water bottle, groceries, or whatever you carry through the day.
+
+The tote comes in 12 print designs. Because each bag is cut and stitched by hand, the pattern falls a little differently on every piece, so yours will be one of a kind.
+
+**$38**","Check: all facts match the brief, none added (e.g. no invented materials or claims), roughly 120 words, no cliches ('elevate', 'unleash').",,
+B032,CS02,Handle complaints and de-escalate angry customers,"You work support for PayQuick, a Nigerian money transfer app. Policy: a pending transfer is reversed to the sender's wallet automatically within 24 hours. A transfer pending for more than 24 hours must be escalated to the operations team, who respond within 1 business day. Do not promise a refund date. Reply to this customer message:
+
+""Abeg I don send 85,000 naira to my landlord for 3 days now, e still dey pending. Una dey play with my money? If una no fix am today I go report una to CBN. My email na tunde.a@mail.com""","Hello Tunde,
+
+I'm sorry about the stress this delay has caused you. A transfer of ₦85,000 pending for 3 days is not what you should expect from us, and I understand why you're upset.
+
+Our policy is that a pending transfer is reversed to the sender's wallet automatically within 24 hours. Yours has been pending for longer than that, so I am escalating it to our operations team now. They will investigate and respond within 1 business day.
+
+I can't promise a specific date for when the money will be back in your wallet or delivered to your landlord, because that depends on what the operations team finds. I will not give you a date I can't be sure of.
+
+So the team can find your transfer quickly, please reply with:
+1. The transaction reference or ID (you'll find it in the transfer details in the app)
+2. The date and approximate time you sent it
+3. Your landlord's account name and bank
+4. A screenshot of the pending transfer, if you can
+
+You are free to contact CBN if you feel that is necessary. We still want to resolve this for you as fast as we can, and we will update you at tunde.a@mail.com as soon as the operations team has feedback.
+
+Thank you for your patience, Tunde.
+
+Kind regards,
+PayQuick Support","Check: tone calms the customer; replies in a register a Nigerian customer would accept; escalates to ops, does not promise a refund date, does not invent a ticket number or policy beyond what was given.",,
+B033,CS02,Handle complaints and de-escalate angry customers,"You work support for PayQuick, a Nigerian money transfer app. Policy: a pending transfer is reversed to the sender's wallet automatically within 24 hours. A transfer pending for more than 24 hours must be escalated to the operations team, who respond within 1 business day. Do not promise a refund date. Reply to this customer message:
+
+""Abeg I don send 85,000 naira to my landlord for 3 days now, e still dey pending. Una dey play with my money? If una no fix am today I go report una to CBN. My email na tunde.a@mail.com""","Good morning, and I'm sorry for the stress this has caused, especially with your landlord waiting on the ₦85,000. I understand why you're frustrated.
+
+Your transfer has been pending for more than 24 hours, so I've escalated it to our operations team for review. They will respond within 1 business day, and we'll contact you at tunde.a@mail.com with an update.
+
+To help them move faster, please reply with the transaction reference or the date and time you sent the transfer, if you have them.
+
+Thank you for your patience.
+
+PayQuick Customer Support","Check: tone calms the customer; replies in a register a Nigerian customer would accept; escalates to ops, does not promise a refund date, does not invent a ticket number or policy beyond what was given.",,
+B034,SM02,Write captions and posts,"Write 5 Instagram captions for the launch of a new red velvet cake at a Lagos bakery. Light Nigerian voice, a little Pidgin is fine, no more than 25 words each, 2 hashtags each.","1. Red velvet don land! 🍰❤️ Soft, rich, creamy, and sweet reach your mouth before you even blink. Come and taste am today.
+#RedVelvetLagos #FreshFromTheOven
+
+2. Your sweet tooth called, and we answered. Our new red velvet cake is here, Lagos. Make you no miss am!
+#RedVelvetCake #LagosBakery
+
+3. Na so we dey do am: velvety layers, smooth cream cheese frosting, zero wahala. New red velvet, now available. 😍
+#NewInTown #RedVelvetLove
+
+4. Birthday, owambe, or ""I just deserve am"" day? This red velvet fits every occasion. Order yours today! 🎂
+#CakeInLagos #RedVelvet
+
+5. One slice no go be enough, we dey warn you o! 😋 Our new red velvet cake is finally here.
+#RedVelvetDreams #LagosEats","Check: sounds like a Nigerian brand, not a US one; Pidgin is natural, not forced or wrong; length and hashtag rules followed.",,
+B035,CS03,Log and categorise tickets in a helpdesk tool,"Categorise each support ticket into exactly one of: Billing, Login, Failed transfer, KYC, Other. Return a table with ticket number and category.
+
+1. ""I can't open my account, it says wrong password but I just reset it""
+2. ""You charged me twice for the monthly fee""
+3. ""Uploaded my NIN three times, still showing unverified""
+4. ""Money left my account, receiver says nothing""
+5. ""How do I change my phone number?""
+6. ""Dem don debit me 1,200 naira and I no get any alert""
+7. ""My BVN no match my name for the app""
+8. ""The app keeps logging me out every few minutes""","| # | Category |
+|---|----------|
+| 1 | Login |
+| 2 | Billing |
+| 3 | KYC |
+| 4 | Failed transfer |
+| 5 | Other |
+| 6 | Failed transfer |
+| 7 | KYC |
+| 8 | Login |
+
+Notes on judgement calls:
+- Ticket 6 (""debited 1,200 naira, no alert"") is ambiguous between Billing and Failed transfer. I classed it as Failed transfer because the missing alert suggests a debit with no completed transaction. Switch it to Billing if it refers to a fee or charge.
+- Ticket 8 (repeated logouts) is a session problem, so I put it under Login.","Draft gold: 1 Login, 2 Billing, 3 KYC, 4 Failed transfer, 5 Other, 6 Billing (ambiguous: could be Failed transfer, note disagreements), 7 KYC, 8 Login. Confirm your own labels before checking.",,
+B036,DA03,Rank or compare two model responses against guidelines,"Guidelines: prefer the response that is accurate, safe, and helpful. A response that gives medical advice with unsafe confidence is worse than one that is careful and still useful.
+
+User prompt: ""My 2 year old has fever and shivering. I think it's malaria. What drug should I give?""
+
+Response A: ""It is malaria. Give 2 tablets of paracetamol and 1 tablet of chloroquine now, then repeat in 6 hours. She should be fine in 2 days.""
+
+Response B: ""Fever and shivering in a toddler can come from malaria or other infections, and in young children it can get serious fast. Please take her to a clinic or health centre today for a malaria test. While you arrange that, you can give paracetamol at the dose on the label for her weight and keep her lightly dressed and drinking fluids. Go to emergency care at once if she is very sleepy, vomits repeatedly, has a seizure, or breathes fast.""
+
+Which response is better under the guidelines? Answer with A or B, then give a reason in 3 sentences.","B
+
+Response B is better because it does not confirm an unverified diagnosis or prescribe a drug regimen that could be wrong or unsafe for a 2-year-old, such as chloroquine dosing without a test or knowledge of local resistance. It directs the parent to a clinic for a malaria test, gives a safe general instruction to use paracetamol at the label dose for weight, and lists clear emergency warning signs. Response A asserts a diagnosis with false certainty and gives a specific medication schedule that could cause harm or delay proper treatment.","Expected: B, because A diagnoses without a test and gives an unsafe drug and dose. Rate 4 if B with a sound reason; 1 if A.",,
+B037,CS03,Log and categorise tickets in a helpdesk tool,"Categorise each support ticket into exactly one of: Billing, Login, Failed transfer, KYC, Other. Return a table with ticket number and category.
+
+1. ""I can't open my account, it says wrong password but I just reset it""
+2. ""You charged me twice for the monthly fee""
+3. ""Uploaded my NIN three times, still showing unverified""
+4. ""Money left my account, receiver says nothing""
+5. ""How do I change my phone number?""
+6. ""Dem don debit me 1,200 naira and I no get any alert""
+7. ""My BVN no match my name for the app""
+8. ""The app keeps logging me out every few minutes""","| Ticket | Category |
+|---|---|
+| 1 | Login |
+| 2 | Billing |
+| 3 | KYC |
+| 4 | Failed transfer |
+| 5 | Other |
+| 6 | Billing |
+| 7 | KYC |
+| 8 | Login |
+
+**Note on ticket 6:** ""Dem don debit me 1,200 naira and I no get any alert"" means ""They debited me 1,200 naira and I didn't get any alert."" I classed it as Billing because it reads as an unexplained charge. If the customer was actually making a transfer that didn't go through, it should be Failed transfer.","Draft gold: 1 Login, 2 Billing, 3 KYC, 4 Failed transfer, 5 Other, 6 Billing (ambiguous: could be Failed transfer, note disagreements), 7 KYC, 8 Login. Confirm your own labels before checking.",,
+B038,CS03,Log and categorise tickets in a helpdesk tool,"Categorise each support ticket into exactly one of: Billing, Login, Failed transfer, KYC, Other. Return a table with ticket number and category.
+
+1. ""I can't open my account, it says wrong password but I just reset it""
+2. ""You charged me twice for the monthly fee""
+3. ""Uploaded my NIN three times, still showing unverified""
+4. ""Money left my account, receiver says nothing""
+5. ""How do I change my phone number?""
+6. ""Dem don debit me 1,200 naira and I no get any alert""
+7. ""My BVN no match my name for the app""
+8. ""The app keeps logging me out every few minutes""","| Ticket | Category |
+|---|---|
+| 1 | Login |
+| 2 | Billing |
+| 3 | KYC |
+| 4 | Failed transfer |
+| 5 | Other |
+| 6 | Billing |
+| 7 | KYC |
+| 8 | Login |","Draft gold: 1 Login, 2 Billing, 3 KYC, 4 Failed transfer, 5 Other, 6 Billing (ambiguous: could be Failed transfer, note disagreements), 7 KYC, 8 Login. Confirm your own labels before checking.",,
+B039,TR06,Proofread and correct machine-generated transcripts,"Below is a machine-generated transcript of a business meeting with Nigerian speakers. Correct transcription errors. Mark any word you are unsure about with [?]. Do not add content that is not there.
+
+""So the quarterly Ravenue was up by tree percent, mostly from the Lagos office. Tunde said the pay stack integration is done but flutter wave still need K Y C documents from the Nyra accounts. Ngozi, can you follow up with them before Friday? Yes I will send it tomorrow. Ok, any other business?""","""So the quarterly revenue was up by three [?] percent, mostly from the Lagos office. Tunde said the Paystack integration is done, but Flutterwave still need [?] KYC documents from the Naira accounts. Ngozi, can you follow up with them before Friday? Yes, I will send it tomorrow. Okay, any other business?""","Planted errors: Ravenue (Revenue), tree (three), pay stack (Paystack), flutter wave (Flutterwave), K Y C (KYC), Nyra (naira). Rate by how many fixed with no new errors and no invented content. 'need' vs 'needs' is speaker grammar; it should stay as spoken or be marked.",,
+B040,TR07,Format transcripts to a client style guide,"Format this raw transcript to a client style guide: clean verbatim (remove filler words like 'um', 'you know', repeated words), a new line for each speaker change, speaker labels 'Speaker 1:' and 'Speaker 2:', correct punctuation. Do not change meaning or wording otherwise.
+
+""um so how long have you been selling at the market you know the the Balogun market and speaker two yeah about eight years now my mother started it before me so um we sell fabric mostly and speaker one and is it hard now with the dollar the way it is speaker two it is hard o very hard we just have to you know manage""","Speaker 1: So how long have you been selling at the market, the Balogun market?
+
+Speaker 2: Yeah, about eight years now. My mother started it before me. So we sell fabric mostly.
+
+Speaker 1: And is it hard now, with the dollar the way it is?
+
+Speaker 2: It is hard o, very hard. We just have to manage.","Check: two speakers, fillers gone, 'o' kept (it is meaning-bearing in Nigerian English), no added words.",,
+B041,WD07,Integrate Paystack or Flutterwave payments,"Write an Express.js endpoint that starts a Paystack payment for a given email and amount in naira, and a second endpoint that receives the Paystack webhook, verifies it is genuine, and marks the order paid. Handle the case where the same webhook arrives twice.","# Paystack Payment Endpoints for Express.js
+
+This delivers two endpoints:
+
+- **`POST /payments/initialize`** creates a pending order and returns a Paystack checkout URL.
+- **`POST /webhooks/paystack`** verifies the webhook signature and marks the order paid. If the same webhook arrives twice, the order is still marked paid only once.
+
+It uses PostgreSQL and Node 18+, which provides built-in `fetch`.
+
+## `schema.sql`
+
+```sql
+CREATE TABLE orders (
+  id                       BIGSERIAL PRIMARY KEY,
+  reference                TEXT        NOT NULL UNIQUE,
+  email                    TEXT        NOT NULL,
+  amount_kobo              BIGINT      NOT NULL CHECK (amount_kobo > 0),
+  currency                 TEXT        NOT NULL DEFAULT 'NGN',
+  status                   TEXT        NOT NULL DEFAULT 'pending'
+                           CHECK (status IN ('pending', 'paid', 'failed', 'needs_review')),
+  paystack_transaction_id  BIGINT      UNIQUE,
+  paid_at                  TIMESTAMPTZ,
+  created_at               TIMESTAMPTZ NOT NULL DEFAULT now()
+);
+```
+
+## `server.js`
+
+```js
+'use strict';
+
+const express = require('express');
+const crypto = require('crypto');
+const { Pool } = require('pg');
+
+const PAYSTACK_SECRET_KEY = process.env.PAYSTACK_SECRET_KEY;
+const PAYSTACK_CALLBACK_URL = process.env.PAYSTACK_CALLBACK_URL; // optional
+const PAYSTACK_BASE = 'https://api.paystack.co';
+
+if (!PAYSTACK_SECRET_KEY) {
+  throw new Error('PAYSTACK_SECRET_KEY is not set');
+}
+
+const pool = new Pool({ connectionString: process.env.DATABASE_URL });
+const app = express();
+
+/* ------------------------------------------------------------------ */
+/* Helpers                                                             */
+/* ------------------------------------------------------------------ */
+
+const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+/**
+ * Convert a naira amount (""2500"", ""2500.5"", 2500.75) to integer kobo
+ * without floating-point error. Returns null if invalid.
+ */
+function nairaToKobo(input) {
+  const str = typeof input === 'number' ? input.toString() : String(input ?? '').trim();
+  const match = /^(\d+)(?:\.(\d{1,2}))?$/.exec(str);
+  if (!match) return null;
+  const kobo = BigInt(match[1]) * 100n + BigInt((match[2] || '').padEnd(2, '0') || '0');
+  if (kobo <= 0n || kobo > BigInt(Number.MAX_SAFE_INTEGER)) return null;
+  return Number(kobo);
+}
+
+function generateReference() {
+  return `ord_${Date.now()}_${crypto.randomBytes(8).toString('hex')}`;
+}
+
+function isValidPaystackSignature(rawBody, signatureHeader) {
+  if (!signatureHeader || typeof signatureHeader !== 'string') return false;
+  const expected = crypto
+    .createHmac('sha512', PAYSTACK_SECRET_KEY)
+    .update(rawBody)
+    .digest('hex');
+
+  const a = Buffer.from(expected, 'utf8');
+  const b = Buffer.from(signatureHeader, 'utf8');
+  return a.length === b.length && crypto.timingSafeEqual(a, b);
+}
+
+async function paystackRequest(path, { method = 'GET', body } = {}) {
+  const res = await fetch(`${PAYSTACK_BASE}${path}`, {
+    method,
+    headers: {
+      Authorization: `Bearer ${PAYSTACK_SECRET_KEY}`,
+      'Content-Type': 'application/json',
+    },
+    body: body ? JSON.stringify(body) : undefined,
+    signal: AbortSignal.timeout(15000),
+  });
+  const json = await res.json().catch(() => null);
+  if (!res.ok || !json || json.status !== true) {
+    const msg = json?.message || `HTTP ${res.status}`;
+    throw new Error(`Paystack ${method} ${path} failed: ${msg}`);
+  }
+  return json.data;
+}
+
+/* ------------------------------------------------------------------ */
+/* Webhook: registered BEFORE express.json() so we get the raw body.  */
+/* The HMAC must be computed over the exact bytes Paystack sent.       */
+/* ------------------------------------------------------------------ */
+
+app.post(
+  '/webhooks/paystack',
+  express.raw({ type: 'application/json', limit: '1mb' }),
+  async (req, res) => {
+    // 1. Verify that the request is from Paystack.
+    if (!Buffer.isBuffer(req.body) ||
+        !isValidPaystackSignature(req.body, req.get('x-paystack-signature'))) {
+      return res.sendStatus(401);
+    }
+
+    let event;
+    try {
+      event = JSON.parse(req.body.toString('utf8'));
+    } catch {
+      return res.sendStatus(400);
+    }
+
+    // Acknowledge events we don't handle so Paystack stops retrying them.
+    if (event?.event !== 'charge.success') {
+      return res.sendStatus(200);
+    }
+
+    const reference = event.data?.reference;
+    if (!reference) return res.sendStatus(200);
+
+    try {
+      // 2. Re-confirm with Paystack's API (defence in depth). Trust the
+      //    verified transaction, not just the webhook payload.
+      const tx = await paystackRequest(
+        `/transaction/verify/${encodeURIComponent(reference)}`
+      );
+
+      if (tx.status !== 'success') {
+        return res.sendStatus(200);
+      }
+
+      // 3. Idempotent, atomic transition: only a 'pending' order whose
+      //    amount and currency match can become 'paid'. A duplicate webhook
+      //    finds the order already 'paid', updates 0 rows, and does nothing.
+      const update = await pool.query(
+        `UPDATE orders
+            SET status = 'paid',
+                paid_at = now(),
+                paystack_transaction_id = $2
+          WHERE reference = $1
+            AND status = 'pending'
+            AND amount_kobo = $3
+            AND currency = $4
+        RETURNING id, email, amount_kobo`,
+        [reference, tx.id, tx.amount, tx.currency]
+      );
+
+      if (update.rowCount === 1) {
+        const order = update.rows[0];
+        console.info(`Order ${order.id} marked paid (ref ${reference})`);
+        // Run one-time side effects here (fulfilment, receipt email, etc.).
+        // They run only on this branch, so a duplicate webhook cannot trigger them again.
+        return res.sendStatus(200);
+      }
+
+      // Zero rows updated: find out why.
+      const { rows } = await pool.query(
+        'SELECT id, status, amount_kobo, currency FROM orders WHERE reference = $1',
+        [reference]
+      );
+      const order = rows[0];
+
+      if (!order) {
+        console.warn(`Webhook for unknown reference ${reference}`);
+      } else if (order.status === 'paid') {
+        console.info(`Duplicate webhook ignored for order ${order.id} (ref ${reference})`);
+      } else if (order.amount_kobo !== Number(tx.amount) || order.currency !== tx.currency) {
+        // Paid amount doesn't match: never auto-fulfil. Flag it for a person to review.
+        await pool.query(
+          `UPDATE orders SET status = 'needs_review'
+            WHERE id = $1 AND status = 'pending'`,
+          [order.id]
+        );
+        console.error(
+          `Amount/currency mismatch on order ${order.id}: expected ` +
+          `${order.amount_kobo} ${order.currency}, got ${tx.amount} ${tx.currency}`
+        );
+      }
+
+      // Return 200 so Paystack doesn't retry a request we've intentionally handled.
+      return res.sendStatus(200);
+    } catch (err) {
+      // Transient failure (DB down, Paystack verify failed): return 5xx so
+      // Paystack retries later. The idempotent UPDATE makes retries safe.
+      console.error('Paystack webhook processing failed:', err);
+      return res.sendStatus(500);
+    }
+  }
+);
+
+/* ------------------------------------------------------------------ */
+/* JSON body parsing for all other routes                              */
+/* ------------------------------------------------------------------ */
+
+app.use(express.json({ limit: '10kb' }));
+
+/* ------------------------------------------------------------------ */
+/* Start a payment                                                     */
+/* ------------------------------------------------------------------ */
+
+app.post('/payments/initialize', async (req, res) => {
+  const email = typeof req.body?.email === 'string' ? req.body.email.trim() : '';
+  const amountKobo = nairaToKobo(req.body?.amount);
+
+  if (!EMAIL_RE.test(email)) {
+    return res.status(400).json({ error: 'A valid email is required.' });
+  }
+  if (amountKobo === null) {
+    return res.status(400).json({
+      error: 'amount must be a positive naira value with at most 2 decimal places.',
+    });
+  }
+
+  const reference = generateReference();
+
+  // Record the order first so the webhook always has something to match.
+  await pool.query(
+    `INSERT INTO orders (reference, email, amount_kobo, currency, status)
+     VALUES ($1, $2, $3, 'NGN', 'pending')`,
+    [reference, email, amountKobo]
+  );
+
+  try {
+    const data = await paystackRequest('/transaction/initialize', {
+      method: 'POST',
+      body: {
+        email,
+        amount: amountKobo,          // Paystack expects the smallest unit (kobo)
+        currency: 'NGN',
+        reference,
+        ...(PAYSTACK_CALLBACK_URL && { callback_url: PAYSTACK_CALLBACK_URL }),
+      },
+    });
+
+    return res.status(201).json({
+      reference,
+      authorizationUrl: data.authorization_url,
+      accessCode: data.access_code,
+    });
+  } catch (err) {
+    console.error('Paystack initialize failed:', err);
+    await pool.query(
+      `UPDATE orders SET status = 'failed' WHERE reference = $1 AND status = 'pending'`,
+      [reference]
+    ).catch(() => {});
+    return res.status(502).json({ error: 'Could not start payment. Please try again.' });
+  }
+});
+
+/* ------------------------------------------------------------------ */
+
+app.use((err, req, res, _next) => {
+  console.error(err);
+  res.status(500).json({ error: 'Internal server error' });
+});
+
+const port = Number(process.env.PORT) || 3000;
+app.listen(port, () => console.log(`Listening on :${port}`));
+```
+
+## Setup
+
+```bash
+npm install express pg
+export PAYSTACK_SECRET_KEY=sk_test_xxx
+export DATABASE_URL=postgres://user:pass@localhost:5432/shop
+export PAYSTACK_CALLBACK_URL=https://yourapp.com/payment/complete   # optional
+psql ""$DATABASE_URL"" -f schema.sql
+node server.js
+```
+
+In the Paystack Dashboard, go to Settings → API Keys & Webhooks and set the webhook URL to `https://yourapp.com/webhooks/paystack`.
+
+**Example request:**
+
+```bash
+curl -X POST http://localhost:3000/payments/initialize \
+  -H 'Content-Type: application/json' \
+  -d '{""email"":""customer@example.com"",""amount"":""2500.50""}'
+```
+
+Redirect the customer to the returned `authorizationUrl`.
+
+## How the requirements are handled
+
+**Naira to kobo**
+- Paystack expects amounts in kobo.
+- The conversion parses the value as a string instead of multiplying floats, so `""19.99""` becomes exactly `1999` with no rounding error.
+
+**Checking the webhook is genuine**
+- Paystack signs each webhook body with HMAC-SHA512, using your secret key, and sends the result in the `x-paystack-signature` header.
+- The webhook route uses `express.raw()` and is registered before `express.json()`. This matters because the signature only matches the exact raw bytes Paystack sent.
+- The signatures are compared with `crypto.timingSafeEqual`.
+- The handler then calls `GET /transaction/verify/:reference` and acts on Paystack's answer rather than trusting the webhook payload alone.
+
+**Duplicate webhooks**
+- Paystack retries webhooks and can send the same one more than once.
+- The order is marked paid with a single conditional update: `UPDATE ... WHERE reference = $1 AND status = 'pending'`.
+- The database runs this atomically. Even if two copies arrive at the same moment, only one can change the order from `pending` to `paid`. The other updates 0 rows, is logged as a duplicate, and gets a `200` response.
+- One-time side effects (fulfilment, receipts) belong only in the `rowCount === 1` branch, so they run exactly once.
+- The `UNIQUE` constraint on `paystack_transaction_id` adds a second guard.
+
+**Wrong amount or currency**
+- The order is only marked paid if the amount and currency Paystack confirms match what was stored for that order.
+- If they don't match, the order is set to `needs_review` instead of being fulfilled.
+
+**Retry behaviour**
+- Temporary errors (database or network failures) return `500`, so Paystack will retry later.
+- Requests the handler has deliberately processed or ignored return `200`, so Paystack stops resending them.
+- Because marking the order paid is idempotent, retries are always safe.
+
+**Optional hardening**
+- You can also restrict the webhook route to Paystack's published webhook IP addresses (currently `52.31.139.75`, `52.49.173.169` and `52.214.14.220`). If you do, check the list in Paystack's docs, and configure `app.set('trust proxy', ...)` correctly if you run behind a proxy.",Verify in the Paystack docs and sandbox: initialise endpoint and amount in kobo; webhook verified with HMAC SHA512 of the raw body against the x-paystack-signature header; idempotency on the reference. Run it in test mode. Code that does not run = rating 2 at best.,,
+B042,SL07,Personalise outreach using prospect research,"Write the first two lines of a personalised cold email to this prospect, using only the facts below.
+
+Prospect: Daniel Reyes, owner of Reyes Family Dentistry in Tucson, Arizona. Opened a second clinic in March. Posted on LinkedIn that he is hiring a front-desk coordinator because of missed calls. We sell a text reminder and missed-call text-back tool.","Daniel, congrats on opening your second Reyes Family Dentistry clinic in Tucson this March.
+Your LinkedIn post about hiring a front-desk coordinator to handle missed calls made me think our missed-call text-back tool could help you cover those calls without adding payroll.","Check: uses only the given facts, no invented compliments or statistics, connects the missed-call point to the product without overclaiming.",,
+B043,TL01,Translate English documents into Yoruba; Igbo or Hausa,"Translate into Yoruba:
+
+""Your order has been shipped and will arrive in 3 to 5 working days. Please keep your phone on so our rider can reach you.""","Wọ́n ti fi ọjà tí ẹ paṣẹ rẹ̀ ránṣẹ́, yóò sì dé ọ̀dọ̀ yín láàrin ọjọ́ iṣẹ́ mẹ́ta sí márùn-ún. Jọ̀wọ́, ẹ jẹ́ kí fóònù yín wà ní títàn kí ẹni tó ń gbé e wá lè pè yín.","You need a Yoruba speaker to rate this. If you are not fluent, ask one person and record their name as the rater. Rate on correct meaning, natural wording, and correct tone marks.",,
+B044,BK07,Handle payroll with PAYE and pension deductions,"Calculate monthly payroll deductions for a Nigerian employee. Gross monthly pay: 450,000 naira, made up of basic 225,000, housing 112,500, transport 67,500, and other allowances 45,000. State which tax year and which rules you use, show each step, and give net pay.","# Nigeria Monthly Payroll Deductions: Tax Year 2026
+
+## Rules used
+- **Personal income tax:** Nigeria Tax Act 2025, effective 1 Jan 2026. It replaces PITA, and the Consolidated Relief Allowance (CRA) no longer exists.
+- **Pension:** Pension Reform Act 2014. The employee pays 8% of basic + housing + transport. The employer's 10% is not deducted from pay.
+- **National Housing Fund (NHF):** 2.5% of basic salary, deductible for tax.
+- **Rent relief:** 20% of annual rent paid, capped at ₦500,000. No rent was given, so none is applied.
+
+## Assumptions
+- NHF applies to this employee. Some private employers do not deduct it, and an alternative is shown below.
+- No NHIS, life assurance or mortgage interest deductions were provided.
+- The employee is resident, with no other income.
+
+## Step 1: Gross pay
+| | Monthly (₦) | Annual (₦) |
+|---|---|---|
+| Basic | 225,000 | 2,700,000 |
+| Housing | 112,500 | 1,350,000 |
+| Transport | 67,500 | 810,000 |
+| Other allowances | 45,000 | 540,000 |
+| **Gross** | **450,000** | **5,400,000** |
+
+## Step 2: Pension (employee 8%)
+Pensionable pay = 225,000 + 112,500 + 67,500 = ₦405,000
+8% × 405,000 = **₦32,400 per month** (₦388,800 per year)
+
+## Step 3: NHF (2.5% of basic)
+2.5% × 225,000 = **₦5,625 per month** (₦67,500 per year)
+
+## Step 4: Taxable income (annual)
+5,400,000 − 388,800 (pension) − 67,500 (NHF) = **₦4,943,700**
+
+## Step 5: PAYE on the 2026 bands
+| Band | Rate | Income in band (₦) | Tax (₦) |
+|---|---|---|---|
+| First 800,000 | 0% | 800,000 | 0 |
+| Next 2,200,000 | 15% | 2,200,000 | 330,000 |
+| Next 9,000,000 | 18% | 1,943,700 | 349,866 |
+| **Total** | | 4,943,700 | **679,866** |
+
+Monthly PAYE = 679,866 ÷ 12 = **₦56,655.50**
+
+## Step 6: Net pay
+| Item | ₦ per month |
+|---|---|
+| Gross pay | 450,000.00 |
+| Pension (8%) | (32,400.00) |
+| NHF (2.5%) | (5,625.00) |
+| PAYE | (56,655.50) |
+| **Total deductions** | **(94,680.50)** |
+| **Net pay** | **355,319.50** |
+
+Employer cost on top of gross is the 10% pension contribution of ₦40,500 per month. It is not deducted from the employee.
+
+## Sensitivities
+- **No NHF deducted:** taxable income is ₦5,011,200, PAYE is ₦692,016 per year (₦57,668 per month), and net pay is **₦359,932**.
+- **Rent relief:** every ₦1 of relief reduces taxable income by ₦1 and saves tax at 18%. An employee paying ₦2.5M or more in annual rent gets the ₦500,000 maximum. That saves ₦90,000 a year, or ₦7,500 a month, and raises net pay to about ₦362,819.50 (with NHF).
+
+Confirm the bands and any NRS (Nigeria Revenue Service) implementation guidance with your tax adviser before running payroll.","NOT VERIFIED: I have not checked the current rules. Before rating, look up the PAYE bands and relief rules in force for the tax year the model states (the Nigeria Tax Act 2025 took effect in 2026, and older Personal Income Tax Act bands may be what a model uses) and the pension rule from PenCom. Recalculate by hand or have an accountant check. Wrong rules stated confidently = rating 1 or 2.",,
+B045,TL01,Translate English documents into Yoruba; Igbo or Hausa,"Translate into Yoruba:
+
+""Your order has been shipped and will arrive in 3 to 5 working days. Please keep your phone on so our rider can reach you.""","Ìwé àṣẹ rẹ ti ránṣẹ́ sí ọ, yóò sì dé láàárín ọjọ́ iṣẹ́ mẹ́ta sí márùn-ún. Jọ̀wọ́, máa pa foonu rẹ mọ́ kí ẹni tó ń gbé ọjà wa lè kàn ọ́.","You need a Yoruba speaker to rate this. If you are not fluent, ask one person and record their name as the rater. Rate on correct meaning, natural wording, and correct tone marks.",,
+B046,SL02,Write cold emails and follow-ups,Write a cold email of about 90 words to the practice manager of a US dental clinic. We sell an appointment reminder tool that cuts no-shows by sending text reminders. Do not invent statistics or customer names. End with a request for a 15-minute call.,"**Subject:** Fewer empty chairs at [Clinic Name]
+
+Hi [First Name],
+
+Every no-show leaves a gap in the schedule, and a hygienist or dentist waiting with nothing to do. Most front desks don't have time to call every patient ahead of their visit.
+
+Our tool sends automatic text reminders so patients confirm, reschedule, or cancel before the day arrives. That helps you fill open slots sooner and cuts no-shows without adding to your team's workload.
+
+Would you be open to a 15-minute call this week or next to see if it fits your practice?
+
+Best,
+[Your Name]
+[Company] | [Phone]","Check: no invented numbers, no fake familiarity, about 90 words, a single clear ask.",,
+B047,TR07,Format transcripts to a client style guide,"Format this raw transcript to a client style guide: clean verbatim (remove filler words like 'um', 'you know', repeated words), a new line for each speaker change, speaker labels 'Speaker 1:' and 'Speaker 2:', correct punctuation. Do not change meaning or wording otherwise.
+
+""um so how long have you been selling at the market you know the the Balogun market and speaker two yeah about eight years now my mother started it before me so um we sell fabric mostly and speaker one and is it hard now with the dollar the way it is speaker two it is hard o very hard we just have to you know manage""","Speaker 1: So, how long have you been selling at the market, the Balogun market?
+
+Speaker 2: Yeah, about eight years now. My mother started it before me. So, we sell fabric mostly.
+
+Speaker 1: And is it hard now with the dollar the way it is?
+
+Speaker 2: It is hard o, very hard. We just have to manage.","Check: two speakers, fillers gone, 'o' kept (it is meaning-bearing in Nigerian English), no added words.",,
+B048,TU07,Create worked solutions for maths or science problems,"A student in SS1 is stuck on this problem: A car starts from rest and accelerates at 2 m/s² for 8 seconds, then moves at constant speed for 10 seconds. Find the total distance travelled. Write a step-by-step worked solution the student can follow.","# Total Distance Travelled
+
+**Given:**
+- Initial velocity: u = 0 m/s (starts from rest)
+- Acceleration: a = 2 m/s²
+- Time of acceleration: t₁ = 8 s
+- Time at constant speed: t₂ = 10 s
+
+**Find:** Total distance travelled, s_total
+
+---
+
+## Step 1: Split the journey into two parts
+
+The motion has two stages:
+- **Stage 1 (0 to 8 s):** The car accelerates from rest.
+- **Stage 2 (8 s to 18 s):** The car moves at constant speed.
+
+We find the distance for each stage and add them together.
+
+---
+
+## Step 2: Find the speed at the end of Stage 1
+
+Use the first equation of motion:
+
+$$v = u + at$$
+
+Substitute the values:
+
+$$v = 0 + (2)(8)$$
+
+$$v = 16 \text{ m/s}$$
+
+This is the constant speed the car keeps for Stage 2.
+
+---
+
+## Step 3: Find the distance in Stage 1 (accelerating)
+
+Use the second equation of motion:
+
+$$s = ut + \tfrac{1}{2}at^2$$
+
+Substitute u = 0, a = 2, t = 8:
+
+$$s_1 = (0)(8) + \tfrac{1}{2}(2)(8)^2$$
+
+$$s_1 = 0 + \tfrac{1}{2}(2)(64)$$
+
+$$s_1 = 64 \text{ m}$$
+
+**Check:** Average speed in Stage 1 is (0 + 16)/2 = 8 m/s. Distance = 8 × 8 = 64 m. ✓
+
+---
+
+## Step 4: Find the distance in Stage 2 (constant speed)
+
+At constant speed, distance = speed × time:
+
+$$s_2 = v \times t_2$$
+
+$$s_2 = 16 \times 10$$
+
+$$s_2 = 160 \text{ m}$$
+
+---
+
+## Step 5: Add the two distances
+
+$$s_{\text{total}} = s_1 + s_2$$
+
+$$s_{\text{total}} = 64 + 160$$
+
+$$s_{\text{total}} = 224 \text{ m}$$
+
+---
+
+## Final Answer
+
+**The total distance travelled is 224 m.**
+
+---
+
+## Key Points to Remember
+
+1. **Break multi-stage problems into parts.** Each stage can have different equations.
+2. **Use the final velocity of one stage as the starting velocity of the next.** Here, the 16 m/s at the end of acceleration becomes the constant speed.
+3. **Constant speed means zero acceleration**, so distance = speed × time.
+4. **Distance is not the same as displacement** when direction changes, but here the car moves in one direction, so both are equal.",Answer: 64 m + 160 m = 224 m (v = 16 m/s). Rate on correctness and whether the steps are clear for an SS1 student.,,
+B049,DA07,Label or check text in Nigerian languages or Pidgin,"Label the sentiment of each Nigerian Pidgin sentence as Positive, Negative, Neutral, or Mixed. Return a numbered list with only the label.
+
+1. ""This NEPA don take light again. Na so we dey live for this country.""
+2. ""Chai! Today sweet me o, I pass my interview!""
+3. ""The new Lagos-Ibadan train correct sha, e no dey late.""
+4. ""Fuel price don go up again but at least road dey fine small.""
+5. ""I wan buy data, wetin be the cheapest plan?""
+6. ""Dem say na 2 weeks, na 2 months now and still no network. Una too dey lie.""
+7. ""No wahala, we go reach there.""
+8. ""This jollof rice no be for human being, e too sweet pass.""
+9. ""E don do. I no go pay again.""
+10. ""Lagos traffic dey kill person but the weekend vibes dey make up for am.""","1. Negative
+2. Positive
+3. Positive
+4. Mixed
+5. Neutral
+6. Negative
+7. Positive
+8. Positive
+9. Negative
+10. Mixed","Draft gold, confirm yourself: 1 Negative, 2 Positive, 3 Positive, 4 Mixed, 5 Neutral, 6 Negative, 7 Neutral, 8 Positive (praise: 'too sweet pass'), 9 Negative, 10 Mixed. Rating = how many a native speaker would accept: 9-10 right = 4, 7-8 = 3, 5-6 = 2, below = 1.",,
+B050,TL01,Translate English documents into Yoruba; Igbo or Hausa,"Translate into Yoruba:
+
+""Your order has been shipped and will arrive in 3 to 5 working days. Please keep your phone on so our rider can reach you.""","**A ti fi ọjà tí o rà ránṣẹ́, yóò sì dé ọ̀dọ̀ rẹ láàárín ọjọ́ iṣẹ́ mẹ́ta sí márùn-ún. Jọ̀wọ́, jẹ́ kí fóònù rẹ wà ní títàn kí aṣojú wa tó ń kó ẹrù wá lè kàn sí ọ.**","You need a Yoruba speaker to rate this. If you are not fluent, ask one person and record their name as the rater. Rate on correct meaning, natural wording, and correct tone marks.",,
+B051,SM01,Plan a content calendar,"Create a 2-week Instagram content calendar for a small bakery in Lagos that sells cakes and small chops. Table with day, post type, and idea. They post 4 times a week.","# Instagram Content Calendar: Lagos Bakery (Cakes & Small Chops)
+**Period:** Monday, 2 Nov – Sunday, 15 Nov 2026
+**Frequency:** 4 posts per week (Mon, Wed, Fri, Sat)
+
+## Week 1: ""Meet the Bakery"" + Weekend Party Orders
+
+| Day | Post Type | Idea |
+|---|---|---|
+| **Mon, 2 Nov** | Reel | **""From oven to box"" morning routine.** Show a 15–20 sec time-lapse of the day's first bake: cracking eggs, frosting a cake, frying puff-puff, then packing everything into branded boxes. Upbeat Afrobeats audio. *Caption hook:* ""Lagos wakes up at 5am. So do we. ☀️🎂"" |
+| **Wed, 4 Nov** | Carousel | **Small Chops Menu Breakdown.** Use one slide per item: puff-puff, samosa, spring rolls, peppered gizzard, chicken wings, and mosa. The final slide shows pack sizes and prices (e.g., 50-pack, 100-pack). CTA: ""Save this for your next owambe 📌"" |
+| **Fri, 6 Nov** | Reel | **Unboxing a full party tray.** Show a close-up reveal of a small chops platter with a sizzling pepper sauce drizzle. Text overlay: ""Weekend plans? We go handle the chops."" CTA: ""Order by Thursday for Saturday delivery. Link in bio / DM us."" |
+| **Sat, 7 Nov** | Static / Photo | **Customer celebration feature.** Repost a happy customer's birthday cake photo (with their permission) and tag them. *Caption:* ""Happy birthday, [Name]! Thank you for letting us be part of your day 🎉"" This builds social proof. |
+
+## Week 2: Engagement + Early December Push
+
+| Day | Post Type | Idea |
+|---|---|---|
+| **Mon, 9 Nov** | Carousel | **""How to order a custom cake"" guide.** Slide 1: pick your size. Slide 2: flavour (vanilla, chocolate, red velvet, coconut). Slide 3: design or theme. Slide 4: lead time (e.g., 3–5 days). Slide 5: how to pay and pick-up/delivery areas (Lekki, Yaba, Ikeja, etc.). This reduces repetitive DMs. |
+| **Wed, 11 Nov** | Reel | **Engagement poll / trend: ""Puff-puff vs. Samosa: which one you dey pick first?""** Use a fun split-screen and ask followers to vote in the comments. Pin the best comment. This boosts reach through the algorithm. |
+| **Fri, 13 Nov** | Reel | **Cake decorating satisfying video.** Show the full transformation of a plain sponge into a finished themed cake, sped up. No talking, just ASMR sounds or trending audio. *Caption hook:* ""Watch this plain cake glow up ✨"" |
+| **Sat, 14 Nov** | Static / Graphic | **December bookings now open.** Use a bold festive graphic announcing end-of-year and Christmas party orders (office parties, family gatherings, weddings). Offer an early-bird perk, such as free delivery or a free 10-pack of puff-puff on orders booked before 30 Nov. CTA: ""Slots are limited. DM to book."" |
+
+## Quick Tips for Execution
+
+- **Best posting times (Lagos):** 7–9am (commute scrolling) and 6–9pm (evening wind-down). Fridays at 12–2pm work well for weekend order reminders.
+- **Hashtags:** Mix local and niche tags, e.g. #LagosBakery #SmallChopsLagos #LagosCakes #LekkiCakes #OwambeVibes #LagosSmallChops #CakesInLagos #NaijaFood.
+- **Stories (daily, in addition to the 4 posts):** Share behind-the-scenes clips, ""orders packed today,"" customer reviews, and polls. Stories keep you visible without extra feed posts.
+- **Always include a clear CTA:** ""DM to order,"" ""Link in bio,"" or a WhatsApp number. Lagos customers often prefer ordering via WhatsApp.
+- **Reuse content:** Every Reel can be repurposed to TikTok and WhatsApp Status for extra reach at no extra cost.","Check: 8 posts across 2 weeks, ideas fit a Lagos bakery (events, orders by WhatsApp, delivery zones) and are not generic.",,
+B052,BK07,Handle payroll with PAYE and pension deductions,"Calculate monthly payroll deductions for a Nigerian employee. Gross monthly pay: 450,000 naira, made up of basic 225,000, housing 112,500, transport 67,500, and other allowances 45,000. State which tax year and which rules you use, show each step, and give net pay.","# Nigerian Payroll Deduction Computation
+
+**Pay period:** Monthly, tax year 2026 (1 January – 31 December 2026)
+**Tax law:** Nigeria Tax Act 2025 (NTA), effective 1 January 2026. It replaces the Personal Income Tax Act (PITA). Under the NTA, the Consolidated Relief Allowance (CRA) no longer exists.
+**Other statutes:** Pension Reform Act 2014; National Housing Fund (NHF) Act
+
+---
+
+## 1. Inputs
+
+| Component | Monthly (₦) | Annual (₦) |
+|---|---:|---:|
+| Basic | 225,000.00 | 2,700,000.00 |
+| Housing | 112,500.00 | 1,350,000.00 |
+| Transport | 67,500.00 | 810,000.00 |
+| Other allowances | 45,000.00 | 540,000.00 |
+| **Gross pay** | **450,000.00** | **5,400,000.00** |
+
+## 2. Rules Applied
+
+**PAYE bands (NTA 2025, annual taxable income):**
+
+| Band | Rate |
+|---|---:|
+| First ₦800,000 | 0% |
+| Next ₦2,200,000 (₦800,001 – ₦3,000,000) | 15% |
+| Next ₦9,000,000 (₦3,000,001 – ₦12,000,000) | 18% |
+| Next ₦13,000,000 (₦12,000,001 – ₦25,000,000) | 21% |
+| Next ₦25,000,000 (₦25,000,001 – ₦50,000,000) | 23% |
+| Above ₦50,000,000 | 25% |
+
+**Deductions allowed in computing taxable income:**
+- Employee pension contribution (approved scheme)
+- NHF contribution
+- Rent relief: 20% of annual rent paid, capped at ₦500,000. This is **not applied** here because no rent information was provided. See section 7.
+
+**Statutory contributions:**
+- Pension: the employee pays 8% and the employer pays 10% of monthly emoluments (basic + housing + transport).
+- NHF: 2.5% of basic salary.
+
+## 3. Step 1: Pension (Employee 8%)
+
+- Pensionable emoluments = 225,000 + 112,500 + 67,500 = **₦405,000/month**
+- Employee pension = 405,000 × 8% = **₦32,400.00/month** (₦388,800/year)
+- Employer pension = 405,000 × 10% = ₦40,500.00/month. This is an employer cost and is **not** deducted from pay.
+
+## 4. Step 2: NHF (2.5% of Basic)
+
+- 225,000 × 2.5% = **₦5,625.00/month** (₦67,500/year)
+
+## 5. Step 3: Annual Taxable Income
+
+| Item | ₦ |
+|---|---:|
+| Annual gross | 5,400,000.00 |
+| Less: pension | (388,800.00) |
+| Less: NHF | (67,500.00) |
+| Less: rent relief | 0.00 (not provided) |
+| **Taxable income** | **4,943,700.00** |
+
+## 6. Step 4: Annual PAYE
+
+| Band | Amount in band (₦) | Rate | Tax (₦) |
+|---|---:|---:|---:|
+| First 800,000 | 800,000.00 | 0% | 0.00 |
+| Next 2,200,000 | 2,200,000.00 | 15% | 330,000.00 |
+| Remainder (4,943,700 − 3,000,000) | 1,943,700.00 | 18% | 349,866.00 |
+| **Total annual PAYE** | 4,943,700.00 | | **679,866.00** |
+
+- **Monthly PAYE** = 679,866 ÷ 12 = **₦56,655.50**
+- Effective tax rate on gross pay: 12.59%
+
+## 7. Step 5: Net Pay
+
+| Item | Monthly (₦) | Annual (₦) |
+|---|---:|---:|
+| Gross pay | 450,000.00 | 5,400,000.00 |
+| Less: PAYE | (56,655.50) | (679,866.00) |
+| Less: employee pension (8%) | (32,400.00) | (388,800.00) |
+| Less: NHF (2.5%) | (5,625.00) | (67,500.00) |
+| **Total deductions** | **(94,680.50)** | **(1,136,166.00)** |
+| **Net pay** | **₦355,319.50** | **₦4,263,834.00** |
+
+**Employer cost (for reference):** 450,000 + 40,500 pension = ₦490,500/month. Contributions for ITF and NSITF are separate employer levies and are not deducted from the employee.
+
+## 8. Assumptions and Sensitivities
+
+1. **Rent relief:** If the employee pays rent and documents it, relief = 20% of annual rent, capped at ₦500,000. At this income level, every ₦1 of relief saves ₦0.18 of tax.
+   - Full relief (annual rent ≥ ₦2,500,000): tax falls by ₦90,000/year, which is ₦7,500/month. Net pay becomes **₦362,819.50**.
+2. **NHF not operated:** Some private-sector employers do not remit NHF. Without it:
+   - Taxable income = ₦5,011,200
+   - Annual PAYE = ₦692,016, which is ₦57,668.00/month
+   - Net pay = **₦359,932.00**
+3. **No other relief claimed:** No NHIS, life assurance, or mortgage-interest deductions were claimed. Each would reduce taxable income if documented.
+4. **Even pay:** Pay is assumed to be the same every month, with no bonuses or arrears in the year. Irregular payments would require cumulative PAYE recalculation.
+5. **Who collects the tax:** PAYE is remitted to the State Internal Revenue Service of the employee's state of residence.","NOT VERIFIED: I have not checked the current rules. Before rating, look up the PAYE bands and relief rules in force for the tax year the model states (the Nigeria Tax Act 2025 took effect in 2026, and older Personal Income Tax Act bands may be what a model uses) and the pension rule from PenCom. Recalculate by hand or have an accountant check. Wrong rules stated confidently = rating 1 or 2.",,
+B053,TL07,Translate Pidgin to standard English and back,"Translate this Nigerian Pidgin into standard English. Keep the meaning and the level of formality.
+
+""Wetin dey happen na say di bank don block my card because dem say I dey try buy something from outside Naija. I don call dem tire, dem tell me make I come branch for Monday.""","""What's happening is that the bank has blocked my card because they say I was trying to buy something from outside Nigeria. I called them several times, but they told me to come to the branch on Monday.""",Meaning: the bank blocked my card because they said I was trying to buy something from abroad. I have called them many times; they told me to come to the branch on Monday. Rate on meaning accuracy and natural register.,,
+B054,TR07,Format transcripts to a client style guide,"Format this raw transcript to a client style guide: clean verbatim (remove filler words like 'um', 'you know', repeated words), a new line for each speaker change, speaker labels 'Speaker 1:' and 'Speaker 2:', correct punctuation. Do not change meaning or wording otherwise.
+
+""um so how long have you been selling at the market you know the the Balogun market and speaker two yeah about eight years now my mother started it before me so um we sell fabric mostly and speaker one and is it hard now with the dollar the way it is speaker two it is hard o very hard we just have to you know manage""","**Speaker 1:** So how long have you been selling at the market, the Balogun market?
+
+**Speaker 2:** Yeah, about eight years now. My mother started it before me. We sell fabric mostly.
+
+**Speaker 1:** And is it hard now, with the dollar the way it is?
+
+**Speaker 2:** It is hard. Very hard. We just have to manage.","Check: two speakers, fillers gone, 'o' kept (it is meaning-bearing in Nigerian English), no added words.",,
+B055,BK02,Reconcile bank statements with the ledger,"Reconcile this bank statement with the cash book for October. List every difference, say what likely caused each, and give a reconciled closing balance.
+
+BANK STATEMENT (NGN)
+01-Oct Opening balance 1,250,000
+03-Oct POS settlement +185,400
+05-Oct Transfer to Adewale Ltd -320,000
+08-Oct SMS alert charge -150
+12-Oct POS settlement +96,250
+15-Oct Account maintenance -1,000
+18-Oct Transfer to Eko Supplies -78,500
+22-Oct POS settlement +210,000
+
+CASH BOOK (NGN)
+01-Oct Opening balance 1,250,000
+03-Oct Sales POS +185,400
+05-Oct Adewale Ltd payment -320,000
+12-Oct Sales POS +96,520
+18-Oct Eko Supplies -78,500
+22-Oct Sales POS +210,000
+25-Oct Cheque 4411 to Okafor -45,000","# October Bank Reconciliation (NGN)
+
+## Balances before reconciliation
+| | Amount |
+|---|---|
+| Bank statement closing balance | 1,342,000 |
+| Cash book closing balance | 1,298,420 |
+| **Difference** | **43,580** |
+
+## Differences found
+
+| # | Date | Item | Bank | Cash book | Likely cause | Action |
+|---|---|---|---|---|---|---|
+| 1 | 08-Oct | SMS alert charge | -150 | not recorded | Bank charge the bookkeeper hasn't entered | Adjust cash book |
+| 2 | 12-Oct | POS settlement | +96,250 | +96,520 | Transposition error (the 5 and 2 swapped), so the cash book is overstated by 270. A short settlement from the POS provider is less likely, but confirm against the POS report. | Correct cash book |
+| 3 | 15-Oct | Account maintenance fee | -1,000 | not recorded | Bank charge not yet entered | Adjust cash book |
+| 4 | 25-Oct | Cheque 4411 to Okafor | not shown | -45,000 | Unpresented cheque. It was issued on 25-Oct and Okafor hasn't banked it yet. | Timing difference only; no cash book change |
+
+All other items (3-Oct POS, Adewale Ltd, Eko Supplies, 22-Oct POS) agree in date and amount.
+
+## Reconciliation
+
+**Adjusted cash book balance**
+| | Amount |
+|---|---|
+| Cash book closing balance | 1,298,420 |
+| Less: POS transposition error (#2) | (270) |
+| Less: SMS alert charge (#1) | (150) |
+| Less: Account maintenance fee (#3) | (1,000) |
+| **Adjusted cash book balance** | **1,297,000** |
+
+**Bank side**
+| | Amount |
+|---|---|
+| Bank statement closing balance | 1,342,000 |
+| Less: Unpresented cheque 4411 (#4) | (45,000) |
+| **Adjusted bank balance** | **1,297,000** |
+
+The two sides agree. Check: 270 + 150 + 1,000 + 45,000 = 46,420, and 1,342,000 − 1,298,420 = 43,580. The net difference is 43,580 because the cash book adjustments (1,420) reduce the cash book while the cheque (45,000) reduces the bank side.
+
+## Reconciled closing balance at 31-Oct: **NGN 1,297,000**
+
+## Journal entries to post
+- Dr Bank charges 1,150 / Cr Bank 1,150 (SMS 150 + maintenance 1,000)
+- Dr Sales (or POS receivable) 270 / Cr Bank 270 (correct the 12-Oct POS entry)
+
+Cheque 4411 should be carried forward as an outstanding item on the November reconciliation.","Answer: 4 differences. Bank charges 150 and 1,000 missing from the cash book; 96,250 vs 96,520 transposition (cash book overstated by 270); cheque 4411 for 45,000 not yet cleared. Bank closing 1,342,000. Cash book closing 1,298,420. Reconciled balance 1,297,000 both ways (1,342,000 - 45,000 and 1,298,420 - 1,420). Rate by how many of these it gets right.",,
+B056,WD07,Integrate Paystack or Flutterwave payments,"Write an Express.js endpoint that starts a Paystack payment for a given email and amount in naira, and a second endpoint that receives the Paystack webhook, verifies it is genuine, and marks the order paid. Handle the case where the same webhook arrives twice.","## Setup
+
+```bash
+npm init -y
+npm i express better-sqlite3
+```
+
+Requires Node 18+ (for built-in `fetch`). Set `PAYSTACK_SECRET_KEY` in your environment.
+
+## `server.js`
+
+```js
+const crypto = require(""crypto"");
+const express = require(""express"");
+const Database = require(""better-sqlite3"");
+
+const PAYSTACK_SECRET_KEY = process.env.PAYSTACK_SECRET_KEY;
+if (!PAYSTACK_SECRET_KEY) throw new Error(""PAYSTACK_SECRET_KEY is not set"");
+
+const app = express();
+const db = new Database(""orders.db"");
+
+db.exec(`
+  CREATE TABLE IF NOT EXISTS orders (
+    id           INTEGER PRIMARY KEY AUTOINCREMENT,
+    reference    TEXT NOT NULL UNIQUE,
+    email        TEXT NOT NULL,
+    amount_kobo  INTEGER NOT NULL,
+    status       TEXT NOT NULL DEFAULT 'pending',   -- pending | paid
+    paid_at      TEXT,
+    created_at   TEXT NOT NULL DEFAULT (datetime('now'))
+  );
+  -- One row per processed webhook event. The PRIMARY KEY is what makes
+  -- duplicate deliveries safe.
+  CREATE TABLE IF NOT EXISTS webhook_events (
+    event_key    TEXT PRIMARY KEY,
+    received_at  TEXT NOT NULL DEFAULT (datetime('now'))
+  );
+`);
+
+/* ------------------------------------------------------------------ */
+/* 1. Webhook — registered BEFORE express.json() because signature     */
+/*    verification needs the exact raw bytes Paystack sent.            */
+/* ------------------------------------------------------------------ */
+
+const markPaid = db.transaction((eventKey, reference, paidAmountKobo, currency) => {
+  // Idempotency gate: if this event was already processed, insert is a no-op.
+  const inserted = db
+    .prepare(""INSERT OR IGNORE INTO webhook_events (event_key) VALUES (?)"")
+    .run(eventKey);
+  if (inserted.changes === 0) return ""duplicate"";
+
+  const order = db.prepare(""SELECT * FROM orders WHERE reference = ?"").get(reference);
+  if (!order) return ""unknown_order"";
+
+  if (currency !== ""NGN"" || paidAmountKobo !== order.amount_kobo) {
+    console.error(""Amount/currency mismatch"", { reference, paidAmountKobo, currency, expected: order.amount_kobo });
+    return ""amount_mismatch"";
+  }
+
+  // Conditional update: only transitions pending -> paid, so even without the
+  // gate above, a replay cannot re-apply the change.
+  const res = db
+    .prepare(
+      ""UPDATE orders SET status = 'paid', paid_at = datetime('now') WHERE reference = ? AND status = 'pending'""
+    )
+    .run(reference);
+  return res.changes === 1 ? ""paid"" : ""already_paid"";
+});
+
+app.post(
+  ""/webhooks/paystack"",
+  express.raw({ type: ""application/json"", limit: ""1mb"" }),
+  (req, res) => {
+    const signature = req.get(""x-paystack-signature"");
+    if (!signature || !Buffer.isBuffer(req.body)) return res.sendStatus(401);
+
+    const expected = crypto
+      .createHmac(""sha512"", PAYSTACK_SECRET_KEY)
+      .update(req.body)
+      .digest(""hex"");
+
+    const a = Buffer.from(expected, ""utf8"");
+    const b = Buffer.from(signature, ""utf8"");
+    if (a.length !== b.length || !crypto.timingSafeEqual(a, b)) {
+      return res.sendStatus(401);
+    }
+
+    let event;
+    try {
+      event = JSON.parse(req.body.toString(""utf8""));
+    } catch {
+      return res.sendStatus(400);
+    }
+
+    // Only act on successful charges; acknowledge everything else.
+    if (event.event !== ""charge.success"" || event.data?.status !== ""success"") {
+      return res.sendStatus(200);
+    }
+
+    const { reference, amount, currency, id } = event.data;
+    const eventKey = `charge.success:${id ?? reference}`;
+
+    try {
+      const result = markPaid(eventKey, reference, amount, currency);
+      console.log(`Webhook ${eventKey} -> ${result}`);
+      // Always 200 for duplicates so Paystack stops retrying.
+      return res.sendStatus(200);
+    } catch (err) {
+      // Transaction rolled back, so the event isn't recorded; Paystack will retry.
+      console.error(""Webhook processing failed"", err);
+      return res.sendStatus(500);
+    }
+  }
+);
+
+/* ------------------------------------------------------------------ */
+/* 2. Initialize payment                                               */
+/* ------------------------------------------------------------------ */
+
+app.use(express.json());
+
+app.post(""/payments/initialize"", async (req, res) => {
+  const { email, amount } = req.body ?? {};
+
+  if (typeof email !== ""string"" || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+    return res.status(400).json({ error: ""A valid email is required"" });
+  }
+  if (typeof amount !== ""number"" || !Number.isFinite(amount) || amount <= 0) {
+    return res.status(400).json({ error: ""amount must be a positive number (naira)"" });
+  }
+  const amountKobo = Math.round(amount * 100);
+  if (Math.abs(amountKobo - amount * 100) > 1e-6) {
+    return res.status(400).json({ error: ""amount cannot have more than 2 decimal places"" });
+  }
+
+  const reference = `ord_${crypto.randomUUID()}`;
+
+  try {
+    db.prepare(""INSERT INTO orders (reference, email, amount_kobo) VALUES (?, ?, ?)"")
+      .run(reference, email, amountKobo);
+
+    const psRes = await fetch(""https://api.paystack.co/transaction/initialize"", {
+      method: ""POST"",
+      headers: {
+        Authorization: `Bearer ${PAYSTACK_SECRET_KEY}`,
+        ""Content-Type"": ""application/json"",
+      },
+      body: JSON.stringify({
+        email,
+        amount: amountKobo, // Paystack expects kobo
+        currency: ""NGN"",
+        reference,
+        // callback_url: ""https://yourapp.com/payment/complete"",
+      }),
+    });
+
+    const body = await psRes.json();
+    if (!psRes.ok || !body.status) {
+      console.error(""Paystack initialize failed"", body);
+      return res.status(502).json({ error: ""Could not start payment"" });
+    }
+
+    return res.status(201).json({
+      reference,
+      authorization_url: body.data.authorization_url,
+      access_code: body.data.access_code,
+    });
+  } catch (err) {
+    console.error(err);
+    return res.status(500).json({ error: ""Internal error"" });
+  }
+});
+
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => console.log(`Listening on ${PORT}`));
+```
+
+## Usage
+
+```bash
+PAYSTACK_SECRET_KEY=sk_test_xxx node server.js
+
+curl -X POST localhost:3000/payments/initialize \
+  -H 'Content-Type: application/json' \
+  -d '{""email"":""customer@example.com"",""amount"":2500.50}'
+```
+
+Redirect the customer to the returned `authorization_url`. In the Paystack dashboard (Settings → API Keys & Webhooks), set the webhook URL to `https://your-domain/webhooks/paystack`.
+
+## How it works
+
+- **Amount handling:** naira is converted to kobo (`×100`) and rounded. Values with more than 2 decimals are rejected.
+- **Authenticity:** the webhook computes an HMAC-SHA512 of the raw request body with your secret key and compares it to `x-paystack-signature` using a timing-safe comparison. The route uses `express.raw`, because parsing the JSON first would change the bytes and break the signature.
+- **Duplicates:** two layers protect against a repeated webhook.
+  1. `webhook_events.event_key` is a primary key, so a repeated event's insert is ignored and the handler returns 200 without doing anything.
+  2. The order update is `... WHERE status = 'pending'`, so it can only move to `paid` once.
+  
+  Both steps run in one SQLite transaction. If anything fails, the event isn't recorded and a 500 makes Paystack retry.
+- **Tamper check:** the order is marked paid only if the webhook's amount and currency match what was stored when the payment started.
+
+## Production notes
+
+- With Postgres or MySQL, keep the same pattern: a unique constraint on the event key and a conditional `UPDATE ... WHERE status = 'pending'`, both in one transaction.
+- Do fulfilment (emails, shipping) after the order moves to `paid`, ideally via a queue, so webhook responses stay fast.
+- Optionally restrict the webhook route to Paystack's published IPs as an extra layer. The signature check remains the primary defence.",Verify in the Paystack docs and sandbox: initialise endpoint and amount in kobo; webhook verified with HMAC SHA512 of the raw body against the x-paystack-signature header; idempotency on the reference. Run it in test mode. Code that does not run = rating 2 at best.,,
+B057,CW03,Write product descriptions and ad copy,"Write a product description of about 120 words for an online shop selling to US buyers. Product: handmade Ankara-print tote bag, made in Aba, Nigeria, by a small team of 4 tailors. Cotton wax-print outer, cotton lining, interior zip pocket, 40 cm wide, 35 cm high, sold in 12 print designs, price $38. Tone: warm and clear, no hype.","Handmade in Aba, Nigeria, by a team of four tailors, this tote is cut and sewn from cotton wax-print fabric, a bold Ankara design that is ready to carry through daily errands, market trips, or weekend plans. The outer is lined in soft cotton, and an interior zip pocket keeps keys, cards, and small essentials secure. Measuring 40 cm wide and 35 cm high, it has room for a laptop-sized notebook, a water bottle, and a few groceries. Each bag is stitched by hand, so small variations in placement and finish are part of what makes it unique. Choose from 12 print designs, each sold at the same price of $38.","Check: all facts match the brief, none added (e.g. no invented materials or claims), roughly 120 words, no cliches ('elevate', 'unleash').",,
+B058,TL07,Translate Pidgin to standard English and back,"Translate this Nigerian Pidgin into standard English. Keep the meaning and the level of formality.
+
+""Wetin dey happen na say di bank don block my card because dem say I dey try buy something from outside Naija. I don call dem tire, dem tell me make I come branch for Monday.""","""What's happening is that the bank has blocked my card because they say I was trying to buy something from outside Nigeria. I've called them over and over, and they told me to come to the branch on Monday.""",Meaning: the bank blocked my card because they said I was trying to buy something from abroad. I have called them many times; they told me to come to the branch on Monday. Rate on meaning accuracy and natural register.,,
+B059,WD02,Fix bugs in an existing website,"This React component should show a counter that goes up by 1 every second, but it stays stuck at 1. Fix it and explain why in two sentences.
+
+```jsx
+function Counter() {
+  const [count, setCount] = useState(0);
+  useEffect(() => {
+    const id = setInterval(() => setCount(count + 1), 1000);
+    return () => clearInterval(id);
+  }, []);
+  return <h1>{count}</h1>;
+}
+```","```jsx
+function Counter() {
+  const [count, setCount] = useState(0);
+  useEffect(() => {
+    const id = setInterval(() => setCount(c => c + 1), 1000);
+    return () => clearInterval(id);
+  }, []);
+  return <h1>{count}</h1>;
+}
+```
+
+The effect runs only once because of the empty dependency array, so the interval callback keeps the `count` from the first render (`0`) and calls `setCount(0 + 1)` every second. The functional updater `setCount(c => c + 1)` always gets the latest state from React, so the counter goes up correctly without re-creating the interval.","Root cause: the effect runs once, so the closure always sees count = 0. Fix: setCount(c => c + 1). Run the fix to confirm.",,
+B060,SL07,Personalise outreach using prospect research,"Write the first two lines of a personalised cold email to this prospect, using only the facts below.
+
+Prospect: Daniel Reyes, owner of Reyes Family Dentistry in Tucson, Arizona. Opened a second clinic in March. Posted on LinkedIn that he is hiring a front-desk coordinator because of missed calls. We sell a text reminder and missed-call text-back tool.","Hi Daniel, congratulations on opening the second Reyes Family Dentistry clinic in March. I saw your LinkedIn post about hiring a front-desk coordinator because of missed calls, and it's a problem we help practices solve.","Check: uses only the given facts, no invented compliments or statistics, connects the missed-call point to the product without overclaiming.",,
+B061,CS02,Handle complaints and de-escalate angry customers,"You work support for PayQuick, a Nigerian money transfer app. Policy: a pending transfer is reversed to the sender's wallet automatically within 24 hours. A transfer pending for more than 24 hours must be escalated to the operations team, who respond within 1 business day. Do not promise a refund date. Reply to this customer message:
+
+""Abeg I don send 85,000 naira to my landlord for 3 days now, e still dey pending. Una dey play with my money? If una no fix am today I go report una to CBN. My email na tunde.a@mail.com""","Hello Tunde,
+
+I understand. ₦85,000 meant for your rent stuck for 3 days is stressful, and I'm sorry for the worry this has caused. Your money is not lost, and we're taking this seriously.
+
+Normally, a pending transfer either completes or is reversed to your PayQuick wallet automatically within 24 hours. Since yours has been pending for longer than that, I'm **escalating it to our operations team now** for urgent investigation.
+
+**What happens next:**
+- The operations team will respond within **1 business day**.
+- They will either complete the transfer to your landlord or return the funds to your PayQuick wallet.
+- We'll send updates to **tunde.a@mail.com**.
+
+**To help them move faster, please reply with:**
+1. The transaction reference or ID (you can find it in your transaction history)
+2. The date and time you made the transfer
+3. Your landlord's bank name and account number (the last 4 digits are enough)
+
+I can't promise it will be fully resolved today, and I don't want to give you a date we can't keep. But your case is now with the team that can fix it, and I'll follow up on it.
+
+You also have the right to raise a complaint with the CBN at any time. We hope to resolve this for you first.
+
+Thank you for your patience, and sorry again for the trouble.
+
+Warm regards,
+PayQuick Support","Check: tone calms the customer; replies in a register a Nigerian customer would accept; escalates to ops, does not promise a refund date, does not invent a ticket number or policy beyond what was given.",,
+B062,BK02,Reconcile bank statements with the ledger,"Reconcile this bank statement with the cash book for October. List every difference, say what likely caused each, and give a reconciled closing balance.
+
+BANK STATEMENT (NGN)
+01-Oct Opening balance 1,250,000
+03-Oct POS settlement +185,400
+05-Oct Transfer to Adewale Ltd -320,000
+08-Oct SMS alert charge -150
+12-Oct POS settlement +96,250
+15-Oct Account maintenance -1,000
+18-Oct Transfer to Eko Supplies -78,500
+22-Oct POS settlement +210,000
+
+CASH BOOK (NGN)
+01-Oct Opening balance 1,250,000
+03-Oct Sales POS +185,400
+05-Oct Adewale Ltd payment -320,000
+12-Oct Sales POS +96,520
+18-Oct Eko Supplies -78,500
+22-Oct Sales POS +210,000
+25-Oct Cheque 4411 to Okafor -45,000","# Bank Reconciliation for October
+
+## Closing balances before reconciliation
+
+| | NGN |
+|---|---|
+| Balance per bank statement (22-Oct, last entry) | **1,342,000** |
+| Balance per cash book (25-Oct, last entry) | **1,298,420** |
+| Difference | 43,580 |
+
+## Differences identified
+
+| # | Date | Item | Bank | Cash book | Difference | Likely cause | Action |
+|---|---|---|---|---|---|---|---|
+| 1 | 08-Oct | SMS alert charge | -150 | Not recorded | 150 | Bank charge debited automatically. The business only learns of it from the statement. | Record in cash book as bank charges. |
+| 2 | 15-Oct | Account maintenance fee | -1,000 | Not recorded | 1,000 | Routine bank charge not yet entered. | Record in cash book as bank charges. |
+| 3 | 12-Oct | POS settlement | +96,250 | +96,520 | 270 | Most likely a **transposition error** in the cash book: ""25"" was entered as ""52"". The difference of 270 divides exactly by 9, which is typical of a transposition. | Check the POS settlement report. If 96,250 is correct, reduce the cash book by 270. |
+| 4 | 25-Oct | Cheque 4411 to Okafor | Not shown | -45,000 | 45,000 | **Unpresented cheque.** The cheque was issued on 25-Oct but had not cleared by the statement cut-off. | No cash book change. Show it as a reconciling item and confirm it clears in November. |
+
+Check: 150 + 1,000 + 270 = 1,420 of cash book adjustments, and 45,000 − 1,420 = 43,580. This matches the difference above.
+
+## Step 1: Adjusted cash book
+
+| | NGN |
+|---|---|
+| Cash book balance | 1,298,420 |
+| Less: SMS alert charge | (150) |
+| Less: Account maintenance | (1,000) |
+| Less: Correction of 12-Oct POS entry (96,520 → 96,250) | (270) |
+| **Adjusted cash book balance** | **1,297,000** |
+
+## Step 2: Bank reconciliation statement
+
+| | NGN |
+|---|---|
+| Balance per bank statement | 1,342,000 |
+| Less: Unpresented cheque 4411 (Okafor) | (45,000) |
+| **Adjusted bank balance** | **1,297,000** |
+
+## Reconciled closing balance: **NGN 1,297,000**
+
+The adjusted cash book and adjusted bank balance agree.
+
+## Points to follow up
+
+1. **12-Oct POS amount.** Confirm the correct figure against the POS terminal or acquirer settlement report.
+   - If the sale really was 96,520, the 270 shortfall is probably a deducted merchant service charge. In that case, book it as bank/POS charges rather than as an error correction. The reconciled balance stays the same.
+   - If the bank under-credited, raise the shortfall with the bank.
+2. **Cheque 4411.** Check that it appears on the November statement. If it is still unpresented after a long time, follow up with Okafor.
+3. **Recurring bank charges.** SMS and maintenance fees recur every month. Consider posting them as standard monthly entries so the cash book doesn't fall behind.
+4. **Statement cut-off.** The last bank entry is dated 22-Oct. Confirm that the statement covers the period to 31-Oct, so no late-October bank entries are missing.","Answer: 4 differences. Bank charges 150 and 1,000 missing from the cash book; 96,250 vs 96,520 transposition (cash book overstated by 270); cheque 4411 for 45,000 not yet cleared. Bank closing 1,342,000. Cash book closing 1,298,420. Reconciled balance 1,297,000 both ways (1,342,000 - 45,000 and 1,298,420 - 1,420). Rate by how many of these it gets right.",,
+B063,DA03,Rank or compare two model responses against guidelines,"Guidelines: prefer the response that is accurate, safe, and helpful. A response that gives medical advice with unsafe confidence is worse than one that is careful and still useful.
+
+User prompt: ""My 2 year old has fever and shivering. I think it's malaria. What drug should I give?""
+
+Response A: ""It is malaria. Give 2 tablets of paracetamol and 1 tablet of chloroquine now, then repeat in 6 hours. She should be fine in 2 days.""
+
+Response B: ""Fever and shivering in a toddler can come from malaria or other infections, and in young children it can get serious fast. Please take her to a clinic or health centre today for a malaria test. While you arrange that, you can give paracetamol at the dose on the label for her weight and keep her lightly dressed and drinking fluids. Go to emergency care at once if she is very sleepy, vomits repeatedly, has a seizure, or breathes fast.""
+
+Which response is better under the guidelines? Answer with A or B, then give a reason in 3 sentences.","**B**
+
+Response B is better because it acknowledges that the fever could have several causes, advises a malaria test today, and does not claim a diagnosis it cannot make. It offers only safe interim care, paracetamol dosed by the label for the child's weight, along with fluids and light clothing, and lists clear danger signs that call for emergency care. Response A is unsafe: it states with false certainty that this is malaria, gives fixed doses of paracetamol and chloroquine without regard to weight or local drug resistance, and promises recovery, which could delay treatment for a seriously ill toddler.","Expected: B, because A diagnoses without a test and gives an unsafe drug and dose. Rate 4 if B with a sound reason; 1 if A.",,
+B064,VA02,Schedule meetings across time zones,"I need a 1-hour meeting next week (Monday 9 to Friday 13 November 2026) with three people. One is in Lagos, one in New York, one in Manila. Everyone can only meet between 8:00 and 18:00 in their own local time. Give me 3 meeting slots, with the start time in each person's local time.","# Meeting Slots: Lagos / New York / Manila (9–13 Nov 2026)
+
+## No slot fits everyone's 8:00–18:00 window
+
+No 1-hour slot keeps all three people within 8:00–18:00 local time, on any day.
+
+| City | UTC offset (Nov 2026) | 8:00–18:00 local, in UTC |
+|---|---|---|
+| Lagos (WAT) | UTC+1 | 07:00–17:00 |
+| New York (EST, after DST ended 1 Nov) | UTC−5 | 13:00–23:00 |
+| Manila (PHT) | UTC+8 | 00:00–10:00 |
+
+Manila's day ends (10:00 UTC) three hours before New York's day starts (13:00 UTC). Any 1-hour meeting therefore needs a combined 4 hours outside working hours, split between the New York and Manila attendees. Lagos is comfortably in hours for every option below.
+
+## Three slots that come closest
+
+| # | Date | Lagos | New York | Manila | Who goes outside hours |
+|---|---|---|---|---|---|
+| 1 | Tue 10 Nov | 13:00–14:00 | **07:00–08:00** | **20:00–21:00** | NY starts 1 h early. Manila runs 3 h late. |
+| 2 | Wed 11 Nov | 12:00–13:00 | **06:00–07:00** | **19:00–20:00** | NY starts 2 h early. Manila runs 2 h late (even split). |
+| 3 | Thu 12 Nov | 11:00–12:00 | **05:00–06:00** | **18:00–19:00** | NY starts 3 h early. Manila runs 1 h late. |
+
+All three slots fall on the same calendar date in every city.
+
+## How to choose
+
+- **Pick Option 2** if you want the inconvenience shared equally.
+- **Pick Option 1 or 3** depending on whether the New York or Manila attendee is more flexible. Asking them is the quickest way to decide.
+- **For a recurring meeting,** rotate between Options 1 and 3 so the same person isn't always the one stretching.
+- **If no one can stretch,** consider two short overlapping calls (Lagos + New York at 13:00–17:00 UTC, and Lagos + Manila at 07:00–10:00 UTC), with Lagos relaying between them. You could also handle part of the agenda in writing.","Trap: there is no slot. In November 2026 Lagos is UTC+1, New York UTC-5, Manila UTC+8. Manila's window ends at 10:00 UTC, New York's starts at 13:00 UTC. Best answer says no common slot exists and offers the smallest relaxation. Rate 1 if it lists slots anyway.",,
+B065,WD07,Integrate Paystack or Flutterwave payments,"Write an Express.js endpoint that starts a Paystack payment for a given email and amount in naira, and a second endpoint that receives the Paystack webhook, verifies it is genuine, and marks the order paid. Handle the case where the same webhook arrives twice.","```js
+// app.js
+// Requires Node 18+ (global fetch), and these packages: npm i express pg
+//
+// Schema:
+//   CREATE TABLE orders (
+//     id           BIGSERIAL PRIMARY KEY,
+//     reference    TEXT UNIQUE NOT NULL,
+//     email        TEXT NOT NULL,
+//     amount_kobo  BIGINT NOT NULL,
+//     currency     TEXT NOT NULL DEFAULT 'NGN',
+//     status       TEXT NOT NULL DEFAULT 'pending',
+//     paystack_transaction_id BIGINT,
+//     paid_at      TIMESTAMPTZ
+//   );
+//   CREATE TABLE webhook_events (
+//     event_key    TEXT PRIMARY KEY,
+//     event_type   TEXT NOT NULL,
+//     received_at  TIMESTAMPTZ NOT NULL DEFAULT now(),
+//     payload      JSONB NOT NULL
+//   );
+//
+// Env: PAYSTACK_SECRET_KEY, DATABASE_URL, APP_BASE_URL, PORT (optional)
+
+import express from 'express';
+import crypto from 'node:crypto';
+import pg from 'pg';
+
+const PAYSTACK_SECRET = process.env.PAYSTACK_SECRET_KEY;
+const APP_BASE_URL = process.env.APP_BASE_URL;
+const PAYSTACK_API = 'https://api.paystack.co';
+
+if (!PAYSTACK_SECRET || !process.env.DATABASE_URL || !APP_BASE_URL) {
+  throw new Error('Missing PAYSTACK_SECRET_KEY, DATABASE_URL, or APP_BASE_URL');
+}
+
+const pool = new pg.Pool({ connectionString: process.env.DATABASE_URL });
+const app = express();
+
+// ---------------------------------------------------------------------------
+// 1. Start a payment
+//    POST /payments/initialize  { ""email"": ""..."", ""amountNaira"": 2500.50 }
+// ---------------------------------------------------------------------------
+app.post('/payments/initialize', express.json(), async (req, res) => {
+  const { email, amountNaira } = req.body ?? {};
+
+  if (typeof email !== 'string' || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+    return res.status(400).json({ error: 'A valid email is required' });
+  }
+
+  // Naira -> kobo (Paystack amounts are integers in the smallest unit)
+  const amountKobo = Math.round(Number(amountNaira) * 100);
+  if (!Number.isSafeInteger(amountKobo) || amountKobo <= 0) {
+    return res.status(400).json({ error: 'amountNaira must be a positive number' });
+  }
+
+  const reference = `ord_${crypto.randomUUID()}`;
+
+  // Create the order first so the webhook always has something to match.
+  const { rows } = await pool.query(
+    `INSERT INTO orders (reference, email, amount_kobo, currency, status)
+     VALUES ($1, $2, $3, 'NGN', 'pending')
+     RETURNING id`,
+    [reference, email, amountKobo]
+  );
+
+  let psRes;
+  try {
+    psRes = await fetch(`${PAYSTACK_API}/transaction/initialize`, {
+      method: 'POST',
+      headers: {
+        Authorization: `Bearer ${PAYSTACK_SECRET}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        email,
+        amount: amountKobo,
+        currency: 'NGN',
+        reference,
+        callback_url: `${APP_BASE_URL}/payments/callback`,
+        metadata: { order_id: rows[0].id },
+      }),
+    });
+  } catch (err) {
+    console.error('Paystack initialize network error', err);
+    return res.status(502).json({ error: 'Payment provider unreachable' });
+  }
+
+  const body = await psRes.json().catch(() => ({}));
+  if (!psRes.ok || !body.status) {
+    console.error('Paystack initialize failed', psRes.status, body);
+    await pool.query(`UPDATE orders SET status = 'failed' WHERE reference = $1`, [reference]);
+    return res.status(502).json({ error: 'Could not start payment' });
+  }
+
+  return res.status(201).json({
+    orderId: rows[0].id,
+    reference,
+    authorizationUrl: body.data.authorization_url,
+  });
+});
+
+// ---------------------------------------------------------------------------
+// 2. Paystack webhook
+//    POST /webhooks/paystack
+//    Must use the RAW body for signature verification, so this route is
+//    registered before any global express.json() and uses express.raw().
+// ---------------------------------------------------------------------------
+app.post(
+  '/webhooks/paystack',
+  express.raw({ type: 'application/json' }),
+  async (req, res) => {
+    // --- 2a. Verify the signature -----------------------------------------
+    const signature = req.get('x-paystack-signature');
+    if (!signature) return res.sendStatus(401);
+
+    const expected = crypto
+      .createHmac('sha512', PAYSTACK_SECRET)
+      .update(req.body)
+      .digest();
+
+    const received = Buffer.from(signature, 'hex');
+    if (received.length !== expected.length || !crypto.timingSafeEqual(received, expected)) {
+      return res.sendStatus(401);
+    }
+
+    // --- 2b. Parse the event ----------------------------------------------
+    let event;
+    try {
+      event = JSON.parse(req.body.toString('utf8'));
+    } catch {
+      return res.sendStatus(400);
+    }
+
+    // Acknowledge events we don't care about so Paystack stops retrying them.
+    if (event.event !== 'charge.success') {
+      return res.sendStatus(200);
+    }
+
+    const data = event.data ?? {};
+    // Paystack transaction IDs are unique per transaction, so this key
+    // identifies the event even if the same webhook is delivered twice.
+    const eventKey = `${event.event}:${data.id}`;
+
+    const client = await pool.connect();
+    try {
+      await client.query('BEGIN');
+
+      // --- 2c. Idempotency: claim this event. Duplicates insert nothing. --
+      const claimed = await client.query(
+        `INSERT INTO webhook_events (event_key, event_type, payload)
+         VALUES ($1, $2, $3)
+         ON CONFLICT (event_key) DO NOTHING
+         RETURNING event_key`,
+        [eventKey, event.event, event]
+      );
+
+      if (claimed.rowCount === 0) {
+        await client.query('ROLLBACK');
+        return res.status(200).json({ status: 'duplicate, already processed' });
+      }
+
+      // --- 2d. Look up the order and lock it -------------------------------
+      const { rows } = await client.query(
+        `SELECT id, status, amount_kobo, currency
+           FROM orders
+          WHERE reference = $1
+          FOR UPDATE`,
+        [data.reference]
+      );
+      const order = rows[0];
+
+      if (!order) {
+        console.error('Webhook for unknown reference', data.reference);
+        await client.query('COMMIT');
+        return res.sendStatus(200);
+      }
+
+      // --- 2e. Check the payment actually matches the order ----------------
+      const amountOk = Number(order.amount_kobo) === Number(data.amount);
+      const currencyOk = data.currency === order.currency;
+      const statusOk = data.status === 'success';
+
+      if (!amountOk || !currencyOk || !statusOk) {
+        console.error('Webhook mismatch', {
+          reference: data.reference,
+          expectedKobo: order.amount_kobo,
+          gotKobo: data.amount,
+          currency: data.currency,
+          status: data.status,
+        });
+        // Keep the event record so it isn't reprocessed; do not mark paid.
+        await client.query('COMMIT');
+        return res.sendStatus(200);
+      }
+
+      // --- 2f. Mark paid (no-op if already paid) ---------------------------
+      if (order.status !== 'paid') {
+        await client.query(
+          `UPDATE orders
+              SET status = 'paid',
+                  paid_at = now(),
+                  paystack_transaction_id = $2
+            WHERE id = $1`,
+          [order.id, data.id]
+        );
+      }
+
+      await client.query('COMMIT');
+      return res.sendStatus(200);
+    } catch (err) {
+      await client.query('ROLLBACK');
+      console.error('Webhook processing failed', err);
+      // 500 makes Paystack retry the delivery later.
+      return res.sendStatus(500);
+    } finally {
+      client.release();
+    }
+  }
+);
+
+// Everything after the webhook can use JSON parsing normally.
+app.get('/payments/callback', (req, res) => {
+  // Paystack redirects the customer here. Do not mark orders paid from this
+  // redirect; rely on the webhook. You may poll order status for the UI.
+  res.send('Payment received. We are confirming it now.');
+});
+
+const port = process.env.PORT ?? 3000;
+app.listen(port, () => console.log(`Listening on :${port}`));
+```
+
+**Notes**
+
+- **Authenticity:** Paystack signs each webhook body with HMAC-SHA512 using your secret key and sends it in `x-paystack-signature`. The handler checks this over the raw bytes with a constant-time comparison. Unsigned or altered requests get a 401.
+- **Duplicates:** The event key `charge.success:<transaction id>` is inserted into `webhook_events` with a primary key constraint. A repeat delivery hits the conflict, inserts nothing, and returns 200 without touching the order. Because the claim and the order update share one transaction, a crash mid-processing rolls both back, so Paystack's retry can still succeed.
+- **Correctness checks:** Before marking an order paid, the handler confirms the amount in kobo, the currency, and the status against the stored order. A mismatch is logged and the order is left unpaid.
+- **Retries:** Unknown references return 200 so Paystack stops retrying. Server errors return 500 so Paystack retries.
+- **Optional hardening:** You can also restrict the webhook route to Paystack's published IP addresses, and call `GET /transaction/verify/:reference` before marking an order paid.",Verify in the Paystack docs and sandbox: initialise endpoint and amount in kobo; webhook verified with HMAC SHA512 of the raw body against the x-paystack-signature header; idempotency on the reference. Run it in test mode. Code that does not run = rating 2 at best.,,
+B066,DA03,Rank or compare two model responses against guidelines,"Guidelines: prefer the response that is accurate, safe, and helpful. A response that gives medical advice with unsafe confidence is worse than one that is careful and still useful.
+
+User prompt: ""My 2 year old has fever and shivering. I think it's malaria. What drug should I give?""
+
+Response A: ""It is malaria. Give 2 tablets of paracetamol and 1 tablet of chloroquine now, then repeat in 6 hours. She should be fine in 2 days.""
+
+Response B: ""Fever and shivering in a toddler can come from malaria or other infections, and in young children it can get serious fast. Please take her to a clinic or health centre today for a malaria test. While you arrange that, you can give paracetamol at the dose on the label for her weight and keep her lightly dressed and drinking fluids. Go to emergency care at once if she is very sleepy, vomits repeatedly, has a seizure, or breathes fast.""
+
+Which response is better under the guidelines? Answer with A or B, then give a reason in 3 sentences.","**B**
+
+Response A asserts a diagnosis it cannot make and gives dangerous dosing instructions: ""2 tablets"" of adult-strength paracetamol could badly overdose a 2-year-old, and the chloroquine dosing is wrong and ignores widespread chloroquine resistance. Response B correctly says that fever and shivering in a toddler need a malaria test and can worsen quickly, so it directs the parent to a clinic the same day. It also stays useful by giving safe interim care (paracetamol dosed by weight per the label, fluids, light clothing) and clear danger signs that call for emergency care.","Expected: B, because A diagnoses without a test and gives an unsafe drug and dose. Rate 4 if B with a sound reason; 1 if A.",,

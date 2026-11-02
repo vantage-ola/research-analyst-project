@@ -1,0 +1,67 @@
+blind_id,task_id,rating,comment,confidence,rater,rated_on
+B001,TU07,4,224 m correct; clear steps; graph check; plain text works anywhere,high,claude-opus-5-5,2026-11-02
+B002,BK02,3,"Reconciled balance 1,297,000 correct; leads with POS fee as cause of the 270 instead of transposition (mentions recording error second)",high,claude-opus-5-5,2026-11-02
+B003,CW07,2,"'Up from 42 percent in 2016' is wrong: 41.6% was 2016 exclusion, not inclusion (A2F 2016 overall inclusion was 58.4%). 'One million POS terminals' not verified",med,claude-opus-5-5,2026-11-02
+B004,TU04,3,Answer key correct; Q5 stem says 'gas and a solid' (should be solid and solution) and the output admits it in a note; option D in Q5 is not a plausible distractor,high,claude-opus-5-5,2026-11-02
+B005,TU04,4,Answer key correct; reads like a WAEC paper; distractors plausible,high,claude-opus-5-5,2026-11-02
+B006,SM01,4,"8 posts, Lagos-specific (Island/Mainland delivery, WhatsApp ordering), practical",high,claude-opus-5-5,2026-11-02
+B007,SL07,3,'Second Tucson clinic' invents the second clinic's location,high,claude-opus-5-5,2026-11-02
+B008,TR06,3,Fixed 5 of 6 planted errors and marked Nyra [?] as instructed; changed speaker's 'need' to 'needs' without marking,high,claude-opus-5-5,2026-11-02
+B009,TU07,3,224 m correct and practice problem (135 m) correct; heavy LaTeX would need cleaning for WhatsApp or a doc,high,claude-opus-5-5,2026-11-02
+B010,BK07,3,NTA 2025 bands used match published summaries for the bands this income reaches (0/15/18%); arithmetic correct; assumes NHF applies without saying many private employers don't; NHIS note is a guess,med,claude-opus-5-5,2026-11-02
+B011,WD02,4,Correct fix (functional updater) and correct explanation; includes imports. Not executed; standard fix,high,claude-opus-5-5,2026-11-02
+B012,DA07,4,"10/10 except #7 labelled Positive vs draft Neutral, which is defensible; confirm with a Pidgin speaker",med,claude-opus-5-5,2026-11-02
+B013,WD02,4,Correct fix and explanation. Not executed; standard fix,high,claude-opus-5-5,2026-11-02
+B014,TR06,3,"Same as B008, and split speaker turns that weren't asked for (reasonable, but an inference)",high,claude-opus-5-5,2026-11-02
+B015,TL07,4,Meaning exact; 'until I was exhausted' keeps 'call dem tire',high,claude-opus-5-5,2026-11-02
+B016,SM01,3,"8 posts with local detail (owambe, chin chin) but 'harmattan-free humid weather' is confused; no WhatsApp ordering CTA",high,claude-opus-5-5,2026-11-02
+B017,VA06,4,"All three points, 59 words, nothing invented",high,claude-opus-5-5,2026-11-02
+B018,DA07,4,Same labels as B012; #7 Positive is defensible,med,claude-opus-5-5,2026-11-02
+B019,VA06,4,"All three points, 40 words, nothing invented",high,claude-opus-5-5,2026-11-02
+B020,CW07,3,2023 figure of 74% is supported by EFInA A2F 2023; the 2020 figure of 64% conflicts with reports of 68% (32% excluded); needs a check against the report,med,claude-opus-5-5,2026-11-02
+B021,SL02,4,"No invented stats, about 90 words, one clear ask",high,claude-opus-5-5,2026-11-02
+B022,TU04,3,Answer key correct; 'colour of the reaction vessel' is not a WAEC-style distractor; answers inline rather than as a key,high,claude-opus-5-5,2026-11-02
+B023,VA02,4,Correctly says no slot; offsets right (EST after 1 Nov); options are the smallest relaxations,high,claude-opus-5-5,2026-11-02
+B024,VA06,4,"All three points, 66 words, nothing invented",high,claude-opus-5-5,2026-11-02
+B025,SM02,3,Some natural Pidgin but #2 'smooth like Lagos traffic no dey' doesn't make sense; #4 ties to Monday,med,claude-opus-5-5,2026-11-02
+B026,CW03,3,"Facts match; adds 'roomy enough for a laptop', an unverified product claim",high,claude-opus-5-5,2026-11-02
+B027,SL02,3,Invents a product claim: 'set up to work with common practice management systems',high,claude-opus-5-5,2026-11-02
+B028,CW07,3,"Findex 2021 45% account ownership checks out; EFInA 2023 26% exclusion checks out; 2020 baseline 36% conflicts with a report of 32%. Adds a verify note (useful, but not deliverable text)",med,claude-opus-5-5,2026-11-02
+B029,VA02,3,Correctly says no slot; option 1 is good but options 2 and 3 put New York at 3-5am when smaller relaxations exist,high,claude-opus-5-5,2026-11-02
+B030,SM02,4,"Natural Pidgin ('sweet pass your crush's promises', 'e sweet die'), rules followed",med,claude-opus-5-5,2026-11-02
+B031,CW03,4,All facts match; unit conversion correct; no hype,high,claude-opus-5-5,2026-11-02
+B032,CS02,3,"Correct escalation, no invented ticket or date; long and slightly stiff ('I will not give you a date I can't be sure of')",high,claude-opus-5-5,2026-11-02
+B033,CS02,4,"Short, calm, follows policy exactly, nothing invented",high,claude-opus-5-5,2026-11-02
+B034,SM02,3,Mostly natural; #1 'sweet reach your mouth before you even blink' is awkward,med,claude-opus-5-5,2026-11-02
+B035,CS03,4,All labels defensible; ticket 6 classed Failed transfer with the ambiguity flagged,high,claude-opus-5-5,2026-11-02
+B036,DA03,4,B with a sound reason,high,claude-opus-5-5,2026-11-02
+B037,CS03,4,Matches draft gold; ambiguity on ticket 6 explained,high,claude-opus-5-5,2026-11-02
+B038,CS03,4,"Matches draft gold; table only, as asked",high,claude-opus-5-5,2026-11-02
+B039,TR06,4,Fixed all 6 including Naira; kept 'need' and marked it; no invented content,high,claude-opus-5-5,2026-11-02
+B040,TR07,4,Clean verbatim done; 'o' kept; two speakers correct,high,claude-opus-5-5,2026-11-02
+B041,WD07,4,"Raw-body HMAC SHA512 on x-paystack-signature, kobo conversion without float error, conditional UPDATE for idempotency, verify call, amount check. Syntax checks in Node 25. NOT RUN against the Paystack sandbox; listed webhook IPs not verified",med,claude-opus-5-5,2026-11-02
+B042,SL07,3,'Second clinic in Tucson' implies location not given; 'without adding payroll' clashes with him already hiring,high,claude-opus-5-5,2026-11-02
+B043,TL01,3,"Reads as correct and polite (ẹ plural respect form), tone marks present; NOT CHECKED BY A YORUBA SPEAKER",low,claude-opus-5-5,2026-11-02
+B044,BK07,4,"Same correct computation; states NHF assumption and gives a no-NHF and rent-relief sensitivity, both arithmetic-checked",med,claude-opus-5-5,2026-11-02
+B045,TL01,1,"'Ìwé àṣẹ rẹ ti ránṣẹ́ sí ọ' reads as 'your permit/authority document has sent to you', not 'your order has shipped'; 'pa foonu rẹ mọ́' risks reading as 'switch off your phone'. NOT CHECKED BY A YORUBA SPEAKER",low,claude-opus-5-5,2026-11-02
+B046,SL02,4,"No invented stats, about 90 words, one clear ask",high,claude-opus-5-5,2026-11-02
+B047,TR07,4,Clean verbatim done; 'o' kept; two speakers correct,high,claude-opus-5-5,2026-11-02
+B048,TU07,3,224 m correct; LaTeX markup would need cleaning for most channels,high,claude-opus-5-5,2026-11-02
+B049,DA07,4,Same labels as B012; #7 Positive is defensible,med,claude-opus-5-5,2026-11-02
+B050,TL01,3,Reads as correct ('the goods you bought have been sent'); tone marks present; NOT CHECKED BY A YORUBA SPEAKER,low,claude-opus-5-5,2026-11-02
+B051,SM01,4,"8 posts, strong local detail (mosa, owambe, December push), clear CTAs",high,claude-opus-5-5,2026-11-02
+B052,BK07,4,Same correct computation with full band table and sensitivities; arithmetic checked,med,claude-opus-5-5,2026-11-02
+B053,TL07,3,Meaning right; 'several times' undersells 'call dem tire',high,claude-opus-5-5,2026-11-02
+B054,TR07,3,"Dropped the meaning-bearing 'o' and rewrote 'It is hard o, very hard' into two sentences; markdown bold on labels",high,claude-opus-5-5,2026-11-02
+B055,BK02,4,"All four differences, transposition identified, correct balance, correct correcting journals",high,claude-opus-5-5,2026-11-02
+B056,WD07,4,"Correct signature check, event-key idempotency in a transaction, amount check. Syntax checks. NOT RUN against the sandbox",med,claude-opus-5-5,2026-11-02
+B057,CW03,3,'The outer is lined in soft cotton' is wrong (lining is inside); otherwise accurate,high,claude-opus-5-5,2026-11-02
+B058,TL07,4,Meaning exact; 'over and over' keeps the emphasis,high,claude-opus-5-5,2026-11-02
+B059,WD02,4,Correct fix and explanation. Not executed; standard fix,high,claude-opus-5-5,2026-11-02
+B060,SL07,3,"Only given facts, but the product link is vague ('a problem we help practices solve')",high,claude-opus-5-5,2026-11-02
+B061,CS02,3,Good tone but 'Your money is not lost' and 'they will either complete or return' go beyond what policy lets the agent promise,high,claude-opus-5-5,2026-11-02
+B062,BK02,4,"All four differences, explains the divisible-by-9 transposition test, correct balance, flags statement cut-off",high,claude-opus-5-5,2026-11-02
+B063,DA03,4,B with a sound reason,high,claude-opus-5-5,2026-11-02
+B064,VA02,4,Correctly says no slot; shows the 4-hour combined minimum and three balanced options; arithmetic checked,high,claude-opus-5-5,2026-11-02
+B065,WD07,4,"Correct signature check, event table and row lock, amount check. ESM file with no note about 'type: module' (Node 22+ detects it). Syntax checks. NOT RUN against the sandbox",med,claude-opus-5-5,2026-11-02
+B066,DA03,4,B with a sound reason; names the overdose risk specifically,high,claude-opus-5-5,2026-11-02

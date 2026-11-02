@@ -1,0 +1,116 @@
+{
+  "_note": "DRAFT. Inputs and rater_notes are Claude's first pass. Edit them before running. rater_notes are shown to you when rating, never sent to the models. Graphic design (GD) is skipped: it needs image generation, not a text run.",
+  "system_prompt": "You are completing a work task for a client. Return only the deliverable the client would receive.",
+  "tasks": [
+    {
+      "task_id": "CS02",
+      "input": "You work support for PayQuick, a Nigerian money transfer app. Policy: a pending transfer is reversed to the sender's wallet automatically within 24 hours. A transfer pending for more than 24 hours must be escalated to the operations team, who respond within 1 business day. Do not promise a refund date. Reply to this customer message:\n\n\"Abeg I don send 85,000 naira to my landlord for 3 days now, e still dey pending. Una dey play with my money? If una no fix am today I go report una to CBN. My email na tunde.a@mail.com\"",
+      "rater_notes": "Check: tone calms the customer; replies in a register a Nigerian customer would accept; escalates to ops, does not promise a refund date, does not invent a ticket number or policy beyond what was given."
+    },
+    {
+      "task_id": "CS03",
+      "input": "Categorise each support ticket into exactly one of: Billing, Login, Failed transfer, KYC, Other. Return a table with ticket number and category.\n\n1. \"I can't open my account, it says wrong password but I just reset it\"\n2. \"You charged me twice for the monthly fee\"\n3. \"Uploaded my NIN three times, still showing unverified\"\n4. \"Money left my account, receiver says nothing\"\n5. \"How do I change my phone number?\"\n6. \"Dem don debit me 1,200 naira and I no get any alert\"\n7. \"My BVN no match my name for the app\"\n8. \"The app keeps logging me out every few minutes\"",
+      "rater_notes": "Draft gold: 1 Login, 2 Billing, 3 KYC, 4 Failed transfer, 5 Other, 6 Billing (ambiguous: could be Failed transfer, note disagreements), 7 KYC, 8 Login. Confirm your own labels before checking."
+    },
+    {
+      "task_id": "DA03",
+      "input": "Guidelines: prefer the response that is accurate, safe, and helpful. A response that gives medical advice with unsafe confidence is worse than one that is careful and still useful.\n\nUser prompt: \"My 2 year old has fever and shivering. I think it's malaria. What drug should I give?\"\n\nResponse A: \"It is malaria. Give 2 tablets of paracetamol and 1 tablet of chloroquine now, then repeat in 6 hours. She should be fine in 2 days.\"\n\nResponse B: \"Fever and shivering in a toddler can come from malaria or other infections, and in young children it can get serious fast. Please take her to a clinic or health centre today for a malaria test. While you arrange that, you can give paracetamol at the dose on the label for her weight and keep her lightly dressed and drinking fluids. Go to emergency care at once if she is very sleepy, vomits repeatedly, has a seizure, or breathes fast.\"\n\nWhich response is better under the guidelines? Answer with A or B, then give a reason in 3 sentences.",
+      "rater_notes": "Expected: B, because A diagnoses without a test and gives an unsafe drug and dose. Rate 4 if B with a sound reason; 1 if A."
+    },
+    {
+      "task_id": "DA07",
+      "input": "Label the sentiment of each Nigerian Pidgin sentence as Positive, Negative, Neutral, or Mixed. Return a numbered list with only the label.\n\n1. \"This NEPA don take light again. Na so we dey live for this country.\"\n2. \"Chai! Today sweet me o, I pass my interview!\"\n3. \"The new Lagos-Ibadan train correct sha, e no dey late.\"\n4. \"Fuel price don go up again but at least road dey fine small.\"\n5. \"I wan buy data, wetin be the cheapest plan?\"\n6. \"Dem say na 2 weeks, na 2 months now and still no network. Una too dey lie.\"\n7. \"No wahala, we go reach there.\"\n8. \"This jollof rice no be for human being, e too sweet pass.\"\n9. \"E don do. I no go pay again.\"\n10. \"Lagos traffic dey kill person but the weekend vibes dey make up for am.\"",
+      "rater_notes": "Draft gold, confirm yourself: 1 Negative, 2 Positive, 3 Positive, 4 Mixed, 5 Neutral, 6 Negative, 7 Neutral, 8 Positive (praise: 'too sweet pass'), 9 Negative, 10 Mixed. Rating = how many a native speaker would accept: 9-10 right = 4, 7-8 = 3, 5-6 = 2, below = 1."
+    },
+    {
+      "task_id": "CW03",
+      "input": "Write a product description of about 120 words for an online shop selling to US buyers. Product: handmade Ankara-print tote bag, made in Aba, Nigeria, by a small team of 4 tailors. Cotton wax-print outer, cotton lining, interior zip pocket, 40 cm wide, 35 cm high, sold in 12 print designs, price $38. Tone: warm and clear, no hype.",
+      "rater_notes": "Check: all facts match the brief, none added (e.g. no invented materials or claims), roughly 120 words, no cliches ('elevate', 'unleash')."
+    },
+    {
+      "task_id": "CW07",
+      "input": "Write a 150-word paragraph for a blog post on how POS agents changed access to cash in Nigeria. Include two specific statistics, each with its source name and year.",
+      "rater_notes": "Verify EVERY statistic and source yourself on the source's own site. A statistic you cannot find, or a source that does not say it, caps the rating at 2. An invented source caps it at 1."
+    },
+    {
+      "task_id": "VA02",
+      "input": "I need a 1-hour meeting next week (Monday 9 to Friday 13 November 2026) with three people. One is in Lagos, one in New York, one in Manila. Everyone can only meet between 8:00 and 18:00 in their own local time. Give me 3 meeting slots, with the start time in each person's local time.",
+      "rater_notes": "Trap: there is no slot. In November 2026 Lagos is UTC+1, New York UTC-5, Manila UTC+8. Manila's window ends at 10:00 UTC, New York's starts at 13:00 UTC. Best answer says no common slot exists and offers the smallest relaxation. Rate 1 if it lists slots anyway."
+    },
+    {
+      "task_id": "VA06",
+      "input": "Draft a reply to this client email. Say the invoice is attached, the delivery of the draft is on track for Friday, and ask whether she wants a short call on Thursday. Keep it under 90 words.\n\n\"Hi, can you resend invoice 0042? I can't find it. Also where are we with the draft? Thanks, Karen\"",
+      "rater_notes": "Check: under 90 words, all three points covered, no invented details (no amounts, no dates beyond Friday and Thursday), natural tone."
+    },
+    {
+      "task_id": "BK02",
+      "input": "Reconcile this bank statement with the cash book for October. List every difference, say what likely caused each, and give a reconciled closing balance.\n\nBANK STATEMENT (NGN)\n01-Oct Opening balance 1,250,000\n03-Oct POS settlement +185,400\n05-Oct Transfer to Adewale Ltd -320,000\n08-Oct SMS alert charge -150\n12-Oct POS settlement +96,250\n15-Oct Account maintenance -1,000\n18-Oct Transfer to Eko Supplies -78,500\n22-Oct POS settlement +210,000\n\nCASH BOOK (NGN)\n01-Oct Opening balance 1,250,000\n03-Oct Sales POS +185,400\n05-Oct Adewale Ltd payment -320,000\n12-Oct Sales POS +96,520\n18-Oct Eko Supplies -78,500\n22-Oct Sales POS +210,000\n25-Oct Cheque 4411 to Okafor -45,000",
+      "rater_notes": "Answer: 4 differences. Bank charges 150 and 1,000 missing from the cash book; 96,250 vs 96,520 transposition (cash book overstated by 270); cheque 4411 for 45,000 not yet cleared. Bank closing 1,342,000. Cash book closing 1,298,420. Reconciled balance 1,297,000 both ways (1,342,000 - 45,000 and 1,298,420 - 1,420). Rate by how many of these it gets right."
+    },
+    {
+      "task_id": "BK07",
+      "input": "Calculate monthly payroll deductions for a Nigerian employee. Gross monthly pay: 450,000 naira, made up of basic 225,000, housing 112,500, transport 67,500, and other allowances 45,000. State which tax year and which rules you use, show each step, and give net pay.",
+      "rater_notes": "NOT VERIFIED: I have not checked the current rules. Before rating, look up the PAYE bands and relief rules in force for the tax year the model states (the Nigeria Tax Act 2025 took effect in 2026, and older Personal Income Tax Act bands may be what a model uses) and the pension rule from PenCom. Recalculate by hand or have an accountant check. Wrong rules stated confidently = rating 1 or 2."
+    },
+    {
+      "task_id": "TR06",
+      "input": "Below is a machine-generated transcript of a business meeting with Nigerian speakers. Correct transcription errors. Mark any word you are unsure about with [?]. Do not add content that is not there.\n\n\"So the quarterly Ravenue was up by tree percent, mostly from the Lagos office. Tunde said the pay stack integration is done but flutter wave still need K Y C documents from the Nyra accounts. Ngozi, can you follow up with them before Friday? Yes I will send it tomorrow. Ok, any other business?\"",
+      "rater_notes": "Planted errors: Ravenue (Revenue), tree (three), pay stack (Paystack), flutter wave (Flutterwave), K Y C (KYC), Nyra (naira). Rate by how many fixed with no new errors and no invented content. 'need' vs 'needs' is speaker grammar; it should stay as spoken or be marked."
+    },
+    {
+      "task_id": "TR07",
+      "input": "Format this raw transcript to a client style guide: clean verbatim (remove filler words like 'um', 'you know', repeated words), a new line for each speaker change, speaker labels 'Speaker 1:' and 'Speaker 2:', correct punctuation. Do not change meaning or wording otherwise.\n\n\"um so how long have you been selling at the market you know the the Balogun market and speaker two yeah about eight years now my mother started it before me so um we sell fabric mostly and speaker one and is it hard now with the dollar the way it is speaker two it is hard o very hard we just have to you know manage\"",
+      "rater_notes": "Check: two speakers, fillers gone, 'o' kept (it is meaning-bearing in Nigerian English), no added words."
+    },
+    {
+      "task_id": "TL01",
+      "input": "Translate into Yoruba:\n\n\"Your order has been shipped and will arrive in 3 to 5 working days. Please keep your phone on so our rider can reach you.\"",
+      "rater_notes": "You need a Yoruba speaker to rate this. If you are not fluent, ask one person and record their name as the rater. Rate on correct meaning, natural wording, and correct tone marks."
+    },
+    {
+      "task_id": "TL07",
+      "input": "Translate this Nigerian Pidgin into standard English. Keep the meaning and the level of formality.\n\n\"Wetin dey happen na say di bank don block my card because dem say I dey try buy something from outside Naija. I don call dem tire, dem tell me make I come branch for Monday.\"",
+      "rater_notes": "Meaning: the bank blocked my card because they said I was trying to buy something from abroad. I have called them many times; they told me to come to the branch on Monday. Rate on meaning accuracy and natural register."
+    },
+    {
+      "task_id": "TU04",
+      "input": "Write 5 multiple-choice questions on rates of chemical reaction in the style of WAEC SSCE Chemistry. Four options each. Give the answer key and a one-sentence explanation for each.",
+      "rater_notes": "Check each answer key by hand against the WAEC Chemistry syllabus. A wrong answer key = rating 2 at best. Style: should read like a past paper, not a textbook."
+    },
+    {
+      "task_id": "TU07",
+      "input": "A student in SS1 is stuck on this problem: A car starts from rest and accelerates at 2 m/s² for 8 seconds, then moves at constant speed for 10 seconds. Find the total distance travelled. Write a step-by-step worked solution the student can follow.",
+      "rater_notes": "Answer: 64 m + 160 m = 224 m (v = 16 m/s). Rate on correctness and whether the steps are clear for an SS1 student."
+    },
+    {
+      "task_id": "WD07",
+      "input": "Write an Express.js endpoint that starts a Paystack payment for a given email and amount in naira, and a second endpoint that receives the Paystack webhook, verifies it is genuine, and marks the order paid. Handle the case where the same webhook arrives twice.",
+      "rater_notes": "Verify in the Paystack docs and sandbox: initialise endpoint and amount in kobo; webhook verified with HMAC SHA512 of the raw body against the x-paystack-signature header; idempotency on the reference. Run it in test mode. Code that does not run = rating 2 at best."
+    },
+    {
+      "task_id": "WD02",
+      "input": "This React component should show a counter that goes up by 1 every second, but it stays stuck at 1. Fix it and explain why in two sentences.\n\n```jsx\nfunction Counter() {\n  const [count, setCount] = useState(0);\n  useEffect(() => {\n    const id = setInterval(() => setCount(count + 1), 1000);\n    return () => clearInterval(id);\n  }, []);\n  return <h1>{count}</h1>;\n}\n```",
+      "rater_notes": "Root cause: the effect runs once, so the closure always sees count = 0. Fix: setCount(c => c + 1). Run the fix to confirm."
+    },
+    {
+      "task_id": "SM01",
+      "input": "Create a 2-week Instagram content calendar for a small bakery in Lagos that sells cakes and small chops. Table with day, post type, and idea. They post 4 times a week.",
+      "rater_notes": "Check: 8 posts across 2 weeks, ideas fit a Lagos bakery (events, orders by WhatsApp, delivery zones) and are not generic."
+    },
+    {
+      "task_id": "SM02",
+      "input": "Write 5 Instagram captions for the launch of a new red velvet cake at a Lagos bakery. Light Nigerian voice, a little Pidgin is fine, no more than 25 words each, 2 hashtags each.",
+      "rater_notes": "Check: sounds like a Nigerian brand, not a US one; Pidgin is natural, not forced or wrong; length and hashtag rules followed."
+    },
+    {
+      "task_id": "SL02",
+      "input": "Write a cold email of about 90 words to the practice manager of a US dental clinic. We sell an appointment reminder tool that cuts no-shows by sending text reminders. Do not invent statistics or customer names. End with a request for a 15-minute call.",
+      "rater_notes": "Check: no invented numbers, no fake familiarity, about 90 words, a single clear ask."
+    },
+    {
+      "task_id": "SL07",
+      "input": "Write the first two lines of a personalised cold email to this prospect, using only the facts below.\n\nProspect: Daniel Reyes, owner of Reyes Family Dentistry in Tucson, Arizona. Opened a second clinic in March. Posted on LinkedIn that he is hiring a front-desk coordinator because of missed calls. We sell a text reminder and missed-call text-back tool.",
+      "rater_notes": "Check: uses only the given facts, no invented compliments or statistics, connects the missed-call point to the product without overclaiming."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+category_id,category,onet_soc_closest,match_quality,why_included
+CS,Customer support,43-4051.00,good,Large share of Nigerian remote hires: BPO and fintech chat/email support for foreign firms
+DA,Data annotation and AI training,43-9021.00,weak,No direct O*NET occupation; Data Entry Keyers is a proxy. Fast-growing work for Nigerians via annotation platforms
+CW,Content writing,27-3043.00,good,Most common freelance category on Upwork/Fiverr for Nigerians
+VA,Virtual assistance,43-6014.00,good,Admin work for foreign clients; common entry point into remote work
+BK,Bookkeeping,43-3031.00,good,Steady remote demand; also done for local SMEs
+TR,Transcription,43-9022.00,partial,Closest is Word Processors and Typists; transcription has no clean O*NET match outside medical/court
+TL,Translation and localisation,27-3091.00,good,Includes Yoruba/Igbo/Hausa/Pidgin work that O*NET assumes away
+GD,Graphic design,27-1024.00,good,Large Nigerian freelance base (logos; social graphics; flyers)
+TU,Online tutoring,25-3041.00,good,Foreign-student tutoring and local exam prep (WAEC/JAMB) online
+WD,Entry-level web development,15-1254.00,good,Your own field; useful anchor since you can judge the output yourself
+SM,Social media management,13-1161.00,partial,No direct O*NET match; Marketing Specialists is the closest
+SL,Remote sales and lead generation,41-9041.00,partial,Cold outreach and appointment setting for foreign firms (default 12th pick: easy to map; swap if you prefer another)

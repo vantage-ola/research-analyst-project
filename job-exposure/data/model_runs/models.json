@@ -1,0 +1,15 @@
+{
+  "_note": "IDs checked 2026-11-02. claude-cli runs use the local Claude CLI login (no API key); openrouter IDs checked against openrouter.ai/api/v1/models.",
+  "temperature": 0.3,
+  "max_tokens": 4000,
+  "models_claude_cli": [
+    "claude-haiku-5-5",
+    "claude-sonnet-5-5",
+    "claude-opus-5-5"
+  ],
+  "models_openrouter": [
+    "anthropic/claude-sonnet-5.5",
+    "openai/gpt-5.6-terra-pro",
+    "deepseek/deepseek-v4.1-flash"
+  ]
+}
