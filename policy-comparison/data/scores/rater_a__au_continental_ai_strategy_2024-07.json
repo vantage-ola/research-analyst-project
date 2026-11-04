@@ -1,0 +1,164 @@
+{
+ "scores": {
+  "binding_force": {
+   "score": 1,
+   "page": 5,
+   "quote": "was adopted by the AU Executive Council during its 45th Ordinary Session",
+   "reason": "The AU Executive Council adopted the Strategy, but the document does not say it creates any law or regulation with legal force."
+  },
+  "responsible_body": {
+   "score": 2,
+   "page": 9,
+   "quote": "Develop a 5 Year Implementation Plan of the Continental AI Strategy",
+   "reason": "Under the heading 'The African Union Commission to:', the AUC gets specific duties (implementation plan, risk research, annual safety conference, expert group), though most action areas have no single owner."
+  },
+  "funding": {
+   "score": 1,
+   "page": 61,
+   "quote": "Mobilise regional and international development funds, with private and philanthropic funding,",
+   "reason": "Funding sources are named for a proposed regional fund, but no amount or budget is stated anywhere."
+  },
+  "measurable_targets": {
+   "score": 2,
+   "page": 61,
+   "quote": "Organise two forums on “Financing Responsible AI for Africa ”, between 2025 and 2030.",
+   "reason": "This is a numerical target with a deadline, though it is only an output count; the document has no numerical outcome targets."
+  },
+  "jobs_workforce": {
+   "score": 2,
+   "page": 7,
+   "quote": "including the provision of upskilling and reskilling programmes and requirements for jobs at risk",
+   "reason": "Beyond skills goals, it commits to reskilling for jobs at risk (p.7) and to national policy on labour transformations (p.51)."
+  },
+  "risk_safety": {
+   "score": 2,
+   "page": 38,
+   "quote": "Establish a regional independent AI Ethics Board, which reviews applications from AI research groups",
+   "reason": "It names specific mechanisms: an ethics review board for large-scale systems, red-teaming, transparency registers and impact assessments."
+  },
+  "data_protection": {
+   "score": 2,
+   "page": 60,
+   "quote": "data transfers for AI in line with the Malabo Convention and AU Data Policy Framework",
+   "reason": "It links AI data transfers to the Malabo Convention, which page 26 names as the AU Convention on Cybersecurity and Personal Data Protection."
+  },
+  "enforcement": {
+   "score": 1,
+   "page": 37,
+   "quote": "enforce compliance with standards as they emerge, and provide access to redress and remedy",
+   "reason": "Enforcement bodies and redress are only proposed for the future with no penalties or process stated, so this is scored at the lower level."
+  },
+  "local_language": {
+   "score": 1,
+   "page": 55,
+   "quote": "promote investment in natural language processing capabilities in local and indigenous African languages",
+   "reason": "Local-language AI is a stated goal, but no specific dataset, model or fund is named, so this is scored at the lower level."
+  },
+  "monitoring_evaluation": {
+   "score": 1,
+   "page": 64,
+   "quote": "Conducting a midterm review of the continental AI strategy in 2027 to refine indicators",
+   "reason": "It sets a 2027 review date and an M&E portal, but the readiness-index indicators are not yet named and no reviewer is designated, so this is scored at the lower level."
+  }
+ },
+ "vague_commitments": [
+  {
+   "page": 32,
+   "quote": "Implement robust AI governance, regulations, standards, codes of conduct and best practices",
+   "missing": [
+    "owner",
+    "number",
+    "money"
+   ]
+  },
+  {
+   "page": 57,
+   "quote": "Ensure the highest standard of AI safety and security across the Continent",
+   "missing": [
+    "owner",
+    "number",
+    "date",
+    "money"
+   ]
+  },
+  {
+   "page": 38,
+   "quote": "Develop Guidelines on the Ethics of AI that are adapted to Africa context",
+   "missing": [
+    "owner",
+    "number",
+    "date",
+    "money"
+   ]
+  },
+  {
+   "page": 58,
+   "quote": "Create an enabling policy and regulatory environment to attract Investments in AI",
+   "missing": [
+    "owner",
+    "number",
+    "date",
+    "money"
+   ]
+  },
+  {
+   "page": 51,
+   "quote": "Assess AI’s implication on the African labour market, namely vulnerable groups",
+   "missing": [
+    "owner",
+    "number",
+    "date",
+    "money"
+   ]
+  },
+  {
+   "page": 55,
+   "quote": "Support the development of AI capabilities in local African languages",
+   "missing": [
+    "owner",
+    "number",
+    "date",
+    "money"
+   ]
+  },
+  {
+   "page": 10,
+   "quote": "Declare AI as a national priority and mobilise domestic resources",
+   "missing": [
+    "number",
+    "date",
+    "money"
+   ]
+  },
+  {
+   "page": 43,
+   "quote": "Build national and institutional pre -emptive validation mechanisms for AI systems",
+   "missing": [
+    "owner",
+    "number",
+    "date",
+    "money"
+   ]
+  }
+ ],
+ "safety": {
+  "frontier_risk": {
+   "answer": "yes",
+   "page": 61,
+   "quote": "global debates around AI governance and future planetary and existential risks of AI"
+  },
+  "model_evaluation": {
+   "answer": "yes",
+   "page": 38,
+   "quote": "high-risk issues within AI systems, such as AI Bounty Contests and Red -Teaming efforts"
+  },
+  "incident_reporting": {
+   "answer": "yes",
+   "page": 38,
+   "quote": "any incidents that occur from their use, and details on how to submit complaints"
+  }
+ },
+ "rater": "rater_a",
+ "model": "claude-opus-5-5",
+ "doc_id": "au_continental_ai_strategy_2024-07"
+}

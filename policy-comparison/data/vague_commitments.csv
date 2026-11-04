@@ -1,0 +1,71 @@
+doc_id,country,page,quote,missing,flagged_by
+au_continental_ai_strategy_2024-07,African Union,10,Declare AI as a national priority and mobilise domestic resources,date;money;number,both
+au_continental_ai_strategy_2024-07,African Union,10,Develop innovative financing mechanisms and mobilize financial resources,date;money;number,rater_b
+au_continental_ai_strategy_2024-07,African Union,10,Develop innovative and agile regulatory instruments and frameworks,date;money;number,rater_b
+au_continental_ai_strategy_2024-07,African Union,32,"Implement robust AI governance, regulations, standards, codes of conduct and best practices",money;number;owner,rater_a
+au_continental_ai_strategy_2024-07,African Union,38,Develop Guidelines on the Ethics of AI that are adapted to Africa context,date;money;number;owner,rater_a
+au_continental_ai_strategy_2024-07,African Union,38,Put in place practical tools and standards to guide the development,date;money;number;owner,rater_b
+au_continental_ai_strategy_2024-07,African Union,43,Build national and institutional pre -emptive validation mechanisms for AI systems,date;money;number;owner,rater_a
+au_continental_ai_strategy_2024-07,African Union,51,"Assess AI’s implication on the African labour market, namely vulnerable groups",date;money;number;owner,rater_a
+au_continental_ai_strategy_2024-07,African Union,55,Support the development of AI capabilities in local African languages,date;money;number;owner,rater_a
+au_continental_ai_strategy_2024-07,African Union,57,Ensure the highest standard of AI safety and security across the Continent,date;money;number;owner,rater_a
+au_continental_ai_strategy_2024-07,African Union,58,Create an enabling policy and regulatory environment to attract Investments in AI,date;money;number;owner,rater_a
+au_continental_ai_strategy_2024-07,African Union,60,Establish communities of practices on AI.,date;money;number;owner,rater_b
+au_continental_ai_strategy_2024-07,African Union,61,Engage with multilateral and bilateral institutions and countries on AI issues,date;money;number;owner,rater_b
+au_continental_ai_strategy_2024-07,African Union,64,Develop adequate communication plan & strategy,date;money;number;owner,rater_b
+egypt_ai_strategy_2025-2030,Egypt,20,More supercomputers will be made available to researchers and organizations working on AI projects,date;money;number;owner,both
+egypt_ai_strategy_2025-2030,Egypt,22,Protect individuals and organizations from potential risks and misuse of AI technologies,date;money;number;owner,both
+egypt_ai_strategy_2025-2030,Egypt,23,ensure that the domestic talent cultivated in Egypt remains in the country,date;money;number;owner,both
+egypt_ai_strategy_2025-2030,Egypt,15,Regulatory entities will not only ensure compliance but will also dynamically adapt regulations,date;money;number;owner,rater_b
+egypt_ai_strategy_2025-2030,Egypt,17,Providing specific funding for AI-related research and development initiatives,date;money;number;owner,rater_a
+egypt_ai_strategy_2025-2030,Egypt,19,Stringent data security measures will be implemented to protect sensitive and private data.,date;money;number;owner,rater_b
+egypt_ai_strategy_2025-2030,Egypt,20,Sufficient GPU resources will be made available to support AI and deep learning,date;money;number;owner,rater_b
+egypt_ai_strategy_2025-2030,Egypt,21,"Increased investment, specifically in AI and deep tech fields",date;money;number;owner,rater_b
+egypt_ai_strategy_2025-2030,Egypt,24,"A robust and enduring AI investment ecosystem, characterized by ambitious, multi-year funding targets.",date;money;number;owner,rater_a
+egypt_ai_strategy_2025-2030,Egypt,33,The Egyptian government intends to establish a uniform feedback portal,date;money,rater_a
+egypt_ai_strategy_2025-2030,Egypt,36,Egypt expects to achieve high-speed broadband access nationwide,date;money;number;owner,rater_a
+egypt_ai_strategy_2025-2030,Egypt,40,further incentives should be provided to start-ups that have produced outstanding successes,date;money;number;owner,rater_a
+kenya_ai_strategy_2025-2030,Kenya,62,Potential job displacement will be proactively addressed.,date;money;number;owner,both
+kenya_ai_strategy_2025-2030,Kenya,66,Kenya will explore the establishment of domestic manufacturing facilities for AI-specific hardware,date;money;number;owner,both
+kenya_ai_strategy_2025-2030,Kenya,79,Proactively implement a soft regulatory framework for AI,date;money;number;owner,both
+kenya_ai_strategy_2025-2030,Kenya,82,"Launch a public awareness campaign on AI rights, disinformation, misinformation",date;money;number;owner,both
+kenya_ai_strategy_2025-2030,Kenya,14,Kenya’s AI Strategy will prioritise frameworks that safeguard against such threats,date;money;number;owner,rater_a
+kenya_ai_strategy_2025-2030,Kenya,62,An adaptive AI governance framework will be established to respond effectively,date;money;number;owner,rater_b
+kenya_ai_strategy_2025-2030,Kenya,70,Review power supply to digital infrastructure and enhance the ratio of green energy,date;money;number;owner,rater_b
+kenya_ai_strategy_2025-2030,Kenya,72,Develop a national data policy and strategy informed by best practices,date;money;owner,rater_a
+kenya_ai_strategy_2025-2030,Kenya,76,Incentivize the development of AI talent,date;money;number;owner,rater_a
+kenya_ai_strategy_2025-2030,Kenya,77,Develop and implement a national AI talent acquisition program to fill gaps,date;money;number;owner,rater_b
+kenya_ai_strategy_2025-2030,Kenya,78,Develop a national AI risk and safety institute,date;money;owner,rater_a
+kenya_ai_strategy_2025-2030,Kenya,79,Enhance participation in AI policy making and programming processes,date;money;number;owner,rater_b
+kenya_ai_strategy_2025-2030,Kenya,81,Develop a complaints and redress mechanism for citizens to report AI-related concerns,date;money;owner,rater_a
+nigeria_nais_2025-09-19,Nigeria,43,Support green AI projects and innovations across sectors.,date;money;number;owner,both
+nigeria_nais_2025-09-19,Nigeria,6,the strategy focuses on achievable objectives with clear initiatives for implementation,date;money;number;owner,rater_b
+nigeria_nais_2025-09-19,Nigeria,32,Establish national HPC centres with cutting-edge computing capabilities,date;money;number;owner,rater_a
+nigeria_nais_2025-09-19,Nigeria,32,Increased private sector investment in AI infrastructure within a 3-year timeframe,money;number;owner,rater_b
+nigeria_nais_2025-09-19,Nigeria,33,other incentives will encourage investment in critical AI infrastructure,date;money;number;owner,rater_a
+nigeria_nais_2025-09-19,Nigeria,34,Increased number of highly skilled AI professionals working in Nigeria within five years.,money;number;owner,rater_a
+nigeria_nais_2025-09-19,Nigeria,37,These accelerators will provide concentrated support and resources to high-potential AI startups,date;money;number;owner,rater_a
+nigeria_nais_2025-09-19,Nigeria,38,Launch sector-specific AI adoption roadmaps,date;money;number;owner,rater_b
+nigeria_nais_2025-09-19,Nigeria,40,Increased number of individuals with AI skills across various sectors within five years,money;number;owner,rater_b
+nigeria_nais_2025-09-19,Nigeria,41,create an AI Research and Development Fund,date;money;number;owner,rater_a
+nigeria_nais_2025-09-19,Nigeria,42,Creating an enabling policy environment that encourages investment and accelerates AI,date;money;number;owner,rater_b
+nigeria_nais_2025-09-19,Nigeria,44,This group of experts will guide the development and implementation of ethical AI principles,date;money;owner,rater_a
+nigeria_nais_2025-09-19,Nigeria,44,A well-respected and diverse AI Ethics Expert Group (AIEEG) established,date;money;number,rater_b
+nigeria_nais_2025-09-19,Nigeria,46,Establish an AI Governance Regulatory Body,date;money;owner,rater_a
+nigeria_nais_2025-09-19,Nigeria,54,Secure additional funding from the public and private sectors.,date;money;number;owner,rater_a
+nigeria_nais_2025-09-19,Nigeria,54,Explore innovative financing mechanisms,date;money;number;owner,rater_b
+rwanda_ai_policy_2023,Rwanda,6,"Rwanda's school curricula shall adapt for the age of AI, data and digital technologies",date;money;number;owner,both
+rwanda_ai_policy_2023,Rwanda,6,We need to provide mechanisms to enable access to international and world-class cloud computing,date;money;number;owner,rater_a
+rwanda_ai_policy_2023,Rwanda,6,long-term public-sector funding to universities to build capacity in AI education,date;money;number,rater_a
+rwanda_ai_policy_2023,Rwanda,6,"Ensure access to affordable, reliable and secure high performance storage",date;money;number;owner,rater_b
+rwanda_ai_policy_2023,Rwanda,6,The Government will invest in and develop a National Skills Building Program,date;money;number;owner,rater_b
+rwanda_ai_policy_2023,Rwanda,7,we will build transparency and trust with the public,date;money;number;owner,rater_a
+rwanda_ai_policy_2023,Rwanda,7,We will also facilitate AI adoption through AI meet-ups and demonstrations,date;money;number;owner,rater_a
+rwanda_ai_policy_2023,Rwanda,7,Support private sector adoption and prioritization of AI in order to drive robust,date;money;number;owner,rater_b
+rwanda_ai_policy_2023,Rwanda,7,Boost Rwanda’s emerging AI ecosystem.,date;money;number;owner,rater_b
+rwanda_ai_policy_2023,Rwanda,7,Strengthen AI policy and regulation and ensure public trust in AI,date;money;number;owner,rater_b
+rwanda_ai_policy_2023,Rwanda,8,Rwanda will seek to participate in the global fora on AI,date;money;number;owner,rater_a
+rwanda_ai_policy_2023,Rwanda,8,Join platforms shaping the responsible adoption of AI regionally and globally,date;money;number;owner,rater_b
+rwanda_ai_policy_2023,Rwanda,8,Launch an annual participatory consultation forum to update the guidelines,date;money;number,rater_b
+rwanda_ai_policy_2023,Rwanda,13,Conduct a public awareness campaign on AI to create a general understanding of AI,date;money;number,rater_a
+rwanda_ai_policy_2023,Rwanda,15,"Upgrade Rwanda's internet throughput to ensure low latency, low packet loss",date;money;number,rater_a

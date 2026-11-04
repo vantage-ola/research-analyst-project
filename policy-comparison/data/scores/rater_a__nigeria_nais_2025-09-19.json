@@ -1,0 +1,173 @@
+{
+ "scores": {
+  "binding_force": {
+   "score": 0,
+   "page": 4,
+   "quote": "This National Artificial Intelligence Strategy (NAIS) is a living document",
+   "reason": "The document calls itself a strategy and 'living document'; it states no cabinet, parliamentary or equivalent approval and creates no law."
+  },
+  "responsible_body": {
+   "score": 1,
+   "page": 46,
+   "quote": "A well-functioning and respected AI Governance Regulatory System promoted by NITDA",
+   "reason": "NITDA is named, and an AI Governance Regulatory Body is proposed, but no body has stated duties for implementing the whole strategy, and implementation is described as a loose multi-stakeholder effort (p.5), so the lower level applies."
+  },
+  "funding": {
+   "score": 1,
+   "page": 54,
+   "quote": "Secure additional funding from the public and private sectors.",
+   "reason": "Funding is mentioned, including a proposed AI R&D Fund (p.41) and public/private sources, but no amount is committed for the strategy; the US$20 million figure (p.15) describes an existing donor programme."
+  },
+  "measurable_targets": {
+   "score": 1,
+   "page": 35,
+   "quote": "Nigeria aims to reduce unemployment by five percentage points by equipping at least 70%",
+   "reason": "There are numerical targets without specific deadlines (also the <50% grid target, p.32) and deadlines without numbers ('within five years', p.34); the 3MTT four-year figure (p.47) describes a pre-existing programme, not a target of this strategy, so the lower level applies."
+  },
+  "jobs_workforce": {
+   "score": 2,
+   "page": 45,
+   "quote": "Examples include protecting workers' rights through retraining programmes, tailored unemployment benefits",
+   "reason": "Skills goals (p.35, p.41) are paired with a job-displacement horizon scan and legislative reforms covering retraining and unemployment benefits for affected workers."
+  },
+  "risk_safety": {
+   "score": 2,
+   "page": 44,
+   "quote": "provide a structured approach for evaluating the ethical implications of AI projects before deployment",
+   "reason": "The document commits to specific risk measures: a pre-deployment AI ethics assessment framework and a National AI Risk Management Framework with protocols for assessing safety risks (p.47)."
+  },
+  "data_protection": {
+   "score": 2,
+   "page": 29,
+   "quote": "adherence to the Nigeria Data Protection Act, 2023",
+   "reason": "A named data protection law, the NDPA 2023, is explicitly linked to the strategy's data protection principle and discussed at length (pp.19-20)."
+  },
+  "enforcement": {
+   "score": 1,
+   "page": 46,
+   "quote": "ensure compliance with ethical standards, and mediate potential disputes",
+   "reason": "A future regulatory body would ensure compliance and adjudicate, and legislative reforms are planned (p.45), but no penalties, sanctions or concrete enforcement process are stated, so the lower level applies."
+  },
+  "local_language": {
+   "score": 1,
+   "page": 38,
+   "quote": "Replicating Nigeria’s social context and cultural diversity with AI tools and solutions",
+   "reason": "Local context and cultural diversity are stated as goals, but local languages are never mentioned and no datasets, models or funding are named for them."
+  },
+  "monitoring_evaluation": {
+   "score": 1,
+   "page": 59,
+   "quote": "outlining timelines, key performance indicators (KPIs) for progress tracking",
+   "reason": "KPIs and a 'Monitor & Review' risk step updated 'periodically' (p.53) are referenced, but no indicators, named reviewer or review schedule are actually set out in the document."
+  }
+ },
+ "vague_commitments": [
+  {
+   "page": 32,
+   "quote": "Establish national HPC centres with cutting-edge computing capabilities",
+   "missing": [
+    "owner",
+    "number",
+    "date",
+    "money"
+   ]
+  },
+  {
+   "page": 33,
+   "quote": "other incentives will encourage investment in critical AI infrastructure",
+   "missing": [
+    "owner",
+    "number",
+    "date",
+    "money"
+   ]
+  },
+  {
+   "page": 34,
+   "quote": "Increased number of highly skilled AI professionals working in Nigeria within five years.",
+   "missing": [
+    "owner",
+    "number",
+    "money"
+   ]
+  },
+  {
+   "page": 37,
+   "quote": "These accelerators will provide concentrated support and resources to high-potential AI startups",
+   "missing": [
+    "owner",
+    "number",
+    "date",
+    "money"
+   ]
+  },
+  {
+   "page": 41,
+   "quote": "create an AI Research and Development Fund",
+   "missing": [
+    "owner",
+    "number",
+    "date",
+    "money"
+   ]
+  },
+  {
+   "page": 43,
+   "quote": "Support green AI projects and innovations across sectors.",
+   "missing": [
+    "owner",
+    "number",
+    "date",
+    "money"
+   ]
+  },
+  {
+   "page": 44,
+   "quote": "This group of experts will guide the development and implementation of ethical AI principles",
+   "missing": [
+    "owner",
+    "date",
+    "money"
+   ]
+  },
+  {
+   "page": 46,
+   "quote": "Establish an AI Governance Regulatory Body",
+   "missing": [
+    "owner",
+    "date",
+    "money"
+   ]
+  },
+  {
+   "page": 54,
+   "quote": "Secure additional funding from the public and private sectors.",
+   "missing": [
+    "owner",
+    "number",
+    "date",
+    "money"
+   ]
+  }
+ ],
+ "safety": {
+  "frontier_risk": {
+   "answer": "yes",
+   "page": 48,
+   "quote": "an additional risk area that has already manifested since generative AI made its mark"
+  },
+  "model_evaluation": {
+   "answer": "yes",
+   "page": 27,
+   "quote": "robust testing and validation, ongoing monitoring and maintenance, human oversight and intervention"
+  },
+  "incident_reporting": {
+   "answer": "no",
+   "page": null,
+   "quote": null
+  }
+ },
+ "rater": "rater_a",
+ "model": "claude-opus-5-5",
+ "doc_id": "nigeria_nais_2025-09-19"
+}

@@ -1,0 +1,16 @@
+doc_id,country,question,answer,rater_a,rater_b,page,quote,resolution_note
+au_continental_ai_strategy_2024-07,African Union,frontier_risk,yes,yes,yes,61,global debates around AI governance and future planetary and existential risks of AI,
+au_continental_ai_strategy_2024-07,African Union,model_evaluation,yes,yes,yes,38,"high-risk issues within AI systems, such as AI Bounty Contests and Red -Teaming efforts",
+au_continental_ai_strategy_2024-07,African Union,incident_reporting,yes,yes,yes,38,"any incidents that occur from their use, and details on how to submit complaints",
+egypt_ai_strategy_2025-2030,Egypt,frontier_risk,no,no,no,,,
+egypt_ai_strategy_2025-2030,Egypt,model_evaluation,yes,yes,yes,15,"regulations for AI testing and deployment, ensuring the highest standards of safety and ethics",
+egypt_ai_strategy_2025-2030,Egypt,incident_reporting,no,no,yes,,,"p33's feedback portal is for data security breaches, not AI incidents."
+kenya_ai_strategy_2025-2030,Kenya,frontier_risk,no,yes,no,,,"p37 raises privacy concerns about generative AI, an ordinary harm, not frontier-model risk."
+kenya_ai_strategy_2025-2030,Kenya,model_evaluation,yes,yes,yes,78,Implement AI ethical and safety standards through conformity assessment schemes/safety audits,
+kenya_ai_strategy_2025-2030,Kenya,incident_reporting,yes,yes,yes,81,Reduction in reported No. of incidents involving unsafe or harmful AI behaviours,
+nigeria_nais_2025-09-19,Nigeria,frontier_risk,no,yes,no,,,"p48 lists bias, misleading models and adversarial manipulation, ordinary harms of poorly built systems."
+nigeria_nais_2025-09-19,Nigeria,model_evaluation,yes,yes,yes,27,"robust testing and validation, ongoing monitoring and maintenance, human oversight and intervention",
+nigeria_nais_2025-09-19,Nigeria,incident_reporting,no,no,no,,,
+rwanda_ai_policy_2023,Rwanda,frontier_risk,no,no,no,,,
+rwanda_ai_policy_2023,Rwanda,model_evaluation,yes,yes,yes,21,provide controlled testing environment to develop or evaluate innovative Al solutions,
+rwanda_ai_policy_2023,Rwanda,incident_reporting,no,no,no,,,

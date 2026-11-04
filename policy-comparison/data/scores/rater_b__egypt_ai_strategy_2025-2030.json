@@ -1,0 +1,156 @@
+{
+ "scores": {
+  "binding_force": {
+   "score": 0,
+   "page": 4,
+   "quote": "This document sets out Egypt’s strategic intent at a level intended to guide action",
+   "reason": "The document presents itself as a strategy and states no approval by cabinet, parliament or another body for this edition; approval appears only for the 2021 first edition (p.11)."
+  },
+  "responsible_body": {
+   "score": 2,
+   "page": 5,
+   "quote": "formalize, approve and govern the implementation of Egypt’s National AI Strategy",
+   "reason": "The National Council for Artificial Intelligence is named with a stated duty to govern implementation, though most initiatives name no owner."
+  },
+  "funding": {
+   "score": 1,
+   "page": 46,
+   "quote": "Create national AI fund equivalent of $430-860M",
+   "reason": "An amount is given for a national AI fund but no funding source is stated, so it sits at level 1."
+  },
+  "measurable_targets": {
+   "score": 2,
+   "page": 5,
+   "quote": "The number of AI professionals/experts is expected to reach 30,000 by 2030.",
+   "reason": "Several numerical targets carry deadlines, such as 7.7% GDP contribution and 30,000 experts by 2030."
+  },
+  "jobs_workforce": {
+   "score": 1,
+   "page": 5,
+   "quote": "Strengthening the quantity and quality of local AI talents and experts.",
+   "reason": "Skills and training goals are extensive, and the SWOT lists employment impact as a threat (p.12), but no transition, retraining or social protection plan for affected workers exists."
+  },
+  "risk_safety": {
+   "score": 2,
+   "page": 25,
+   "quote": "protecting all citizens against high-risk or prohibited AI",
+   "reason": "The AI law actions include classifying AI system risks and high-risk or prohibited AI, though these are planned rather than in force."
+  },
+  "data_protection": {
+   "score": 2,
+   "page": 10,
+   "quote": "The Egyptian Data Protection Law (No. 151 of 2020)",
+   "reason": "A named data protection law is linked to the strategy, and a Personal Data Protection Authority is also planned (p.19)."
+  },
+  "enforcement": {
+   "score": 2,
+   "page": 19,
+   "quote": "monitoring compliance, investigating data breaches, and imposing penalties for non-compliance",
+   "reason": "The data protection authority linked to the strategy has a stated enforcement process with penalties, though enforcement for AI rules generally is still to be developed."
+  },
+  "local_language": {
+   "score": 2,
+   "page": 16,
+   "quote": "Egypt aims to develop a large national Arabic language model",
+   "reason": "Concrete commitments include a national Arabic model and sectoral Arabic datasets (Initiative 7), though no funding amounts are tied to them."
+  },
+  "monitoring_evaluation": {
+   "score": 1,
+   "page": 45,
+   "quote": "National AI capacity will be evaluated at least annually through periodic assessments.",
+   "reason": "Indicators (89 CAF indicators) and a schedule exist, but no named reviewer is given, so the lower level applies."
+  }
+ },
+ "vague_commitments": [
+  {
+   "page": 15,
+   "quote": "Regulatory entities will not only ensure compliance but will also dynamically adapt regulations",
+   "missing": [
+    "owner",
+    "number",
+    "date",
+    "money"
+   ]
+  },
+  {
+   "page": 20,
+   "quote": "Sufficient GPU resources will be made available to support AI and deep learning",
+   "missing": [
+    "owner",
+    "number",
+    "date",
+    "money"
+   ]
+  },
+  {
+   "page": 20,
+   "quote": "More supercomputers will be made available to researchers and organizations working on AI projects",
+   "missing": [
+    "owner",
+    "number",
+    "date",
+    "money"
+   ]
+  },
+  {
+   "page": 21,
+   "quote": "Increased investment, specifically in AI and deep tech fields",
+   "missing": [
+    "owner",
+    "number",
+    "date",
+    "money"
+   ]
+  },
+  {
+   "page": 22,
+   "quote": "Protect individuals and organizations from potential risks and misuse of AI technologies",
+   "missing": [
+    "owner",
+    "number",
+    "date",
+    "money"
+   ]
+  },
+  {
+   "page": 23,
+   "quote": "Implement measures such as grants and benefits to ensure that the domestic talent",
+   "missing": [
+    "owner",
+    "number",
+    "date",
+    "money"
+   ]
+  },
+  {
+   "page": 19,
+   "quote": "Stringent data security measures will be implemented to protect sensitive and private data.",
+   "missing": [
+    "owner",
+    "number",
+    "date",
+    "money"
+   ]
+  }
+ ],
+ "safety": {
+  "frontier_risk": {
+   "answer": "no",
+   "page": null,
+   "quote": null
+  },
+  "model_evaluation": {
+   "answer": "yes",
+   "page": 15,
+   "quote": "Well-crafted regulations for AI testing and deployment"
+  },
+  "incident_reporting": {
+   "answer": "yes",
+   "page": 33,
+   "quote": "Users will be able to report data breaches, misuses, and other security issues"
+  }
+ },
+ "rater": "rater_b",
+ "model": "claude-sonnet-5-5",
+ "doc_id": "egypt_ai_strategy_2025-2030"
+}

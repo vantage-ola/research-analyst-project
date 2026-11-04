@@ -1,0 +1,41 @@
+{
+ "rater": "rater_b",
+ "model": "claude-sonnet-5-5",
+ "doc_id": "kenya_ai_strategy_2025-2030",
+ "run_at": "2026-11-02T23:35:58.001193+00:00",
+ "reply": "{\"scores\":{\"binding_force\":{\"score\":0,\"page\":7,\"quote\":\"The strategy provides a comprehensive framework to guide Kenya in harnessing\",\"reason\":\"The document presents itself as a strategy and framework, and nowhere states approval by cabinet, parliament or an equivalent body, nor that it creates law.\"},\"responsible_body\":{\"score\":1,\"page\":8,\"quote\":\"Government institutions will provide regulatory and policy guidance, private-sector actors will drive innovation\",\"reason\":\"Responsibility is spread loosely across sectors, and the flagship projects name no owners; the Ministry is named only as the author, so this is scored at the lower level.\"},\"funding\":{\"score\":1,\"page\":80,\"quote\":\"Create a national AI and emerging tech innovation fund\",\"reason\":\"A fund drawn from the National Research Fund is proposed, but no budget or amount is given for the strategy, and the $1 billion Microsoft/G42 figure on page 54 is a partner initiative, so this is scored at the lower level.\"},\"measurable_targets\":{\"score\":2,\"page\":69,\"quote\":\"Build three TIA 942 (ANSI standard) AI-capable data centres within 5 years\",\"reason\":\"Some targets pair a number with a deadline, e.g. three data centres within 5 years and 2 PPP projects in the next 5 years.\"},\"jobs_workforce\":{\"score\":1,\"page\":62,\"quote\":\"Potential job displacement will be proactively addressed.\",\"reason\":\"Skills and training goals are detailed in Table 5.7, but displaced-worker support such as the welfare system appears only as a town hall suggestion and in a general pledge, so this is scored at the lower level.\"},\"risk_safety\":{\"score\":2,\"page\":78,\"quote\":\"Implement AI ethical and safety standards through conformity assessment schemes/safety audits and technical specifications/regulations\",\"reason\":\"Specific measures are named: conformity assessment, safety audits, a national AI risk and safety institute, and mandatory ethical impact assessments for the public sector.\"},\"data_protection\":{\"score\":2,\"page\":40,\"quote\":\"existing laws such as the Data Protection Act and the Consumer Protection Act\",\"reason\":\"The Data Protection Act is named as a foundational framework for AI issues, and the Office of the Data Protection Commissioner appears as a stakeholder.\"},\"enforcement\":{\"score\":1,\"page\":79,\"quote\":\"As AI matures in Kenya, develop an AI and Other Emerging Technologies Act and regulations\",\"reason\":\"Regulation is deferred to later development, and the document states no penalties, sanctions or enforcement process.\"},\"local_language\":{\"score\":1,\"page\":62,\"quote\":\"This includes making AI accessible in local languages.\",\"reason\":\"Local languages are a stated goal, and the priority use cases on page 83 are only 'under consideration' with no dedicated dataset or funding of the strategy's own, so this is scored at the lower level.\"},\"monitoring_evaluation\":{\"score\":1,\"page\":8,\"quote\":\"creating a monitoring and evaluation framework to track progress\",\"reason\":\"KPIs are listed per objective, but no reviewer or review schedule is named and the framework itself is still to be created, so this is scored at the lower level.\"}},\"vague_commitments\":[{\"page\":62,\"quote\":\"Potential job displacement will be proactively addressed.\",\"missing\":[\"owner\",\"number\",\"date\",\"money\"]},{\"page\":62,\"quote\":\"An adaptive AI governance framework will be established to respond effectively\",\"missing\":[\"owner\",\"number\",\"date\",\"money\"]},{\"page\":79,\"quote\":\"Proactively implement a soft regulatory framework for AI\",\"missing\":[\"owner\",\"number\",\"date\",\"money\"]},{\"page\":79,\"quote\":\"Enhance participation in AI policy making and programming processes\",\"missing\":[\"owner\",\"number\",\"date\",\"money\"]},{\"page\":82,\"quote\":\"Launch a public awareness campaign on AI rights\",\"missing\":[\"owner\",\"number\",\"date\",\"money\"]},{\"page\":70,\"quote\":\"Review power supply to digital infrastructure and enhance the ratio of green energy\",\"missing\":[\"owner\",\"number\",\"date\",\"money\"]},{\"page\":66,\"quote\":\"Kenya will explore the establishment of domestic manufacturing facilities for AI-specific hardware\",\"missing\":[\"owner\",\"number\",\"date\",\"money\"]},{\"page\":77,\"quote\":\"Develop and implement a national AI talent acquisition program to fill gaps\",\"missing\":[\"owner\",\"number\",\"date\",\"money\"]}],\"safety\":{\"frontier_risk\":{\"answer\":\"no\",\"page\":null,\"quote\":null},\"model_evaluation\":{\"answer\":\"yes\",\"page\":78,\"quote\":\"conformity assessment schemes/safety audits and technical specifications/regulations\"},\"incident_reporting\":{\"answer\":\"yes\",\"page\":81,\"quote\":\"Develop a complaints and redress mechanism for citizens to report AI-related concerns\"}}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 66145,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 6069,
+  "output_tokens_details": {
+   "thinking_tokens": 4464
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 66145,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 6069,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 66145,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 66145
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ }
+}

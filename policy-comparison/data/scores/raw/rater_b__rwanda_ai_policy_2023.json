@@ -1,0 +1,41 @@
+{
+ "rater": "rater_b",
+ "model": "claude-sonnet-5-5",
+ "doc_id": "rwanda_ai_policy_2023",
+ "run_at": "2026-11-02T23:35:53.252899+00:00",
+ "reply": "{\"scores\":{\"binding_force\":{\"score\":0,\"page\":4,\"quote\":\"serves as a roadmap to enable Rwanda to harness the benefits of AI\",\"reason\":\"The document presents itself as a roadmap and policy with no stated approval by cabinet or parliament, and it does not claim legal force.\"},\"responsible_body\":{\"score\":2,\"page\":9,\"quote\":\"The RAI Office will have the coordinating responsibility of driving the AI policy Implementation Plan.\",\"reason\":\"The Responsible AI Office within MINICT is named with stated duties (coordination, implementation, monitoring), and the plan names lead institutions per activity, though the office is a proposal.\"},\"funding\":{\"score\":1,\"page\":7,\"quote\":\"establish a risk sharing fund to support R&D in the public sector\",\"reason\":\"Funds and budgets are mentioned (risk sharing fund, Seed Investment Fund, a budget column in the plan) but no amounts or specific sources are stated.\"},\"measurable_targets\":{\"score\":1,\"page\":19,\"quote\":\"identify a portfolio of 5 National AI Projects\",\"reason\":\"The only numbers are a few figures such as 5 projects and a 3-year guideline update cycle; indicators have no target values, and the timeline columns give no usable deadlines for those numbers.\"},\"jobs_workforce\":{\"score\":1,\"page\":6,\"quote\":\"Commit to reskilling the workforce with 21st Century AI and data skills.\",\"reason\":\"It covers skills, training and reskilling goals but has no transition plans, retraining for displaced workers or social protection.\"},\"risk_safety\":{\"score\":1,\"page\":8,\"quote\":\"address the range of risks in the AI system lifecycle\",\"reason\":\"It relies on ethics guidelines and a regulatory sandbox, with no risk assessments, high-risk categories or AI audits, so it sits between levels and takes the lower one.\"},\"data_protection\":{\"score\":2,\"page\":14,\"quote\":\"Enforce the Data Protection & Privacy law\",\"reason\":\"The plan links to the Data Protection and Privacy law and names NCSA as the supervisory authority for cloud providers.\"},\"enforcement\":{\"score\":1,\"page\":7,\"quote\":\"strengthening the capacity of regulatory authorities to understand and regulate AI\",\"reason\":\"AI regulation is to be developed and capacity built, with no AI-specific penalties or sanctions; the cloud compliance audit applies to existing rules, so it takes the lower level.\"},\"local_language\":{\"score\":1,\"page\":9,\"quote\":\"Tailored Guidelines on the Ethical Development and Implementation of Artificial\",\"reason\":\"Local context appears as a goal (tailored guidelines, Rwanda-specific sectors), but no local language datasets, models or funding are named.\"},\"monitoring_evaluation\":{\"score\":1,\"page\":9,\"quote\":\"Besides, the RAI Office or RAIO will be tasked with the\",\"reason\":\"RAIO is the named reviewer and indicators are listed per area, but no schedule for monitoring and evaluation is stated, so it takes the lower level.\"}},\"vague_commitments\":[{\"page\":6,\"quote\":\"Ensure access to affordable, reliable and secure high performance storage\",\"missing\":[\"owner\",\"number\",\"date\",\"money\"]},{\"page\":7,\"quote\":\"Support private sector adoption and prioritization of AI in order to drive robust\",\"missing\":[\"owner\",\"number\",\"date\",\"money\"]},{\"page\":7,\"quote\":\"Boost Rwanda\u2019s emerging AI ecosystem.\",\"missing\":[\"owner\",\"number\",\"date\",\"money\"]},{\"page\":7,\"quote\":\"Strengthen AI policy and regulation and ensure public trust in AI\",\"missing\":[\"owner\",\"number\",\"date\",\"money\"]},{\"page\":6,\"quote\":\"The Government will invest in and develop a National Skills Building Program\",\"missing\":[\"owner\",\"number\",\"date\",\"money\"]},{\"page\":6,\"quote\":\"Rwanda\u2019s school curricula shall adapt for the age of AI, data and digital\",\"missing\":[\"number\",\"date\",\"money\"]},{\"page\":8,\"quote\":\"Join platforms shaping the responsible adoption of AI regionally and globally\",\"missing\":[\"owner\",\"number\",\"date\",\"money\"]},{\"page\":8,\"quote\":\"Launch an annual participatory consultation forum to update the guidelines\",\"missing\":[\"number\",\"date\",\"money\"]}],\"safety\":{\"frontier_risk\":{\"answer\":\"no\",\"page\":null,\"quote\":null},\"model_evaluation\":{\"answer\":\"yes\",\"page\":21,\"quote\":\"provide controlled testing environment to develop or evaluate\"},\"incident_reporting\":{\"answer\":\"no\",\"page\":null,\"quote\":null}}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 14406,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 5176,
+  "output_tokens_details": {
+   "thinking_tokens": 3652
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 14406,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 5176,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 14406,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 14406
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ }
+}

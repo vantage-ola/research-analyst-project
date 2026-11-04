@@ -1,0 +1,163 @@
+{
+ "scores": {
+  "binding_force": {
+   "score": 0,
+   "page": 4,
+   "quote": "The National Artificial Intelligence Policy for the Republic of Rwanda serves as a roadmap",
+   "reason": "The document calls itself a roadmap and policy, and it states no adoption by cabinet, parliament or another approving body; the only attribution is 'MINICT - 2022'."
+  },
+  "responsible_body": {
+   "score": 2,
+   "page": 9,
+   "quote": "The RAI Office is to be given the mandate to implement the National AI Policy",
+   "reason": "The Responsible AI Office within MINICT is named with stated duties (coordinating implementation, monitoring and evaluation, communications), and each implementation-plan activity names a lead institution, although the office is proposed for establishment in year one rather than already existing."
+  },
+  "funding": {
+   "score": 1,
+   "page": 8,
+   "quote": "support the financing by building upon the Seed Investment Fund to co-invest alongside specialist funds",
+   "reason": "Funding sources are mentioned (Seed Investment Fund, public-sector funding, risk-sharing and co-investment funds), but no amount appears anywhere; page 9 says the full plan includes a budget, but this summary shows none."
+  },
+  "measurable_targets": {
+   "score": 1,
+   "page": 19,
+   "quote": "Set Up a taskforce to research and identify a portfolio of 5 National AI Projects",
+   "reason": "There are some numbers (5 National AI Projects) and some deadlines (RAI Office in the first year), but no number is tied to a stated deadline; the FY column headers show no readable timing per activity, and all indicators are 'Number of...' with no target values, so the lower score applies."
+  },
+  "jobs_workforce": {
+   "score": 1,
+   "page": 6,
+   "quote": "Commit to reskilling the workforce with 21st Century AI and data skills.",
+   "reason": "Skills, upskilling and reskilling goals are extensive, but there are no plans for workers displaced by AI and no transition support or social protection; general employee reskilling is borderline, so the lower score applies."
+  },
+  "risk_safety": {
+   "score": 2,
+   "page": 21,
+   "quote": "Initiate regulatory sandbox projects on Al to provide controlled testing environment",
+   "reason": "Beyond general risk and ethics language, the document commits to regulatory sandbox projects that provide a controlled testing environment to evaluate AI solutions against the ethics guidelines, which is a specific testing measure."
+  },
+  "data_protection": {
+   "score": 2,
+   "page": 14,
+   "quote": "cloud service providers under the supervisory authority (NCSA) as required by law (DPP)",
+   "reason": "The implementation plan links to a named data protection law (DPP) and names the supervisory authority (NCSA), including an activity to 'Enforce the Data Protection & Privacy law'."
+  },
+  "enforcement": {
+   "score": 1,
+   "page": 7,
+   "quote": "By strengthening the capacity of regulatory authorities to understand and regulate AI",
+   "reason": "AI regulation is framed as future capacity-building and future sector-specific guidelines, with no AI penalties or sanctions; the compliance audits on page 14 apply only to cloud providers under existing law, so between 1 and 2 the lower score applies."
+  },
+  "local_language": {
+   "score": 0,
+   "page": null,
+   "quote": null,
+   "reason": "I looked for mentions of Kinyarwanda, other local languages, local-language datasets or models, and adapting AI to local cultural context, and found none; references to 'local' concern solution providers and data value-chains, not language or context."
+  },
+  "monitoring_evaluation": {
+   "score": 1,
+   "page": 9,
+   "quote": "the RAI Office or RAIO will be tasked with the monitor-ing and evaluation",
+   "reason": "A reviewer (RAIO) and output indicators are named, but no schedule for reviewing the policy is given; the annual AI Readiness Index is a benchmark rather than a policy review, so the lower score applies."
+  }
+ },
+ "vague_commitments": [
+  {
+   "page": 7,
+   "quote": "we will build transparency and trust with the public",
+   "missing": [
+    "owner",
+    "number",
+    "date",
+    "money"
+   ]
+  },
+  {
+   "page": 6,
+   "quote": "We need to provide mechanisms to enable access to international and world-class cloud computing",
+   "missing": [
+    "owner",
+    "number",
+    "date",
+    "money"
+   ]
+  },
+  {
+   "page": 8,
+   "quote": "Rwanda will seek to participate in the global fora on AI",
+   "missing": [
+    "owner",
+    "number",
+    "date",
+    "money"
+   ]
+  },
+  {
+   "page": 7,
+   "quote": "We will also facilitate AI adoption through AI meet-ups and demonstrations",
+   "missing": [
+    "owner",
+    "number",
+    "date",
+    "money"
+   ]
+  },
+  {
+   "page": 6,
+   "quote": "long-term public-sector funding to universities to build capacity in AI education",
+   "missing": [
+    "number",
+    "date",
+    "money"
+   ]
+  },
+  {
+   "page": 6,
+   "quote": "Rwanda's school curricula shall adapt for the age of AI, data and digital technologies",
+   "missing": [
+    "owner",
+    "number",
+    "date",
+    "money"
+   ]
+  },
+  {
+   "page": 15,
+   "quote": "Upgrade Rwanda's internet throughput to ensure low latency, low packet loss",
+   "missing": [
+    "number",
+    "date",
+    "money"
+   ]
+  },
+  {
+   "page": 13,
+   "quote": "Conduct a public awareness campaign on AI to create a general understanding of AI",
+   "missing": [
+    "number",
+    "date",
+    "money"
+   ]
+  }
+ ],
+ "safety": {
+  "frontier_risk": {
+   "answer": "no",
+   "page": null,
+   "quote": null
+  },
+  "model_evaluation": {
+   "answer": "yes",
+   "page": 21,
+   "quote": "provide controlled testing environment to develop or evaluate innovative Al solutions"
+  },
+  "incident_reporting": {
+   "answer": "no",
+   "page": null,
+   "quote": null
+  }
+ },
+ "rater": "rater_a",
+ "model": "claude-opus-5-5",
+ "doc_id": "rwanda_ai_policy_2023"
+}

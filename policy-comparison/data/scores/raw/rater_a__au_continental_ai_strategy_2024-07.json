@@ -1,0 +1,41 @@
+{
+ "rater": "rater_a",
+ "model": "claude-opus-5-5",
+ "doc_id": "au_continental_ai_strategy_2024-07",
+ "run_at": "2026-11-02T23:36:08.163538+00:00",
+ "reply": "```json\n{\n  \"scores\": {\n    \"binding_force\": {\n      \"score\": 1,\n      \"page\": 5,\n      \"quote\": \"was adopted by the AU Executive Council during its 45th Ordinary Session\",\n      \"reason\": \"The AU Executive Council adopted the Strategy, but the document does not say it creates any law or regulation with legal force.\"\n    },\n    \"responsible_body\": {\n      \"score\": 2,\n      \"page\": 9,\n      \"quote\": \"Develop a 5 Year Implementation Plan of the Continental AI Strategy\",\n      \"reason\": \"Under the heading 'The African Union Commission to:', the AUC gets specific duties (implementation plan, risk research, annual safety conference, expert group), though most action areas have no single owner.\"\n    },\n    \"funding\": {\n      \"score\": 1,\n      \"page\": 61,\n      \"quote\": \"Mobilise regional and international development funds, with private and philanthropic funding,\",\n      \"reason\": \"Funding sources are named for a proposed regional fund, but no amount or budget is stated anywhere.\"\n    },\n    \"measurable_targets\": {\n      \"score\": 2,\n      \"page\": 61,\n      \"quote\": \"Organise two forums on \u201cFinancing Responsible AI for Africa \u201d, between 2025 and 2030.\",\n      \"reason\": \"This is a numerical target with a deadline, though it is only an output count; the document has no numerical outcome targets.\"\n    },\n    \"jobs_workforce\": {\n      \"score\": 2,\n      \"page\": 7,\n      \"quote\": \"including the provision of upskilling and reskilling programmes and requirements for jobs at risk\",\n      \"reason\": \"Beyond skills goals, it commits to reskilling for jobs at risk (p.7) and to national policy on labour transformations (p.51).\"\n    },\n    \"risk_safety\": {\n      \"score\": 2,\n      \"page\": 38,\n      \"quote\": \"Establish a regional independent AI Ethics Board, which reviews applications from AI research groups\",\n      \"reason\": \"It names specific mechanisms: an ethics review board for large-scale systems, red-teaming, transparency registers and impact assessments.\"\n    },\n    \"data_protection\": {\n      \"score\": 2,\n      \"page\": 60,\n      \"quote\": \"data transfers for AI in line with the Malabo Convention and AU Data Policy Framework\",\n      \"reason\": \"It links AI data transfers to the Malabo Convention, which page 26 names as the AU Convention on Cybersecurity and Personal Data Protection.\"\n    },\n    \"enforcement\": {\n      \"score\": 1,\n      \"page\": 37,\n      \"quote\": \"enforce compliance with standards as they emerge, and provide access to redress and remedy\",\n      \"reason\": \"Enforcement bodies and redress are only proposed for the future with no penalties or process stated, so this is scored at the lower level.\"\n    },\n    \"local_language\": {\n      \"score\": 1,\n      \"page\": 55,\n      \"quote\": \"promote investment in natural language processing capabilities in local and indigenous African languages\",\n      \"reason\": \"Local-language AI is a stated goal, but no specific dataset, model or fund is named, so this is scored at the lower level.\"\n    },\n    \"monitoring_evaluation\": {\n      \"score\": 1,\n      \"page\": 64,\n      \"quote\": \"Conducting a midterm review of the continental AI strategy in 2027 to refine indicators\",\n      \"reason\": \"It sets a 2027 review date and an M&E portal, but the readiness-index indicators are not yet named and no reviewer is designated, so this is scored at the lower level.\"\n    }\n  },\n  \"vague_commitments\": [\n    {\"page\": 32, \"quote\": \"Implement robust AI governance, regulations, standards, codes of conduct and best practices\", \"missing\": [\"owner\", \"number\", \"money\"]},\n    {\"page\": 57, \"quote\": \"Ensure the highest standard of AI safety and security across the Continent\", \"missing\": [\"owner\", \"number\", \"date\", \"money\"]},\n    {\"page\": 38, \"quote\": \"Develop Guidelines on the Ethics of AI that are adapted to Africa context\", \"missing\": [\"owner\", \"number\", \"date\", \"money\"]},\n    {\"page\": 58, \"quote\": \"Create an enabling policy and regulatory environment to attract Investments in AI\", \"missing\": [\"owner\", \"number\", \"date\", \"money\"]},\n    {\"page\": 51, \"quote\": \"Assess AI\u2019s implication on the African labour market, namely vulnerable groups\", \"missing\": [\"owner\", \"number\", \"date\", \"money\"]},\n    {\"page\": 55, \"quote\": \"Support the development of AI capabilities in local African languages\", \"missing\": [\"owner\", \"number\", \"date\", \"money\"]},\n    {\"page\": 10, \"quote\": \"Declare AI as a national priority and mobilise domestic resources\", \"missing\": [\"number\", \"date\", \"money\"]},\n    {\"page\": 43, \"quote\": \"Build national and institutional pre -emptive validation mechanisms for AI systems\", \"missing\": [\"owner\", \"number\", \"date\", \"money\"]}\n  ],\n  \"safety\": {\n    \"frontier_risk\": {\"answer\": \"yes\", \"page\": 61, \"quote\": \"global debates around AI governance and future planetary and existential risks of AI\"},\n    \"model_evaluation\": {\"answer\": \"yes\", \"page\": 38, \"quote\": \"high-risk issues within AI systems, such as AI Bounty Contests and Red -Teaming efforts\"},\n    \"incident_reporting\": {\"answer\": \"yes\", \"page\": 38, \"quote\": \"any incidents that occur from their use, and details on how to submit complaints\"}\n  }\n}\n```",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 56992,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 8230,
+  "output_tokens_details": {
+   "thinking_tokens": 6408
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 56992,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 8230,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 56992,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 56992
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ }
+}

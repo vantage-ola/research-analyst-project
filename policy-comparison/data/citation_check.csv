@@ -1,0 +1,199 @@
+rater,doc_id,kind,key,page,found_on_page,found_on_other_pages,quote
+rater_a,au_continental_ai_strategy_2024-07,score,binding_force,5,True,,was adopted by the AU Executive Council during its 45th Ordinary Session
+rater_a,au_continental_ai_strategy_2024-07,score,responsible_body,9,True,,Develop a 5 Year Implementation Plan of the Continental AI Strategy
+rater_a,au_continental_ai_strategy_2024-07,score,funding,61,True,,"Mobilise regional and international development funds, with private and philanthropic funding,"
+rater_a,au_continental_ai_strategy_2024-07,score,measurable_targets,61,True,,"Organise two forums on “Financing Responsible AI for Africa ”, between 2025 and 2030."
+rater_a,au_continental_ai_strategy_2024-07,score,jobs_workforce,7,True,,including the provision of upskilling and reskilling programmes and requirements for jobs at risk
+rater_a,au_continental_ai_strategy_2024-07,score,risk_safety,38,True,,"Establish a regional independent AI Ethics Board, which reviews applications from AI research groups"
+rater_a,au_continental_ai_strategy_2024-07,score,data_protection,60,True,,data transfers for AI in line with the Malabo Convention and AU Data Policy Framework
+rater_a,au_continental_ai_strategy_2024-07,score,enforcement,37,True,,"enforce compliance with standards as they emerge, and provide access to redress and remedy"
+rater_a,au_continental_ai_strategy_2024-07,score,local_language,55,True,,promote investment in natural language processing capabilities in local and indigenous African languages
+rater_a,au_continental_ai_strategy_2024-07,score,monitoring_evaluation,64,True,,Conducting a midterm review of the continental AI strategy in 2027 to refine indicators
+rater_a,au_continental_ai_strategy_2024-07,vague,0,32,True,,"Implement robust AI governance, regulations, standards, codes of conduct and best practices"
+rater_a,au_continental_ai_strategy_2024-07,vague,1,57,True,,Ensure the highest standard of AI safety and security across the Continent
+rater_a,au_continental_ai_strategy_2024-07,vague,2,38,True,,Develop Guidelines on the Ethics of AI that are adapted to Africa context
+rater_a,au_continental_ai_strategy_2024-07,vague,3,58,True,,Create an enabling policy and regulatory environment to attract Investments in AI
+rater_a,au_continental_ai_strategy_2024-07,vague,4,51,True,,"Assess AI’s implication on the African labour market, namely vulnerable groups"
+rater_a,au_continental_ai_strategy_2024-07,vague,5,55,True,,Support the development of AI capabilities in local African languages
+rater_a,au_continental_ai_strategy_2024-07,vague,6,10,True,,Declare AI as a national priority and mobilise domestic resources
+rater_a,au_continental_ai_strategy_2024-07,vague,7,43,True,,Build national and institutional pre -emptive validation mechanisms for AI systems
+rater_a,au_continental_ai_strategy_2024-07,safety,frontier_risk,61,True,,global debates around AI governance and future planetary and existential risks of AI
+rater_a,au_continental_ai_strategy_2024-07,safety,model_evaluation,38,True,,"high-risk issues within AI systems, such as AI Bounty Contests and Red -Teaming efforts"
+rater_a,au_continental_ai_strategy_2024-07,safety,incident_reporting,38,True,,"any incidents that occur from their use, and details on how to submit complaints"
+rater_a,egypt_ai_strategy_2025-2030,score,binding_force,5,True,,Egypt is adopting its second edition of the National AI Strategy
+rater_a,egypt_ai_strategy_2025-2030,score,responsible_body,5,True,,"prepare, formalize, approve and govern the implementation of Egypt’s National AI Strategy"
+rater_a,egypt_ai_strategy_2025-2030,score,funding,46,True,,Create national AI fund equivalent of $430-860M
+rater_a,egypt_ai_strategy_2025-2030,score,measurable_targets,13,True,,"The number of AI professionals/experts is expected to double to 30,000 by 2030."
+rater_a,egypt_ai_strategy_2025-2030,score,jobs_workforce,2,True,,we will continue to prioritize investments in skill development and capacity building
+rater_a,egypt_ai_strategy_2025-2030,score,risk_safety,25,True,,protecting all citizens against high-risk or prohibited AI
+rater_a,egypt_ai_strategy_2025-2030,score,data_protection,10,True,,The Egyptian Data Protection Law (No. 151 of 2020)
+rater_a,egypt_ai_strategy_2025-2030,score,enforcement,10,True,,While the Egyptian AI law is currently in its final development phase
+rater_a,egypt_ai_strategy_2025-2030,score,local_language,27,True,,Fine-tuning Large Language Models for Arabic language use for specific sectors.
+rater_a,egypt_ai_strategy_2025-2030,score,monitoring_evaluation,45,True,,National AI capacity will be evaluated at least annually through periodic assessments.
+rater_a,egypt_ai_strategy_2025-2030,vague,0,20,True,,More supercomputers will be made available to researchers and organizations working on AI projects
+rater_a,egypt_ai_strategy_2025-2030,vague,1,17,True,,Providing specific funding for AI-related research and development initiatives
+rater_a,egypt_ai_strategy_2025-2030,vague,2,24,True,,"A robust and enduring AI investment ecosystem, characterized by ambitious, multi-year funding targets."
+rater_a,egypt_ai_strategy_2025-2030,vague,3,22,True,,Protect individuals and organizations from potential risks and misuse of AI technologies
+rater_a,egypt_ai_strategy_2025-2030,vague,4,23,True,,ensure that the domestic talent cultivated in Egypt remains in the country
+rater_a,egypt_ai_strategy_2025-2030,vague,5,40,True,,further incentives should be provided to start-ups that have produced outstanding successes
+rater_a,egypt_ai_strategy_2025-2030,vague,6,36,True,,Egypt expects to achieve high-speed broadband access nationwide
+rater_a,egypt_ai_strategy_2025-2030,vague,7,33,True,,The Egyptian government intends to establish a uniform feedback portal
+rater_a,egypt_ai_strategy_2025-2030,safety,model_evaluation,15,True,,"regulations for AI testing and deployment, ensuring the highest standards of safety and ethics"
+rater_a,kenya_ai_strategy_2025-2030,score,binding_force,7,True,,The strategy provides a comprehensive framework to guide Kenya
+rater_a,kenya_ai_strategy_2025-2030,score,responsible_body,8,True,,"Government institutions will provide regulatory and policy guidance, private-sector actors will drive innovation"
+rater_a,kenya_ai_strategy_2025-2030,score,funding,80,True,,national AI and emerging tech innovation fund (from the R&D 2% of GDP
+rater_a,kenya_ai_strategy_2025-2030,score,measurable_targets,69,True,,Build three TIA 942 (ANSI standard) AI-capable data centres within 5 years
+rater_a,kenya_ai_strategy_2025-2030,score,jobs_workforce,76,True,,Goal 4: Build a robust pipeline of competent and agile AI workers for Kenya
+rater_a,kenya_ai_strategy_2025-2030,score,risk_safety,78,True,,Implement AI ethical and safety standards through conformity assessment schemes/safety audits
+rater_a,kenya_ai_strategy_2025-2030,score,data_protection,40,True,,existing laws such as the Data Protection Act and the Consumer Protection Act
+rater_a,kenya_ai_strategy_2025-2030,score,enforcement,79,True,,"As AI matures in Kenya, develop an AI and Other Emerging Technologies Act and regulations"
+rater_a,kenya_ai_strategy_2025-2030,score,local_language,83,True,,a maternal health chatbot in local dialects to provide accurate pregnancy
+rater_a,kenya_ai_strategy_2025-2030,score,monitoring_evaluation,8,True,,creating a monitoring and evaluation framework to track progress
+rater_a,kenya_ai_strategy_2025-2030,vague,0,62,True,,Potential job displacement will be proactively addressed.
+rater_a,kenya_ai_strategy_2025-2030,vague,1,14,True,,Kenya’s AI Strategy will prioritise frameworks that safeguard against such threats
+rater_a,kenya_ai_strategy_2025-2030,vague,2,66,True,,Kenya will explore the establishment of domestic manufacturing facilities for AI-specific hardware
+rater_a,kenya_ai_strategy_2025-2030,vague,3,72,True,,Develop a national data policy and strategy informed by best practices
+rater_a,kenya_ai_strategy_2025-2030,vague,4,76,True,,Incentivize the development of AI talent
+rater_a,kenya_ai_strategy_2025-2030,vague,5,78,True,,Develop a national AI risk and safety institute
+rater_a,kenya_ai_strategy_2025-2030,vague,6,79,True,,Proactively implement a soft regulatory framework for AI
+rater_a,kenya_ai_strategy_2025-2030,vague,7,81,True,,Develop a complaints and redress mechanism for citizens to report AI-related concerns
+rater_a,kenya_ai_strategy_2025-2030,vague,8,82,True,,"Launch a public awareness campaign on AI rights, disinformation, misinformation"
+rater_a,kenya_ai_strategy_2025-2030,safety,frontier_risk,37,True,,"privacy concerns surrounding AI technologies, particularly generative AI like OpenAI’s ChatGPT"
+rater_a,kenya_ai_strategy_2025-2030,safety,model_evaluation,78,True,,Implement AI ethical and safety standards through conformity assessment schemes/safety audits
+rater_a,kenya_ai_strategy_2025-2030,safety,incident_reporting,81,True,,Reduction in reported No. of incidents involving unsafe or harmful AI behaviours
+rater_a,nigeria_nais_2025-09-19,score,binding_force,4,True,,This National Artificial Intelligence Strategy (NAIS) is a living document
+rater_a,nigeria_nais_2025-09-19,score,responsible_body,46,True,,A well-functioning and respected AI Governance Regulatory System promoted by NITDA
+rater_a,nigeria_nais_2025-09-19,score,funding,54,True,,Secure additional funding from the public and private sectors.
+rater_a,nigeria_nais_2025-09-19,score,measurable_targets,35,True,,Nigeria aims to reduce unemployment by five percentage points by equipping at least 70%
+rater_a,nigeria_nais_2025-09-19,score,jobs_workforce,45,True,,"Examples include protecting workers' rights through retraining programmes, tailored unemployment benefits"
+rater_a,nigeria_nais_2025-09-19,score,risk_safety,44,True,,provide a structured approach for evaluating the ethical implications of AI projects before deployment
+rater_a,nigeria_nais_2025-09-19,score,data_protection,29,True,,"adherence to the Nigeria Data Protection Act, 2023"
+rater_a,nigeria_nais_2025-09-19,score,enforcement,46,True,,"ensure compliance with ethical standards, and mediate potential disputes"
+rater_a,nigeria_nais_2025-09-19,score,local_language,38,True,,Replicating Nigeria’s social context and cultural diversity with AI tools and solutions
+rater_a,nigeria_nais_2025-09-19,score,monitoring_evaluation,59,True,,"outlining timelines, key performance indicators (KPIs) for progress tracking"
+rater_a,nigeria_nais_2025-09-19,vague,0,32,True,,Establish national HPC centres with cutting-edge computing capabilities
+rater_a,nigeria_nais_2025-09-19,vague,1,33,True,,other incentives will encourage investment in critical AI infrastructure
+rater_a,nigeria_nais_2025-09-19,vague,2,34,True,,Increased number of highly skilled AI professionals working in Nigeria within five years.
+rater_a,nigeria_nais_2025-09-19,vague,3,37,True,,These accelerators will provide concentrated support and resources to high-potential AI startups
+rater_a,nigeria_nais_2025-09-19,vague,4,41,True,,create an AI Research and Development Fund
+rater_a,nigeria_nais_2025-09-19,vague,5,43,True,,Support green AI projects and innovations across sectors.
+rater_a,nigeria_nais_2025-09-19,vague,6,44,True,,This group of experts will guide the development and implementation of ethical AI principles
+rater_a,nigeria_nais_2025-09-19,vague,7,46,True,,Establish an AI Governance Regulatory Body
+rater_a,nigeria_nais_2025-09-19,vague,8,54,True,,Secure additional funding from the public and private sectors.
+rater_a,nigeria_nais_2025-09-19,safety,frontier_risk,48,True,,an additional risk area that has already manifested since generative AI made its mark
+rater_a,nigeria_nais_2025-09-19,safety,model_evaluation,27,True,,"robust testing and validation, ongoing monitoring and maintenance, human oversight and intervention"
+rater_a,rwanda_ai_policy_2023,score,binding_force,4,True,,The National Artificial Intelligence Policy for the Republic of Rwanda serves as a roadmap
+rater_a,rwanda_ai_policy_2023,score,responsible_body,9,True,,The RAI Office is to be given the mandate to implement the National AI Policy
+rater_a,rwanda_ai_policy_2023,score,funding,8,True,,support the financing by building upon the Seed Investment Fund to co-invest alongside specialist funds
+rater_a,rwanda_ai_policy_2023,score,measurable_targets,19,True,,Set Up a taskforce to research and identify a portfolio of 5 National AI Projects
+rater_a,rwanda_ai_policy_2023,score,jobs_workforce,6,True,,Commit to reskilling the workforce with 21st Century AI and data skills.
+rater_a,rwanda_ai_policy_2023,score,risk_safety,21,True,,Initiate regulatory sandbox projects on Al to provide controlled testing environment
+rater_a,rwanda_ai_policy_2023,score,data_protection,14,True,,cloud service providers under the supervisory authority (NCSA) as required by law (DPP)
+rater_a,rwanda_ai_policy_2023,score,enforcement,7,True,,By strengthening the capacity of regulatory authorities to understand and regulate AI
+rater_a,rwanda_ai_policy_2023,score,monitoring_evaluation,9,True,,the RAI Office or RAIO will be tasked with the monitor-ing and evaluation
+rater_a,rwanda_ai_policy_2023,vague,0,7,True,,we will build transparency and trust with the public
+rater_a,rwanda_ai_policy_2023,vague,1,6,True,,We need to provide mechanisms to enable access to international and world-class cloud computing
+rater_a,rwanda_ai_policy_2023,vague,2,8,True,,Rwanda will seek to participate in the global fora on AI
+rater_a,rwanda_ai_policy_2023,vague,3,7,True,,We will also facilitate AI adoption through AI meet-ups and demonstrations
+rater_a,rwanda_ai_policy_2023,vague,4,6,True,,long-term public-sector funding to universities to build capacity in AI education
+rater_a,rwanda_ai_policy_2023,vague,5,6,True,,"Rwanda's school curricula shall adapt for the age of AI, data and digital technologies"
+rater_a,rwanda_ai_policy_2023,vague,6,15,True,,"Upgrade Rwanda's internet throughput to ensure low latency, low packet loss"
+rater_a,rwanda_ai_policy_2023,vague,7,13,True,,Conduct a public awareness campaign on AI to create a general understanding of AI
+rater_a,rwanda_ai_policy_2023,safety,model_evaluation,21,True,,provide controlled testing environment to develop or evaluate innovative Al solutions
+rater_b,au_continental_ai_strategy_2024-07,score,binding_force,5,True,,The AU Strategy on Artificial Intelligence (AI) was adopted by the AU Executive Council
+rater_b,au_continental_ai_strategy_2024-07,score,responsible_body,9,True,,Develop a 5 Year Implementation Plan of the Continental AI Strategy
+rater_b,au_continental_ai_strategy_2024-07,score,funding,61,True,,"Mobilise regional and international development funds, with private and philanthropic funding"
+rater_b,au_continental_ai_strategy_2024-07,score,measurable_targets,61,True,,"Organise two forums on “Financing Responsible AI for Africa ”, between 2025 and 2030."
+rater_b,au_continental_ai_strategy_2024-07,score,jobs_workforce,7,True,,including the provision of upskilling and reskilling programmes and requirements for jobs at risk
+rater_b,au_continental_ai_strategy_2024-07,score,risk_safety,38,True,,"Establish a regional independent AI Ethics Board, which reviews applications from AI research groups"
+rater_b,au_continental_ai_strategy_2024-07,score,data_protection,60,True,,in line with the Malabo Convention and AU Data Policy Framework
+rater_b,au_continental_ai_strategy_2024-07,score,enforcement,37,True,,"enforce compliance with standards as they emerge, and provide access to redress and remedy"
+rater_b,au_continental_ai_strategy_2024-07,score,local_language,55,True,,Support the development of AI capabilities in local African languages
+rater_b,au_continental_ai_strategy_2024-07,score,monitoring_evaluation,64,True,,Conducting a midterm review of the continental AI strategy in 2027
+rater_b,au_continental_ai_strategy_2024-07,vague,0,10,True,,Develop innovative financing mechanisms and mobilize financial resources
+rater_b,au_continental_ai_strategy_2024-07,vague,1,10,True,,Develop innovative and agile regulatory instruments and frameworks
+rater_b,au_continental_ai_strategy_2024-07,vague,2,10,True,,Declare AI as a national priority and mobilise domestic resources
+rater_b,au_continental_ai_strategy_2024-07,vague,3,38,True,,Put in place practical tools and standards to guide the development
+rater_b,au_continental_ai_strategy_2024-07,vague,4,60,True,,Establish communities of practices on AI.
+rater_b,au_continental_ai_strategy_2024-07,vague,5,61,True,,Engage with multilateral and bilateral institutions and countries on AI issues
+rater_b,au_continental_ai_strategy_2024-07,vague,6,64,True,,Develop adequate communication plan & strategy
+rater_b,au_continental_ai_strategy_2024-07,safety,frontier_risk,61,True,,future planetary and existential risks of AI
+rater_b,au_continental_ai_strategy_2024-07,safety,model_evaluation,38,True,,AI Bounty Contests and Red -Teaming efforts
+rater_b,au_continental_ai_strategy_2024-07,safety,incident_reporting,38,True,,"any incidents that occur from their use, and details on how to submit complaints"
+rater_b,egypt_ai_strategy_2025-2030,score,binding_force,4,True,,This document sets out Egypt’s strategic intent at a level intended to guide action
+rater_b,egypt_ai_strategy_2025-2030,score,responsible_body,5,True,,"formalize, approve and govern the implementation of Egypt’s National AI Strategy"
+rater_b,egypt_ai_strategy_2025-2030,score,funding,46,True,,Create national AI fund equivalent of $430-860M
+rater_b,egypt_ai_strategy_2025-2030,score,measurable_targets,5,True,,"The number of AI professionals/experts is expected to reach 30,000 by 2030."
+rater_b,egypt_ai_strategy_2025-2030,score,jobs_workforce,5,True,,Strengthening the quantity and quality of local AI talents and experts.
+rater_b,egypt_ai_strategy_2025-2030,score,risk_safety,25,True,,protecting all citizens against high-risk or prohibited AI
+rater_b,egypt_ai_strategy_2025-2030,score,data_protection,10,True,,The Egyptian Data Protection Law (No. 151 of 2020)
+rater_b,egypt_ai_strategy_2025-2030,score,enforcement,19,True,,"monitoring compliance, investigating data breaches, and imposing penalties for non-compliance"
+rater_b,egypt_ai_strategy_2025-2030,score,local_language,16,True,,Egypt aims to develop a large national Arabic language model
+rater_b,egypt_ai_strategy_2025-2030,score,monitoring_evaluation,45,True,,National AI capacity will be evaluated at least annually through periodic assessments.
+rater_b,egypt_ai_strategy_2025-2030,vague,0,15,True,,Regulatory entities will not only ensure compliance but will also dynamically adapt regulations
+rater_b,egypt_ai_strategy_2025-2030,vague,1,20,True,,Sufficient GPU resources will be made available to support AI and deep learning
+rater_b,egypt_ai_strategy_2025-2030,vague,2,20,True,,More supercomputers will be made available to researchers and organizations working on AI projects
+rater_b,egypt_ai_strategy_2025-2030,vague,3,21,True,,"Increased investment, specifically in AI and deep tech fields"
+rater_b,egypt_ai_strategy_2025-2030,vague,4,22,True,,Protect individuals and organizations from potential risks and misuse of AI technologies
+rater_b,egypt_ai_strategy_2025-2030,vague,5,23,True,,Implement measures such as grants and benefits to ensure that the domestic talent
+rater_b,egypt_ai_strategy_2025-2030,vague,6,19,True,,Stringent data security measures will be implemented to protect sensitive and private data.
+rater_b,egypt_ai_strategy_2025-2030,safety,model_evaluation,15,True,,Well-crafted regulations for AI testing and deployment
+rater_b,egypt_ai_strategy_2025-2030,safety,incident_reporting,33,True,,"Users will be able to report data breaches, misuses, and other security issues"
+rater_b,kenya_ai_strategy_2025-2030,score,binding_force,7,True,,The strategy provides a comprehensive framework to guide Kenya in harnessing
+rater_b,kenya_ai_strategy_2025-2030,score,responsible_body,8,True,,"Government institutions will provide regulatory and policy guidance, private-sector actors will drive innovation"
+rater_b,kenya_ai_strategy_2025-2030,score,funding,80,True,,Create a national AI and emerging tech innovation fund
+rater_b,kenya_ai_strategy_2025-2030,score,measurable_targets,69,True,,Build three TIA 942 (ANSI standard) AI-capable data centres within 5 years
+rater_b,kenya_ai_strategy_2025-2030,score,jobs_workforce,62,True,,Potential job displacement will be proactively addressed.
+rater_b,kenya_ai_strategy_2025-2030,score,risk_safety,78,True,,Implement AI ethical and safety standards through conformity assessment schemes/safety audits and technical specifications/regulations
+rater_b,kenya_ai_strategy_2025-2030,score,data_protection,40,True,,existing laws such as the Data Protection Act and the Consumer Protection Act
+rater_b,kenya_ai_strategy_2025-2030,score,enforcement,79,True,,"As AI matures in Kenya, develop an AI and Other Emerging Technologies Act and regulations"
+rater_b,kenya_ai_strategy_2025-2030,score,local_language,62,True,,This includes making AI accessible in local languages.
+rater_b,kenya_ai_strategy_2025-2030,score,monitoring_evaluation,8,True,,creating a monitoring and evaluation framework to track progress
+rater_b,kenya_ai_strategy_2025-2030,vague,0,62,True,,Potential job displacement will be proactively addressed.
+rater_b,kenya_ai_strategy_2025-2030,vague,1,62,True,,An adaptive AI governance framework will be established to respond effectively
+rater_b,kenya_ai_strategy_2025-2030,vague,2,79,True,,Proactively implement a soft regulatory framework for AI
+rater_b,kenya_ai_strategy_2025-2030,vague,3,79,True,,Enhance participation in AI policy making and programming processes
+rater_b,kenya_ai_strategy_2025-2030,vague,4,82,True,,Launch a public awareness campaign on AI rights
+rater_b,kenya_ai_strategy_2025-2030,vague,5,70,True,,Review power supply to digital infrastructure and enhance the ratio of green energy
+rater_b,kenya_ai_strategy_2025-2030,vague,6,66,True,,Kenya will explore the establishment of domestic manufacturing facilities for AI-specific hardware
+rater_b,kenya_ai_strategy_2025-2030,vague,7,77,True,,Develop and implement a national AI talent acquisition program to fill gaps
+rater_b,kenya_ai_strategy_2025-2030,safety,model_evaluation,78,True,,conformity assessment schemes/safety audits and technical specifications/regulations
+rater_b,kenya_ai_strategy_2025-2030,safety,incident_reporting,81,True,,Develop a complaints and redress mechanism for citizens to report AI-related concerns
+rater_b,nigeria_nais_2025-09-19,score,binding_force,4,True,,is a living document to guide
+rater_b,nigeria_nais_2025-09-19,score,responsible_body,46,True,,This independent body will oversee the implementation of the National AI Principles
+rater_b,nigeria_nais_2025-09-19,score,funding,54,True,,Secure additional funding from
+rater_b,nigeria_nais_2025-09-19,score,measurable_targets,35,True,,reduce unemployment by five percentage points by equipping at least 70% of
+rater_b,nigeria_nais_2025-09-19,score,jobs_workforce,45,True,,"retraining programmes, tailored unemployment benefits, and policies encouraging job sharing"
+rater_b,nigeria_nais_2025-09-19,score,risk_safety,47,True,,Develop a National AI Risk Management Framework
+rater_b,nigeria_nais_2025-09-19,score,data_protection,28,False,29,"adherence to the Nigeria Data Protection Act, 2023"
+rater_b,nigeria_nais_2025-09-19,score,enforcement,46,True,,"ensure compliance with ethical standards, and mediate potential disputes"
+rater_b,nigeria_nais_2025-09-19,score,local_language,13,True,,"locally developed AI solutions, adapted to local realities"
+rater_b,nigeria_nais_2025-09-19,score,monitoring_evaluation,59,True,,key performance indicators (KPIs) for progress tracking
+rater_b,nigeria_nais_2025-09-19,vague,0,6,True,,the strategy focuses on achievable objectives with clear initiatives for implementation
+rater_b,nigeria_nais_2025-09-19,vague,1,32,True,,Increased private sector investment in AI infrastructure within a 3-year timeframe
+rater_b,nigeria_nais_2025-09-19,vague,2,40,True,,Increased number of individuals with AI skills across various sectors within five years
+rater_b,nigeria_nais_2025-09-19,vague,3,38,True,,Launch sector-specific AI adoption roadmaps
+rater_b,nigeria_nais_2025-09-19,vague,4,42,True,,Creating an enabling policy environment that encourages investment and accelerates AI
+rater_b,nigeria_nais_2025-09-19,vague,5,43,True,,Support green AI projects and innovations across sectors.
+rater_b,nigeria_nais_2025-09-19,vague,6,54,True,,Explore innovative financing mechanisms
+rater_b,nigeria_nais_2025-09-19,vague,7,44,True,,A well-respected and diverse AI Ethics Expert Group (AIEEG) established
+rater_b,nigeria_nais_2025-09-19,safety,model_evaluation,44,True,,evaluating the ethical implications of AI projects before deployment
+rater_b,rwanda_ai_policy_2023,score,binding_force,4,True,,serves as a roadmap to enable Rwanda to harness the benefits of AI
+rater_b,rwanda_ai_policy_2023,score,responsible_body,9,True,,The RAI Office will have the coordinating responsibility of driving the AI policy Implementation Plan.
+rater_b,rwanda_ai_policy_2023,score,funding,7,True,,establish a risk sharing fund to support R&D in the public sector
+rater_b,rwanda_ai_policy_2023,score,measurable_targets,19,True,,identify a portfolio of 5 National AI Projects
+rater_b,rwanda_ai_policy_2023,score,jobs_workforce,6,True,,Commit to reskilling the workforce with 21st Century AI and data skills.
+rater_b,rwanda_ai_policy_2023,score,risk_safety,8,True,,address the range of risks in the AI system lifecycle
+rater_b,rwanda_ai_policy_2023,score,data_protection,14,True,,Enforce the Data Protection & Privacy law
+rater_b,rwanda_ai_policy_2023,score,enforcement,7,True,,strengthening the capacity of regulatory authorities to understand and regulate AI
+rater_b,rwanda_ai_policy_2023,score,local_language,9,True,,Tailored Guidelines on the Ethical Development and Implementation of Artificial
+rater_b,rwanda_ai_policy_2023,score,monitoring_evaluation,9,True,,"Besides, the RAI Office or RAIO will be tasked with the"
+rater_b,rwanda_ai_policy_2023,vague,0,6,True,,"Ensure access to affordable, reliable and secure high performance storage"
+rater_b,rwanda_ai_policy_2023,vague,1,7,True,,Support private sector adoption and prioritization of AI in order to drive robust
+rater_b,rwanda_ai_policy_2023,vague,2,7,True,,Boost Rwanda’s emerging AI ecosystem.
+rater_b,rwanda_ai_policy_2023,vague,3,7,True,,Strengthen AI policy and regulation and ensure public trust in AI
+rater_b,rwanda_ai_policy_2023,vague,4,6,True,,The Government will invest in and develop a National Skills Building Program
+rater_b,rwanda_ai_policy_2023,vague,5,6,True,,"Rwanda’s school curricula shall adapt for the age of AI, data and digital"
+rater_b,rwanda_ai_policy_2023,vague,6,8,True,,Join platforms shaping the responsible adoption of AI regionally and globally
+rater_b,rwanda_ai_policy_2023,vague,7,8,True,,Launch an annual participatory consultation forum to update the guidelines
+rater_b,rwanda_ai_policy_2023,safety,model_evaluation,21,True,,provide controlled testing environment to develop or evaluate

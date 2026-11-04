@@ -1,0 +1,41 @@
+{
+ "rater": "rater_a",
+ "model": "claude-opus-5-5",
+ "doc_id": "egypt_ai_strategy_2025-2030",
+ "run_at": "2026-11-02T23:35:05.320801+00:00",
+ "reply": "```json\n{\n  \"scores\": {\n    \"binding_force\": {\n      \"score\": 0,\n      \"page\": 5,\n      \"quote\": \"Egypt is adopting its second edition of the National AI Strategy\",\n      \"reason\": \"The document calls itself a strategy, and the only adoption language credits 'Egypt' plus a presidential launch (p2) without naming an approving cabinet, parliament or equivalent body, so between 0 and 1 the lower score applies; the AI law is described only as in development (p10).\"\n    },\n    \"responsible_body\": {\n      \"score\": 1,\n      \"page\": 5,\n      \"quote\": \"prepare, formalize, approve and govern the implementation of Egypt\u2019s National AI Strategy\",\n      \"reason\": \"NCAI is named with a general mandate to govern implementation, but the 21 initiatives' action tables mostly attribute work to 'the Egyptian government' without assigned owners or specific duties, so between 1 and 2 the lower score applies.\"\n    },\n    \"funding\": {\n      \"score\": 1,\n      \"page\": 46,\n      \"quote\": \"Create national AI fund equivalent of $430-860M\",\n      \"reason\": \"An amount range is given, but no committed source is stated (only a benchmark of 0.1%-0.15% of GDP), and the startup fund on p40 names possible contributors but no amount, so between 1 and 2 the lower score applies.\"\n    },\n    \"measurable_targets\": {\n      \"score\": 2,\n      \"page\": 13,\n      \"quote\": \"The number of AI professionals/experts is expected to double to 30,000 by 2030.\",\n      \"reason\": \"Numerical targets with deadlines are stated, such as 30,000 AI experts by 2030 and the 7.7% GDP contribution by 2030.\"\n    },\n    \"jobs_workforce\": {\n      \"score\": 1,\n      \"page\": 2,\n      \"quote\": \"we will continue to prioritize investments in skill development and capacity building\",\n      \"reason\": \"Skills and training goals are extensive, and the negative impact of AI on employment is listed as a threat (p12), but no transition, retraining or social protection plan for displaced workers is given.\"\n    },\n    \"risk_safety\": {\n      \"score\": 2,\n      \"page\": 25,\n      \"quote\": \"protecting all citizens against high-risk or prohibited AI\",\n      \"reason\": \"The document commits to high-risk and prohibited AI categories in the planned AI law and to guidelines for classifying AI system risks under the Center for Responsible AI.\"\n    },\n    \"data_protection\": {\n      \"score\": 2,\n      \"page\": 10,\n      \"quote\": \"The Egyptian Data Protection Law (No. 151 of 2020)\",\n      \"reason\": \"The named Data Protection Law is linked to AI governance, and a Personal Data Protection Authority is named (p19).\"\n    },\n    \"enforcement\": {\n      \"score\": 1,\n      \"page\": 10,\n      \"quote\": \"While the Egyptian AI law is currently in its final development phase\",\n      \"reason\": \"AI rules, bylaws and a regulatory body are to be developed later (p25); the only stated penalties belong to the data protection authority (p19) and existing cybercrime law, not to AI-specific rules, so between 1 and 2 the lower score applies.\"\n    },\n    \"local_language\": {\n      \"score\": 2,\n      \"page\": 27,\n      \"quote\": \"Fine-tuning Large Language Models for Arabic language use for specific sectors.\",\n      \"reason\": \"Concrete commitments are made to Arabic models and to sectoral Arabic datasets (Initiative 7, p31, with 'Data sets' as a deliverable).\"\n    },\n    \"monitoring_evaluation\": {\n      \"score\": 1,\n      \"page\": 45,\n      \"quote\": \"National AI capacity will be evaluated at least annually through periodic assessments.\",\n      \"reason\": \"The document has named indicators (CAF, 89 indicators) and a schedule (annual review, 1/3/5-year milestones) but names no reviewer, so all three elements for a 2 are not met and the lower score applies.\"\n    }\n  },\n  \"vague_commitments\": [\n    {\"page\": 20, \"quote\": \"More supercomputers will be made available to researchers and organizations working on AI projects\", \"missing\": [\"owner\", \"number\", \"date\", \"money\"]},\n    {\"page\": 17, \"quote\": \"Providing specific funding for AI-related research and development initiatives\", \"missing\": [\"owner\", \"number\", \"date\", \"money\"]},\n    {\"page\": 24, \"quote\": \"A robust and enduring AI investment ecosystem, characterized by ambitious, multi-year funding targets.\", \"missing\": [\"owner\", \"number\", \"date\", \"money\"]},\n    {\"page\": 22, \"quote\": \"Protect individuals and organizations from potential risks and misuse of AI technologies\", \"missing\": [\"owner\", \"number\", \"date\", \"money\"]},\n    {\"page\": 23, \"quote\": \"ensure that the domestic talent cultivated in Egypt remains in the country\", \"missing\": [\"owner\", \"number\", \"date\", \"money\"]},\n    {\"page\": 40, \"quote\": \"further incentives should be provided to start-ups that have produced outstanding successes\", \"missing\": [\"owner\", \"number\", \"date\", \"money\"]},\n    {\"page\": 36, \"quote\": \"Egypt expects to achieve high-speed broadband access nationwide\", \"missing\": [\"owner\", \"number\", \"date\", \"money\"]},\n    {\"page\": 33, \"quote\": \"The Egyptian government intends to establish a uniform feedback portal\", \"missing\": [\"date\", \"money\"]}\n  ],\n  \"safety\": {\n    \"frontier_risk\": {\"answer\": \"no\", \"page\": null, \"quote\": null},\n    \"model_evaluation\": {\"answer\": \"yes\", \"page\": 15, \"quote\": \"regulations for AI testing and deployment, ensuring the highest standards of safety and ethics\"},\n    \"incident_reporting\": {\"answer\": \"no\", \"page\": null, \"quote\": null}\n  }\n}\n```",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 66363,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 6831,
+  "output_tokens_details": {
+   "thinking_tokens": 4885
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 66363,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 6831,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 66363,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 66363
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ }
+}

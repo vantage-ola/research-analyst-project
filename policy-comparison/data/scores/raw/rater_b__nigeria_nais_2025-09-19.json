@@ -1,0 +1,41 @@
+{
+ "rater": "rater_b",
+ "model": "claude-sonnet-5-5",
+ "doc_id": "nigeria_nais_2025-09-19",
+ "run_at": "2026-11-02T23:35:45.385239+00:00",
+ "reply": "{\"scores\":{\"binding_force\":{\"score\":0,\"page\":4,\"quote\":\"is a living document to guide\",\"reason\":\"The document calls itself a living strategy document and states no approval by cabinet, parliament or any equivalent body, and it does not claim to be law.\"},\"responsible_body\":{\"score\":1,\"page\":46,\"quote\":\"This independent body will oversee the implementation of the National AI Principles\",\"reason\":\"Only a proposed AI Governance Regulatory Body (and NITDA's promotion of it) has stated duties, while overall delivery is spread across many stakeholders and 'process owners' are never named, so this is scored at the lower level.\"},\"funding\":{\"score\":1,\"page\":54,\"quote\":\"Secure additional funding from\",\"reason\":\"Funding is mentioned (funding shortfall risk, a proposed AI R&D Fund) but no amount or committed source is given.\"},\"measurable_targets\":{\"score\":1,\"page\":35,\"quote\":\"reduce unemployment by five percentage points by equipping at least 70% of\",\"reason\":\"Numerical targets exist (70% of young workforce, 5 points) but with no specific deadline, and the deadlines elsewhere ('within five years') have no numbers.\"},\"jobs_workforce\":{\"score\":2,\"page\":45,\"quote\":\"retraining programmes, tailored unemployment benefits, and policies encouraging job sharing\",\"reason\":\"Besides skills programmes, the strategy proposes a foresight study on displacement and legislative reforms for retraining and unemployment benefits for affected workers.\"},\"risk_safety\":{\"score\":2,\"page\":47,\"quote\":\"Develop a National AI Risk Management Framework\",\"reason\":\"It commits to a risk management framework with protocols for identifying, assessing and mitigating risks, plus a pre-deployment ethics assessment framework and a risk matrix.\"},\"data_protection\":{\"score\":2,\"page\":28,\"quote\":\"adherence to the Nigeria Data Protection Act, 2023\",\"reason\":\"The Nigeria Data Protection Act, 2023 is named and linked to the strategy's guiding principles and data governance outcomes.\"},\"enforcement\":{\"score\":1,\"page\":46,\"quote\":\"ensure compliance with ethical standards, and mediate potential disputes\",\"reason\":\"A future regulatory body is to ensure compliance and mediate disputes, but no penalties or sanctions are stated and the rules are to be developed later, so this is scored at the lower level.\"},\"local_language\":{\"score\":1,\"page\":13,\"quote\":\"locally developed AI solutions, adapted to local realities\",\"reason\":\"Local context is stated as a goal, but no local languages, datasets or funded models for them are committed.\"},\"monitoring_evaluation\":{\"score\":1,\"page\":59,\"quote\":\"key performance indicators (KPIs) for progress tracking\",\"reason\":\"Review is promised (periodic risk review, KPIs mentioned) but no specific indicators, named reviewer or schedule are given.\"}},\"vague_commitments\":[{\"page\":6,\"quote\":\"the strategy focuses on achievable objectives with clear initiatives for implementation\",\"missing\":[\"owner\",\"number\",\"date\",\"money\"]},{\"page\":32,\"quote\":\"Increased private sector investment in AI infrastructure within a 3-year timeframe\",\"missing\":[\"owner\",\"number\",\"money\"]},{\"page\":40,\"quote\":\"Increased number of individuals with AI skills across various sectors within five years\",\"missing\":[\"owner\",\"number\",\"money\"]},{\"page\":38,\"quote\":\"Launch sector-specific AI adoption roadmaps\",\"missing\":[\"owner\",\"number\",\"date\",\"money\"]},{\"page\":42,\"quote\":\"Creating an enabling policy environment that encourages investment and accelerates AI\",\"missing\":[\"owner\",\"number\",\"date\",\"money\"]},{\"page\":43,\"quote\":\"Support green AI projects and innovations across sectors.\",\"missing\":[\"owner\",\"number\",\"date\",\"money\"]},{\"page\":54,\"quote\":\"Explore innovative financing mechanisms\",\"missing\":[\"owner\",\"number\",\"date\",\"money\"]},{\"page\":44,\"quote\":\"A well-respected and diverse AI Ethics Expert Group (AIEEG) established\",\"missing\":[\"number\",\"date\",\"money\"]}],\"safety\":{\"frontier_risk\":{\"answer\":\"no\",\"page\":null,\"quote\":null},\"model_evaluation\":{\"answer\":\"yes\",\"page\":44,\"quote\":\"evaluating the ethical implications of AI projects before deployment\"},\"incident_reporting\":{\"answer\":\"no\",\"page\":null,\"quote\":null}}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 66066,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 5139,
+  "output_tokens_details": {
+   "thinking_tokens": 3672
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 66066,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 5139,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 66066,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 66066
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ }
+}

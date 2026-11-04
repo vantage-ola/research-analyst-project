@@ -1,0 +1,41 @@
+{
+ "rater": "rater_a",
+ "model": "claude-opus-5-5",
+ "doc_id": "rwanda_ai_policy_2023",
+ "run_at": "2026-11-02T23:35:15.699804+00:00",
+ "reply": "```json\n{\n  \"scores\": {\n    \"binding_force\": {\n      \"score\": 0,\n      \"page\": 4,\n      \"quote\": \"The National Artificial Intelligence Policy for the Republic of Rwanda serves as a roadmap\",\n      \"reason\": \"The document calls itself a roadmap and policy, and it states no adoption by cabinet, parliament or another approving body; the only attribution is 'MINICT - 2022'.\"\n    },\n    \"responsible_body\": {\n      \"score\": 2,\n      \"page\": 9,\n      \"quote\": \"The RAI Office is to be given the mandate to implement the National AI Policy\",\n      \"reason\": \"The Responsible AI Office within MINICT is named with stated duties (coordinating implementation, monitoring and evaluation, communications), and each implementation-plan activity names a lead institution, although the office is proposed for establishment in year one rather than already existing.\"\n    },\n    \"funding\": {\n      \"score\": 1,\n      \"page\": 8,\n      \"quote\": \"support the financing by building upon the Seed Investment Fund to co-invest alongside specialist funds\",\n      \"reason\": \"Funding sources are mentioned (Seed Investment Fund, public-sector funding, risk-sharing and co-investment funds), but no amount appears anywhere; page 9 says the full plan includes a budget, but this summary shows none.\"\n    },\n    \"measurable_targets\": {\n      \"score\": 1,\n      \"page\": 19,\n      \"quote\": \"Set Up a taskforce to research and identify a portfolio of 5 National AI Projects\",\n      \"reason\": \"There are some numbers (5 National AI Projects) and some deadlines (RAI Office in the first year), but no number is tied to a stated deadline; the FY column headers show no readable timing per activity, and all indicators are 'Number of...' with no target values, so the lower score applies.\"\n    },\n    \"jobs_workforce\": {\n      \"score\": 1,\n      \"page\": 6,\n      \"quote\": \"Commit to reskilling the workforce with 21st Century AI and data skills.\",\n      \"reason\": \"Skills, upskilling and reskilling goals are extensive, but there are no plans for workers displaced by AI and no transition support or social protection; general employee reskilling is borderline, so the lower score applies.\"\n    },\n    \"risk_safety\": {\n      \"score\": 2,\n      \"page\": 21,\n      \"quote\": \"Initiate regulatory sandbox projects on Al to provide controlled testing environment\",\n      \"reason\": \"Beyond general risk and ethics language, the document commits to regulatory sandbox projects that provide a controlled testing environment to evaluate AI solutions against the ethics guidelines, which is a specific testing measure.\"\n    },\n    \"data_protection\": {\n      \"score\": 2,\n      \"page\": 14,\n      \"quote\": \"cloud service providers under the supervisory authority (NCSA) as required by law (DPP)\",\n      \"reason\": \"The implementation plan links to a named data protection law (DPP) and names the supervisory authority (NCSA), including an activity to 'Enforce the Data Protection & Privacy law'.\"\n    },\n    \"enforcement\": {\n      \"score\": 1,\n      \"page\": 7,\n      \"quote\": \"By strengthening the capacity of regulatory authorities to understand and regulate AI\",\n      \"reason\": \"AI regulation is framed as future capacity-building and future sector-specific guidelines, with no AI penalties or sanctions; the compliance audits on page 14 apply only to cloud providers under existing law, so between 1 and 2 the lower score applies.\"\n    },\n    \"local_language\": {\n      \"score\": 0,\n      \"page\": null,\n      \"quote\": null,\n      \"reason\": \"I looked for mentions of Kinyarwanda, other local languages, local-language datasets or models, and adapting AI to local cultural context, and found none; references to 'local' concern solution providers and data value-chains, not language or context.\"\n    },\n    \"monitoring_evaluation\": {\n      \"score\": 1,\n      \"page\": 9,\n      \"quote\": \"the RAI Office or RAIO will be tasked with the monitor-ing and evaluation\",\n      \"reason\": \"A reviewer (RAIO) and output indicators are named, but no schedule for reviewing the policy is given; the annual AI Readiness Index is a benchmark rather than a policy review, so the lower score applies.\"\n    }\n  },\n  \"vague_commitments\": [\n    {\n      \"page\": 7,\n      \"quote\": \"we will build transparency and trust with the public\",\n      \"missing\": [\"owner\", \"number\", \"date\", \"money\"]\n    },\n    {\n      \"page\": 6,\n      \"quote\": \"We need to provide mechanisms to enable access to international and world-class cloud computing\",\n      \"missing\": [\"owner\", \"number\", \"date\", \"money\"]\n    },\n    {\n      \"page\": 8,\n      \"quote\": \"Rwanda will seek to participate in the global fora on AI\",\n      \"missing\": [\"owner\", \"number\", \"date\", \"money\"]\n    },\n    {\n      \"page\": 7,\n      \"quote\": \"We will also facilitate AI adoption through AI meet-ups and demonstrations\",\n      \"missing\": [\"owner\", \"number\", \"date\", \"money\"]\n    },\n    {\n      \"page\": 6,\n      \"quote\": \"long-term public-sector funding to universities to build capacity in AI education\",\n      \"missing\": [\"number\", \"date\", \"money\"]\n    },\n    {\n      \"page\": 6,\n      \"quote\": \"Rwanda's school curricula shall adapt for the age of AI, data and digital technologies\",\n      \"missing\": [\"owner\", \"number\", \"date\", \"money\"]\n    },\n    {\n      \"page\": 15,\n      \"quote\": \"Upgrade Rwanda's internet throughput to ensure low latency, low packet loss\",\n      \"missing\": [\"number\", \"date\", \"money\"]\n    },\n    {\n      \"page\": 13,\n      \"quote\": \"Conduct a public awareness campaign on AI to create a general understanding of AI\",\n      \"missing\": [\"number\", \"date\", \"money\"]\n    }\n  ],\n  \"safety\": {\n    \"frontier_risk\": {\n      \"answer\": \"no\",\n      \"page\": null,\n      \"quote\": null\n    },\n    \"model_evaluation\": {\n      \"answer\": \"yes\",\n      \"page\": 21,\n      \"quote\": \"provide controlled testing environment to develop or evaluate innovative Al solutions\"\n    },\n    \"incident_reporting\": {\n      \"answer\": \"no\",\n      \"page\": null,\n      \"quote\": null\n    }\n  }\n}\n```",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 14403,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 8383,
+  "output_tokens_details": {
+   "thinking_tokens": 6275
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 14403,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 8383,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 14403,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 14403
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "rater": "rater_b",
+ "model": "claude-sonnet-5-5",
+ "doc_id": "au_continental_ai_strategy_2024-07",
+ "run_at": "2026-11-02T23:36:38.238852+00:00",
+ "reply": "{\"scores\":{\"binding_force\":{\"score\":1,\"page\":5,\"quote\":\"The AU Strategy on Artificial Intelligence (AI) was adopted by the AU Executive Council\",\"reason\":\"The AU Executive Council adopted the strategy, but it is a strategy and not a law or regulation with legal force.\"},\"responsible_body\":{\"score\":2,\"page\":9,\"quote\":\"Develop a 5 Year Implementation Plan of the Continental AI Strategy\",\"reason\":\"The African Union Commission is named with stated duties (implementation plan, risk research, policy dialogues), even though responsibility is also shared with Member States, RECs and the private sector.\"},\"funding\":{\"score\":1,\"page\":61,\"quote\":\"Mobilise regional and international development funds, with private and philanthropic funding\",\"reason\":\"Funding sources and a regional fund are mentioned, but no budget amount is given for the strategy.\"},\"measurable_targets\":{\"score\":1,\"page\":61,\"quote\":\"Organise two forums on \u201cFinancing Responsible AI for Africa \u201d, between 2025 and 2030.\",\"reason\":\"The only numbers paired with a deadline are an output count of forums; the objectives have a 2030 horizon but no outcome targets, so I scored the lower level.\"},\"jobs_workforce\":{\"score\":2,\"page\":7,\"quote\":\"including the provision of upskilling and reskilling programmes and requirements for jobs at risk\",\"reason\":\"Skills goals are paired with reskilling for jobs at risk, plus labour-market assessment and national policy for labour transformation on page 48.\"},\"risk_safety\":{\"score\":2,\"page\":38,\"quote\":\"Establish a regional independent AI Ethics Board, which reviews applications from AI research groups\",\"reason\":\"Specific measures are named: an AI Ethics Board, impact assessments, red-teaming incentives, transparency registers and an AI safety and security centre of excellence.\"},\"data_protection\":{\"score\":2,\"page\":60,\"quote\":\"in line with the Malabo Convention and AU Data Policy Framework\",\"reason\":\"The strategy links its data-sharing action to the named Malabo Convention on Cybersecurity and Personal Data Protection and the AU Data Policy Framework.\"},\"enforcement\":{\"score\":1,\"page\":37,\"quote\":\"enforce compliance with standards as they emerge, and provide access to redress and remedy\",\"reason\":\"It proposes independent oversight institutions to be set up later but states no penalties, sanctions or concrete enforcement process, so I scored the lower level.\"},\"local_language\":{\"score\":1,\"page\":55,\"quote\":\"Support the development of AI capabilities in local African languages\",\"reason\":\"Local-language support is a stated goal, but no datasets, models or funding are named for it, so I scored the lower level.\"},\"monitoring_evaluation\":{\"score\":1,\"page\":64,\"quote\":\"Conducting a midterm review of the continental AI strategy in 2027\",\"reason\":\"A 2027 review, readiness index and dashboard are promised, but indicators are not named and no specific reviewer is named, so I scored the lower level.\"}},\"vague_commitments\":[{\"page\":10,\"quote\":\"Develop innovative financing mechanisms and mobilize financial resources\",\"missing\":[\"number\",\"date\",\"money\"]},{\"page\":10,\"quote\":\"Develop innovative and agile regulatory instruments and frameworks\",\"missing\":[\"number\",\"date\",\"money\"]},{\"page\":10,\"quote\":\"Declare AI as a national priority and mobilise domestic resources\",\"missing\":[\"number\",\"date\",\"money\"]},{\"page\":38,\"quote\":\"Put in place practical tools and standards to guide the development\",\"missing\":[\"owner\",\"number\",\"date\",\"money\"]},{\"page\":60,\"quote\":\"Establish communities of practices on AI.\",\"missing\":[\"owner\",\"number\",\"date\",\"money\"]},{\"page\":61,\"quote\":\"Engage with multilateral and bilateral institutions and countries on AI issues\",\"missing\":[\"owner\",\"number\",\"date\",\"money\"]},{\"page\":64,\"quote\":\"Develop adequate communication plan & strategy\",\"missing\":[\"owner\",\"number\",\"date\",\"money\"]}],\"safety\":{\"frontier_risk\":{\"answer\":\"yes\",\"page\":61,\"quote\":\"future planetary and existential risks of AI\"},\"model_evaluation\":{\"answer\":\"yes\",\"page\":38,\"quote\":\"AI Bounty Contests and Red -Teaming efforts\"},\"incident_reporting\":{\"answer\":\"yes\",\"page\":38,\"quote\":\"any incidents that occur from their use, and details on how to submit complaints\"}}}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 56998,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 6664,
+  "output_tokens_details": {
+   "thinking_tokens": 5189
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 56998,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 6664,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 56998,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 56998
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ }
+}

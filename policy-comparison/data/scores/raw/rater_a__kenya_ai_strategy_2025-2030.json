@@ -1,0 +1,41 @@
+{
+ "rater": "rater_a",
+ "model": "claude-opus-5-5",
+ "doc_id": "kenya_ai_strategy_2025-2030",
+ "run_at": "2026-11-02T23:35:14.704440+00:00",
+ "reply": "```json\n{\n  \"scores\": {\n    \"binding_force\": {\n      \"score\": 0,\n      \"page\": 7,\n      \"quote\": \"The strategy provides a comprehensive framework to guide Kenya\",\n      \"reason\": \"The document calls itself a strategy and framework, says on page 40 that Kenya has no AI law, and records only stakeholder validation workshops (p.23) and a ministerial foreword, with no stated adoption by cabinet or parliament.\"\n    },\n    \"responsible_body\": {\n      \"score\": 1,\n      \"page\": 8,\n      \"quote\": \"Government institutions will provide regulatory and policy guidance, private-sector actors will drive innovation\",\n      \"reason\": \"Responsibility is spread loosely across sectors; the Ministry is named as author (p.40, p.89), but no flagship project in Tables 5.2\u20135.8 is assigned to a named implementing body.\"\n    },\n    \"funding\": {\n      \"score\": 1,\n      \"page\": 80,\n      \"quote\": \"national AI and emerging tech innovation fund (from the R&D 2% of GDP\",\n      \"reason\": \"A source is named (the National Research Fund's R&D allocation), but no amount is set for the AI fund itself; the 2% of GDP is the overall R&D figure, so the lower score applies.\"\n    },\n    \"measurable_targets\": {\n      \"score\": 2,\n      \"page\": 69,\n      \"quote\": \"Build three TIA 942 (ANSI standard) AI-capable data centres within 5 years\",\n      \"reason\": \"This is a numerical target with a deadline; others include '2 PPP projects in the next 5 years' (p.71) and a semiconductor facility 'within five years' (p.70).\"\n    },\n    \"jobs_workforce\": {\n      \"score\": 1,\n      \"page\": 76,\n      \"quote\": \"Goal 4: Build a robust pipeline of competent and agile AI workers for Kenya\",\n      \"reason\": \"Skills goals are detailed, but displaced workers get only a general pledge ('Potential job displacement will be proactively addressed', p.62) and a town-hall welfare suggestion (p.48), with no transition or social protection plan, so the lower score applies.\"\n    },\n    \"risk_safety\": {\n      \"score\": 2,\n      \"page\": 78,\n      \"quote\": \"Implement AI ethical and safety standards through conformity assessment schemes/safety audits\",\n      \"reason\": \"Specific measures are stated: conformity assessments and safety audits, a planned national AI risk and safety institute (p.78), and a mandatory ethical impact assessment for the public sector (p.81).\"\n    },\n    \"data_protection\": {\n      \"score\": 2,\n      \"page\": 40,\n      \"quote\": \"existing laws such as the Data Protection Act and the Consumer Protection Act\",\n      \"reason\": \"The document names the Data Protection Act as a foundational framework for AI issues, and lists the Office of the Data Protection Commissioner as a key regulatory stakeholder (p.50).\"\n    },\n    \"enforcement\": {\n      \"score\": 1,\n      \"page\": 79,\n      \"quote\": \"As AI matures in Kenya, develop an AI and Other Emerging Technologies Act and regulations\",\n      \"reason\": \"Legislation is deferred to the future and a complaints mechanism is only to be developed (p.81); no penalties, sanctions or enforcement process are stated.\"\n    },\n    \"local_language\": {\n      \"score\": 1,\n      \"page\": 83,\n      \"quote\": \"a maternal health chatbot in local dialects to provide accurate pregnancy\",\n      \"reason\": \"Local-language use cases are only 'under consideration', with no dedicated datasets, models or funding committed; the $1 billion Microsoft/G42 initiative on p.54 is described as existing partner investment, not a strategy commitment, so the lower score applies.\"\n    },\n    \"monitoring_evaluation\": {\n      \"score\": 1,\n      \"page\": 8,\n      \"quote\": \"creating a monitoring and evaluation framework to track progress\",\n      \"reason\": \"The tables list KPIs, but no reviewer or review schedule is named and the M&E framework is only promised, so the lower score applies.\"\n    }\n  },\n  \"vague_commitments\": [\n    {\"page\": 62, \"quote\": \"Potential job displacement will be proactively addressed.\", \"missing\": [\"owner\", \"number\", \"date\", \"money\"]},\n    {\"page\": 14, \"quote\": \"Kenya\u2019s AI Strategy will prioritise frameworks that safeguard against such threats\", \"missing\": [\"owner\", \"number\", \"date\", \"money\"]},\n    {\"page\": 66, \"quote\": \"Kenya will explore the establishment of domestic manufacturing facilities for AI-specific hardware\", \"missing\": [\"owner\", \"number\", \"date\", \"money\"]},\n    {\"page\": 72, \"quote\": \"Develop a national data policy and strategy informed by best practices\", \"missing\": [\"owner\", \"date\", \"money\"]},\n    {\"page\": 76, \"quote\": \"Incentivize the development of AI talent\", \"missing\": [\"owner\", \"number\", \"date\", \"money\"]},\n    {\"page\": 78, \"quote\": \"Develop a national AI risk and safety institute\", \"missing\": [\"owner\", \"date\", \"money\"]},\n    {\"page\": 79, \"quote\": \"Proactively implement a soft regulatory framework for AI\", \"missing\": [\"owner\", \"number\", \"date\", \"money\"]},\n    {\"page\": 81, \"quote\": \"Develop a complaints and redress mechanism for citizens to report AI-related concerns\", \"missing\": [\"owner\", \"date\", \"money\"]},\n    {\"page\": 82, \"quote\": \"Launch a public awareness campaign on AI rights, disinformation, misinformation\", \"missing\": [\"owner\", \"number\", \"date\", \"money\"]}\n  ],\n  \"safety\": {\n    \"frontier_risk\": {\n      \"answer\": \"yes\",\n      \"page\": 37,\n      \"quote\": \"privacy concerns surrounding AI technologies, particularly generative AI like OpenAI\u2019s ChatGPT\"\n    },\n    \"model_evaluation\": {\n      \"answer\": \"yes\",\n      \"page\": 78,\n      \"quote\": \"Implement AI ethical and safety standards through conformity assessment schemes/safety audits\"\n    },\n    \"incident_reporting\": {\n      \"answer\": \"yes\",\n      \"page\": 81,\n      \"quote\": \"Reduction in reported No. of incidents involving unsafe or harmful AI behaviours\"\n    }\n  }\n}\n```",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 66134,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 7221,
+  "output_tokens_details": {
+   "thinking_tokens": 5116
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 66134,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 7221,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 66134,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 66134
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ }
+}
