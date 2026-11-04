@@ -92,7 +92,15 @@ A survey of Nigerian workers would test these. I planned one but didn't run it t
 
 ## Link to Nigeria's AI strategy
 
-*To be added with my second project.* Nigeria's National AI Strategy (2025 to 2029) sets goals for AI skills among young workers. The tasks AI can do best are the same ones many young Nigerians use to get their first remote job. My next brief compares what the strategy promises with this pattern.
+For my second project, I read Nigeria's National AI Strategy (September 2025) and four other African AI strategies in full, and compared what they promise. The full write-up is in `policy-comparison/output/brief.md`. These are the points that connect to this study. Page numbers are PDF pages of Nigeria's strategy.
+
+- **Skills with no deadline.** The strategy aims to "reduce unemployment by five percentage points by equipping at least 70%" of 16 to 35 year olds with AI skills (p35). It gives no date. The tasks this study found most exposed are the entry-level text, admin and code work many young Nigerians use to start remote careers.
+- **A jobs study with no owner.** It plans a "horizon scan/foresight study" to "identify industries and job roles most susceptible to automation" (p45). This study is a small version of that work, covering 84 tasks across 12 jobs. In the strategy, it has no owner, date or budget.
+- **Protections that assume a formal job.** It lists "retraining programmes, tailored unemployment benefits" as examples for future laws (p45). Most workers in this study are freelancers paid per task by foreign clients.
+- **No Nigerian languages.** It aims to replicate "Nigeria's social context and cultural diversity with AI tools" (p38), but never names Yoruba, Hausa, Igbo or Pidgin. This study's clearest failures were in Yoruba and Nigerian facts. By comparison, Egypt's strategy commits to "fine-tuning Large Language Models for Arabic language use" (p27 of Egypt's document).
+- **Nothing on this kind of work.** The strategy never mentions data annotation, freelancing or remote work.
+
+To be fair, Nigeria's strategy is one of only two of the five with any plan for workers whose jobs AI affects. The other is the African Union's. Nigeria's AI law status should be rechecked before publishing: as of 23 October 2026 its AI bill was still described as "proposed", and I found no AI law in force.
 
 ## What this doesn't tell you
 
